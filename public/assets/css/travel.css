@@ -1,0 +1,1641 @@
+.messageError{text-align: center;margin-top: 10px;font-size: 14px;}
+.bgCCC{background: #CCC !important;}
+
+
+.holtel_banner{position:relative;z-index:2}
+.holtel_category_content_a{position:absolute;left:50%;transform:translate(-50%,-50%);width:100%;padding:0 24px}
+.container_search_holtel .holtel_category_content_a{transform:unset;position:unset}
+.holtel_banner_url{background-image:url(../images/after/holtel/banner_holter.png);min-height:480px;background-size:100% 100%;background-repeat:no-repeat}
+.holtel_banner_url:hover{background-size:110% 110%;transition:ease-in 5s}
+.pa_0_80{padding:0 80px}
+.holtel_service{max-width:1366px;margin:auto;margin-top:143px;display:flex}
+.holtel_service-item{width:calc(100%/4)}
+.holtel_service-item-text p{line-height:28px}
+.holtel_cocation{max-width:1366px;margin:auto}
+.holtel_cocation{padding:0 80px;margin-top:66px}
+.holtel_cocation-title{color:#1C1B1E;font-size:40px;line-height:68px;font-weight:700}
+.holtel_cocation-box{justify-content:space-between;width:100%;display:flex!important}
+.holtel_cocation-box-item{width:calc(100%/2 - 12px);justify-content:space-between}
+.holtel_cocation-box-item:first-child{margin-right:12px;margin-left:2px}
+.holtel_cocation-box-item:last-child{margin-left:12px;margin-right:2px}
+.holtel_cocation-box-item-img,.holtel_cocation-box-item-row2{width:calc(100%/2 - 12px);justify-content:space-between}
+.holtel_cocation-box-item-left{justify-content:space-between}
+.holtel_cocation-box img{border-radius:16px;width:100%}
+.holtel_cocation-box-item-img,.holtel_cocation-box-item-cot,.holtel_cocation-box-item-row2,.holtel_cocation-box-item-right{position:relative}
+.holtel_cocation-img-after{position:relative;overflow:hidden;border-radius:16px}
+.holtel_cocation-img-after:hover img{transition:all .3s linear;transform:scale(1.1);border-radius:16px}
+.holtel_cocation-img-after::after{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.3);z-index:0;border-radius:16px}
+.holtel_cocation-box-text{position:absolute;top:24px;left:24px;z-index:1}
+.holtel_cocation-box-item-cot:last-child{margin-top:41px}
+.holtel_cocation-box-item-right{margin-top:34px}
+.holtel_cocation-box{margin-top:40px}
+.holtel_cocation-box-item:first-child{margin-top:48px}
+.container_holtel{background:#fafafa}
+.holtel_infor-new-khoi{padding:0 8px 16px;flex:1;display:flex;flex-direction:column;justify-content:space-between}
+.holtel_infor-new{padding:0 80px;max-width:1366px;margin:auto;margin-top:114px}
+.holtel_infor-new-title{font-size:40px;line-height:68px;font-weight:700;color:#1C1B1E}
+.holtel_infor-new-avt img{width:100%;border-radius:16px 16px 0 0;transition:all .3s linear;vertical-align:middle;}
+
+.holtel_infor-new-avt:hover .slick-prev{display:block!important}
+.holtel_infor-new-avt:hover .slick-next{display:block!important}
+.holtel_infor-new-avt:hover img{transition:all .3s linear;transform:scale(1.1)}
+
+.holtel_infor-new-avt-img{width:100%;overflow:hidden;border-radius:16px 16px 0 0;}
+.holtel_infor-new-avt .slick-dots{bottom:14px}
+.holtel_infor-new-avt .slick-dots li button:before{font-size:10px;opacity:1}
+.holtel_infor-new-avt .slick-dots li button:before{color:#C9C5C9}
+.holtel_infor-new-avt .slick-dots li button:before{font-size:10px;opacity:1}
+.holtel_infor-new-avt .slick-dots li button:before{color:#C9C5C9}
+.holtel_infor-new-avt .slick-dots li.slick-active button:before{width:12px!important;height:12px;background-color:#FFF!important;color:#FFF;left:0!important}
+.holtel_infor-new-avt .slick-dots li:last-child{margin-left:5px}
+.holtel_infor-new-avt-slick{position:relative}
+.holtel_infor-new-avt{transition:all .3s ease-in-out;width:386px;display:flex!important;margin-bottom:unset!important}
+.hover_overlay{opacity:0;transition:all .3s ease-in-out;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;overflow:hidden;background-attachment:fixed}
+.holtel_infor-new-avt-heart:hover{background-color:rgba(0,0,0,0.04)}
+.holtel_infor-new-avt-heart svg>path:first-child{color:#FFF}
+.holtel_infor-new-avt-heart svg>path~path{color:#48464A}
+.active_svg svg path{fill:red;stroke:#FFF;box-shadow:red}
+.holtel_infor-new-khoi-title{margin-top:8px}
+.holtel_infor-new-star{margin-top:9px}
+.holtel_infor-new-evaluate{margin-top:16px}
+.holtel_infor-new-star-resort{border:1px solid #136397;border-radius:8px;padding:4px 8px;text-align:center}
+.holtel_infor-new-evaluate-img span{margin-left:4px;margin-right:4px}
+.holtel_infor-new-evaluate p{margin-left:8px}
+.holtel_infor-new-evaluate>p>span{margin-left:8px}
+.holtel_infor-new-infor p{margin-left:8px}
+.holtel_infor-new-khoi{border-radius:0 0 16px 16px}
+.holtel_infor-new-infor{margin-top:8px}
+.holtel_infor-new-discount>p{text-align:end;text-decoration:line-through}
+.holtel_infor-new-code-left>p:first-child{margin-right:6px}
+.holtel_infor-new-code-left>p~p{margin-right:8px}
+.holtel_infor-new-code-left p:last-child{background:#F8D3D5;padding:2px 4px;border-radius:8px}
+.holtel_infor-new-code-right p:first-child{margin-right:4px}
+.holtel_infor-new-btnn{justify-content:center;padding:8px 16px;border:1px solid #136397;border-radius:8px;background:#FFF;margin:auto;margin-top:32px;width:152px}
+.holtel_infor-new-btnn p{margin-right:4px}
+.holtel_recently_view{background-color:#E8F4FC;margin-top:64px}
+.holtel_recently_view-back{padding:0 80px;max-width:1366px;margin:auto;padding-top:40px;padding-bottom:68px}
+.holtel_recently_view-title p{font-weight:700;font-size:40px;line-height:56px;color:#1C1B1E}
+.holtel_recently_view-box{margin-top:40px;margin-left:-12px;margin-right:-12px}
+.holtel_recently_view-item{margin-left:12px;margin-right:12px}
+.holtel_recently_view-item-banner img{width:100%;border-radius:16px 16px 0 0}
+.holtel_recently_view-item-banner{display:flex}
+.holtel_recently_view-text{padding:16px 8px;border-radius:0 0 16px 16px}
+.holtel_recently_view-star{margin-top:8px}
+.holtel_recently_view-resort p{border:1px solid #136397;border-radius:8px;padding:4px 8px;width:fit-content}
+.holtel_recently_view-resort{margin-top:8px}
+.holtel_recently_view-text-infor{margin-top:16px}
+.holtel_recently_view-text-infor img{width:24px;height:24px;margin-right:8px}
+.holtel_recently_view-box{display:flex!important}
+.holtel_recently_view-star{display:flex}
+.slick-prev:before{display:none}
+.slick-next:before{display:none}
+.slick-prev{left:-50px}
+.slick-next{right:-50px}
+.slick-next,.slick-prev{z-index:1;transform:translate(-50%,-50%)}
+.holtel_province{max-width:1366px;margin:auto;padding:0 80px;padding-bottom:67px}
+.holtel_province-link{display:flex;flex-wrap:wrap}
+.holtel_province-link-a{width:calc(100%/6);margin-top:16px}
+.holtel_province-link-a:hover p{color:#136397}
+.holtel_province-title{margin-top:64px;margin-bottom:8px}
+.holtel_province-title p{font-weight:700;font-size:40px;line-height:68px;color:#1C1B1E}
+.holtel_cocation .slick-dots li.slick-active button:before,.active_dots_xanh .slick-dots li.slick-active button:before{width:32px;height:12px;border-radius:10px;color:#136397;opacity:1;background-color:#136397;left:-10px}
+.slick-dots li button:before{content:'';width:12px;height:12px;background-color:#C9C5C9;opacity:1;border-radius:50%}
+.slick-dots{bottom:-40px}
+.holtel_cocation .slick-dots{bottom:-69px}
+.holtel_banner_url:hover img{width:110%;height:110%;transition:ease-in 5s}
+.holtel_banner-title{position:absolute;left:50%;transform:translate(-50%,-156px);width:100%}
+.container_search_holtel{margin-top:128px}
+.search_holtel-narbar{display:flex;justify-content:center}
+.container_search_holtel-gray{padding:0 80px;padding-top:32px;max-width:1366px;margin:auto}
+.container_search_holtel{background:#fafafa}
+.container_search_holtel-gray .holtel_category_khoi1{display:none}
+.container_search_holtel-gray .holtel_category_khoi2{padding-top:0;flex-wrap:wrap}
+.container_search_holtel-gray .holtel_category_content{padding-top:34px;padding-bottom:34px;box-shadow:0 32px 24px -12px rgb(0,0,0,0.1)}
+.search_holtel-link p{margin-right:4px}
+.search_number-holtel p:first-child{font-size:40px;line-height:56px;font-weight:700;color:#1C1B1E}
+.search_number-holtel{margin-top:24px}
+.search_holtel-link{margin-top:32px}
+.search_number-holtel p:last-child{margin-top:8px}
+.search_holtel-dishes{margin-top:45px}
+.search_holtel-dishes-left{width:284px;height:100%}
+.search_holtel-dishes-right{width:calc(100% - 308px)}
+.search_holtel-dishes-left{background-color:#FFF;border:1px solid #AEAAAF;border-radius:16px;padding:16px 0 24px}
+.search_holtel-dishes-filter{padding:0 16px 16px;border-bottom:1px solid #E6E1E6}
+.search_holtel-dishes-filter img,.price_range-khoi1-text img{width:24px;height:24px;margin-right:8px}
+.search_holtel_price_range{padding:16px 16px 32px;border-bottom:1px solid #E6E1E6}
+.search_holtel_price-text>p{margin-top:24px}
+.search_holtel_price-input{margin-top:16px}
+::selection{color:#fff;background:#136397}
+.wrapper{width:100%;border-radius:10px}
+.price-input{width:100%;display:flex;margin:30px 0 35px}
+.price-input .field{display:flex;width:100%;height:45px;align-items:center;position:relative}
+.price-input .field span{position:absolute;top:50%;transform:translateY(-50%);right:8px}
+.field input{text-align:left;width:100%;height:40px;outline:none;font-size:16px;border-radius:5px;border:1px solid #999;-moz-appearance:textfield}
+input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-inner-spin-button{-webkit-appearance:none}
+.price-input .separator{width:40px;display:flex;font-size:19px;align-items:center;justify-content:center}
+.slider{height:4px;position:relative;background:#ddd;border-radius:5px}
+.slider .progress{height:100%;left:25%;right:25%;position:absolute;border-radius:5px;background:#136397}
+.range-input{position:relative}
+.range-input input{position:absolute;width:100%;height:5px;top:-5px;background:none;pointer-events:none;-webkit-appearance:none;-moz-appearance:none}
+input[type="range"]::-webkit-slider-thumb{height:17px;width:17px;border-radius:50%;background:#136397;pointer-events:auto;-webkit-appearance:none;box-shadow:0 0 6px rgba(0,0,0,0.05)}
+input[type="range"]::-moz-range-thumb{height:17px;width:17px;border:none;border-radius:50%;background:#136397;pointer-events:auto;-moz-appearance:none;box-shadow:0 0 6px rgba(0,0,0,0.05)}
+.search_holtel_price-input input{width:100%}
+.search_holtel_type_khoi1{display:flex;align-items:c;justify-content:space-between}
+.search_holtel_type_khoi1-left{display:flex;align-items:center}
+.search_holtel_type{padding:16px;padding-bottom:32px;border-bottom:1px solid #E6E1E6}
+.search_holtel_type_khoi1-left img{width:24px;height:24px;margin-right:8px}
+.checkbox-label-phanquyen{display:block;position:relative;cursor:pointer;font-size:22px;line-height:24px;height:20px;width:20px;clear:both}
+label{display:flex;align-items:center;gap:.625rem;font-size:1.25rem}
+.checkbox-label-phanquyen input{position:absolute;opacity:0;cursor:pointer}
+.checkbox-label-phanquyen .checkbox-custom{position:absolute;top:0;left:0;height:20px;width:20px;background-color:transparent;border-radius:4px;transition:all .3s ease-out;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;border:1px solid #666}
+.checkbox-label-phanquyen .checkbox-custom::after{position:absolute;content:"";left:12px;top:12px;height:0;width:0;border-radius:4px;border:solid #000;border-width:0 3px 3px 0;-webkit-transform:rotate(0deg) scale(0);-ms-transform:rotate(0deg) scale(0);transform:rotate(0deg) scale(0);opacity:1;transition:all .3s ease-out;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out}
+.checkbox-label-phanquyen input:checked~.checkbox-custom{background-color:#136397;border-radius:4px;-webkit-transform:rotate(0deg) scale(1);-ms-transform:rotate(0deg) scale(1);transform:rotate(0deg) scale(1);opacity:1;border:1px solid #136397}
+.checkbox-label-phanquyen input:checked~.checkbox-custom::after{-webkit-transform:rotate(45deg) scale(1);-ms-transform:rotate(45deg) scale(1);transform:rotate(45deg) scale(1);opacity:1;left:5px;top:-1px;width:6px;height:13px;border:solid #fff;border-width:0 2px 2px 0;background-color:transparent;border-radius:0}
+.search_holtel_type_khoi2{margin-top:24px}
+.search_holtel_type_check:not(:first-child){margin-top:16px}
+.search_holtel_type_check >p{margin-left:9px}
+.search_holtel_evaluate-khoi1-left{display:flex;align-items:center}
+.search_holtel_evaluate-khoi1{display:flex;align-items:center;justify-content:space-between}
+.search_holtel_evaluate{padding:16px;padding-bottom:32px;border-bottom:1px solid #E6E1E6}
+.search_holtel_evaluate-khoi1-left img{width:24px;height:24px;margin-right:8px}
+.search_holtel_evaluate-star-img{margin-left:9px}
+.search_holtel_evaluate-star-img img{margin-right:8px}
+.search_holtel_evaluate-star:not(:first-child){margin-top:16px}
+.search_holtel_evaluate-khoi2{margin-top:27px}
+.search_holtel_container-check{margin-top:16px}
+.search_holtel_type_khoi2-item:not(:first-child){margin-top:24px}
+.search_holtel-dishes-left{padding-bottom:56px}
+.search_holtel_utility{height:900px;overflow:hidden}
+.search_holtel-dishes-total{justify-content:space-between}
+.search_holtel-dishes-total >div{margin-top:22px}
+.search_holtel-dishes-menu{justify-content:center;transform:translateX(8%)}
+.search_holtel-dishes-li{margin-right:32px}
+.search_holtel-dishes-li p{font-weight:600}
+.search_holtel-infor-item{padding:8px;background-color:#FFF;border:.5px solid #AEAAAF;border-radius:16px}
+.search_holtel-infor-left{position:relative}
+.holtel_infor-new-avt-heart svg >path:first-child{color:#FFF}
+.holtel_infor-new-avt-heart svg >path ~ path{color:#48464A}
+.active_svg svg path{fill:red;stroke:#FFF}
+.active_svg svg path{fill:red;stroke:#FFF}
+.search_holtel-infor-left{width:42%;margin-right:16px}
+.search_holtel-infor-left >img{width:100%;height:241px;border-radius:8px}
+.search_holtel-infor-right{width:58%}
+.search_holtel-infor-item .holtel_infor-new-star{margin-top:8px}
+.search_holtel-infor-item .holtel_infor-new-evaluate{margin-top:16px}
+.search_holtel-infor-item .holtel_infor-new-infor{margin-top:8px}
+.search_holtel-infor-map{margin-top:8px;display:inline-block}
+.search_holtel-infor-item .holtel_infor-new-code-right{margin-top:16px;justify-content:flex-end}
+.search_holtel-infor-item .holtel_infor-new-evaluate-img img{margin-right:8px}
+.search_holtel-infor-item .holtel_infor-new-infor-img{margin-right:8px}
+.search_holtel-infor-map span{border-bottom:1px solid #136397}
+.search_holtel-infor-item .holtel_infor-new-code-right >p:first-child{margin-right:4px}
+.search_holtel-infor-item .holtel_infor-new-star-resort{border:1px solid #136397;border-radius:8px;padding:4px 8px;text-align:center}
+.search_holtel-infor-left-slick{display:flex!important}
+.search_holtel-information .slick-dots{bottom:14px}
+.search_holtel-information .slick-dotted.slick-slider{margin-bottom:unset;height:100%}
+.search_holtel-information .slick-slider .slick-track{height:100%}
+.search_holtel-information .slick-dots li.slick-active button:before{background-color:#fff}
+.slick-dots li button:before{color:#C9C5C9}
+.search_holtel-information .slick-dots li button:before{font-size:10px;opacity:1}
+.search_holtel-information .slick-initialized .slick-slide{border-radius:8px}
+.search_holtel-information .slick-next:before,.slick-prev:before{content:""}
+.search_holtel-infor-item:not(:first-child){margin-top:32px}
+.search_holtel-dishes-paging{display:flex;justify-content:flex-end;margin-top:40px}
+.pagination a{color:#605D62;float:left;width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin-right:24px;text-decoration:none;font-size:16px;border:1px solid #605D62;border-radius:10px;transition:.3s}
+.pagination a.active{background-color:#136397;color:#fff;border-radius:10px;font-size:16px;border:1px solid #136397}
+.search_price_flight-title{font-weight:700;font-size:40px;line-height:68px;color:#1C1B1E}
+.search_price_flight{margin-top:64px}
+.search_price_flight-box-item{border:.5px solid #AEAAAF;background-color:#FFF;border-radius:16px;padding:16px;width:calc(100%/4 - 24px);margin-left:12px;margin-right:12px;margin-top:24px}
+.search_price_flight_the-firm{margin-right:16px}
+.search_price_flight-right-img{margin-top:8px;margin-bottom:8px}
+.search_price_flight-khoi2{margin-top:16px}
+.search_price_flight-khoi2 span{margin-left:4px}
+.search_price_flight-box{margin-top:40px;margin-left:-12px;margin-right:-12px;margin-top:16px}
+.holtel_recently_view{background-color:#E8F4FC;margin-top:64px}
+.holtel_recently_view-back{padding:0 80px;max-width:1366px;margin:auto;padding-top:40px;padding-bottom:68px}
+.holtel_recently_view-title p{font-weight:700;font-size:40px;line-height:56px;color:#1C1B1E}
+.holtel_recently_view-box{margin-top:40px;margin-left:-12px;margin-right:-12px}
+.holtel_recently_view-item-banner img{width:100%;border-radius:16px 16px 0 0}
+.holtel_recently_view-item-banner{display:flex}
+.holtel_recently_view-text{padding:16px 8px;border-radius:0 0 16px 16px}
+.holtel_recently_view-star{margin-top:8px}
+.holtel_recently_view-resort p{border:1px solid #136397;border-radius:8px;padding:4px 8px;width:fit-content}
+.holtel_recently_view-resort{margin-top:8px}
+.holtel_recently_view-text-infor{margin-top:16px}
+.holtel_recently_view-text-infor img{width:24px;height:24px;margin-right:8px}
+.holtel_recently_view-box{display:flex!important}
+.holtel_recently_view-star{display:flex}
+.holtel_recently_view .slick-next,.holtel_recently_view .slick-prev{transform:translate(-50%,-50%)}
+.holtel_recently_view .slick-next{right:-50px}
+.holtel_recently_view .slick-prev{left:-50px}
+.holtel_recently_view .slick-next:before{content:""}
+.holtel_recently_view .slick-prev:before{content:""}
+.holtel_recently_view .slick-dots li.slick-active button:before{content:"";width:32px;height:12px;border-radius:10px;color:#136397;opacity:1;background-color:#136397}
+.holtel_recently_view .slick-dots li button:before{content:'';width:12px;height:12px;background-color:#C9C5C9;opacity:1;border-radius:50%}
+.holtel_recently_view .slick-dots{bottom:-40px}
+.search_holtel-dishes-left{position:relative}
+.search_holtel-dishes-view-insert{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);width:100%;justify-content:center;height:40px}
+.search_holtel-dishes-view-insert p{margin-right:8px}
+.search_holtel_utility_active{height:unset;overflow:unset}
+.rotation{transform:rotate(180deg)}
+.rotation_90{transform:rotate(90deg)}
+.pagination a:last-child{margin-right:unset}
+.search_holtel-dishes-li{cursor:pointer}
+.detail_holtel_introduce{margin-top:32px}
+.detail_introduce-left_khoi1{margin-top:8px}
+.holtel_introduce-new-evaluate{margin-top:8px}
+.detail_introduce-new-star img{margin-right:4px}
+.holtel_introduce_star-text{margin-left:16px;border:1px solid #136397;padding:4px 8px;border-radius:8px}
+.holtel_introduce-new-evaluate-img img{margin-right:8px}
+.holtel_introduce-new-evaluate-img span,.holtel_introduce-new-introduce-img{margin-right:8px}
+.detail_introduce-left_khoi2{margin-top:69px}
+.detail_introduce-left_khoi2 > p{text-align:center}
+.detail_introduce-left_khoi2-content{margin-top:24px}
+.detail_holtel_introduce-left{width:40%}
+.detail_holtel_introduce-right{width:calc(100% - 528px);margin-top:6px}
+.detail_holtel_introduce_box{justify-content:space-between}
+.detail_holtel_introduce-social{justify-content:flex-end}
+.detail_introduce-social-link p{margin-right:8px}
+.detail_introduce-social-link:not(:last-child){margin-right:40px}
+.detail_holtel_introduce-banner{margin-top:24px;display:flex;justify-content:flex-end}
+.holtel_introduce-banner-item-photo{justify-content:flex-end;display:flex;max-width:328px}
+.detail_holtel_introduce-banner-item:first-child{margin-right:24px}
+.holtel_introduce-banner-item-photo:last-child{margin-top:24px;max-width:291px}
+.detail_holtel_introduce_insert-view{margin-top:32px;margin-left:80px;border:1px solid #136397;background-color:#FFF;border-radius:16px;padding:8px 16px;width:fit-content}
+.detail_holtel_introduce_insert-view p{margin-right:8px}
+.detail_infor-other-item-name img{width:24px;height:24px}
+.detail_infor-other-left{width:calc(100% - 410px)}
+.detail_infor-other-right{width:386px;padding-bottom:24px;height:100%}
+.pdetail_infor-other-map iframe{width:100%}
+.detail_holtel_infor-other{margin-top:48px;justify-content:space-between}
+.detail_infor-other-item-name{width:calc(100%/3);margin-top:24px}
+.detail_infor-other_khoi1-box{flex-wrap:wrap}
+.detail_infor-convenient-item-name{width:calc(100%/6 - 8px)}
+.detail_infor-other_khoi2-box{flex-wrap:wrap;margin-top:8px;justify-content:space-between}
+.detail_infor-convenient-left-khoi2{margin-top:48px}
+.detail_infor-convenient-item-name{display:flex;justify-content:center;align-items:center;flex-direction:column;border:.5px solid #AEAAAF;border-radius:8px;padding:24px 5px 8px;margin-top:16px}
+.detail_infor-convenient-item-name p{font-size:15px;text-align:center}
+.detail_infor-other-right{border:.5px solid #AEAAAF;border-radius:8px}
+.pdetail_infor-other-right-title{text-align:center;padding:16px 0}
+.detail_infor-other-btn{display:flex;align-items:center;justify-content:center;padding:0 16px;margin-top:16px}
+.detail_infor-other-btn p{width:100%;height:40px;text-align:center;border:1px solid #136397;border-radius:16px;padding:8px 0}
+.detail_holtel_number-restaurant{margin-top:64px}
+.detail_holtel_restairant-title-khoi1 >p{display:flex;align-items:flex-end}
+.detail_holtel_restairant-left-box{margin-top:24px;column-gap:24px}
+.detail_holtel_restairant-left-item img{width:100%;display:flex}
+.detail_holtel_number-restaurant{column-gap:24px}
+.detail_holtel_restairant-infor-text p:first-child{margin-top:16px}
+.detail_holtel_room{max-width:1366px;margin:auto}
+.detail_holtel_room >p{padding-left:80px}
+.detail_holtel_room{margin-top:64px}
+.detail_holtel_room-khoi-infor-left{width:44%;position:relative}
+.detail_holtel_room-khoi-infor-left img{width:100%}
+.detail_holtel_room-khoi-infor-right{width:calc(100% - (44% + 80px));padding-right:80px}
+.detail_infor_deg_90{position:absolute;top:20%;right:0;background:none;transform-origin:48% 50%;transform:rotate(-90deg);padding:24px 24px 26px;border:1px solid #AEAAAF;border-radius:8px}
+.detail_infor_deg_90 p:first-child{margin-right:48px}
+.detail_holtel_room-khoi-infor{justify-content:space-between}
+.detail_holtel_room-khoi-infor-right{display:block;position:relative}
+.detail_infor_room{padding-right:82px}
+.detail_holtel_room-option-box{padding:0 80px;margin-top:16px}
+.detail_holtel_room-option{justify-content:space-between;background-color:#F5F5F5;padding:16px 40px}
+.detail_holtel_room-insert_view-last{padding:0 80px;justify-content:center;margin-top:8px}
+.detail_holtel_room-insert_view-last p{margin-right:4px}
+.detail_holtel_room-khoi{margin-top:35px}
+.detail_infor_room-fitcontent p{padding:8px;border-radius:24px;margin-top:8px;background-color:#EDF6FD;margin-right:8px;width:fit-content;text-align:center}
+.detail_infor_room-fitcontent{margin-right:30px;margin-top:8px}
+.detail_infor_room-link p{margin-top:16px;border-bottom:1px solid #136397;width:fit-content}
+.detail_holtel_room-khoi-infor-modif{position:absolute;top:16px;left:32px}
+.detail_holtel_room-khoi-infor-modif p{padding:8px 16px;border-radius:24px;background-color:#F8D3D5}
+.detail_holtel_room-option_code_element{margin-top:16px}
+.detail_holtel_room-option-right{text-align:right}
+.detail_holtel_room-option_code_element{display:flex;justify-content:flex-end;flex-direction:column;padding:6px;border-radius:8px;border:1px dashed #AEAAAF}
+.detail_holtel_room-option-code-modif{justify-content:flex-end}
+.detail_holtel_room-option-code-modif p:nth-child(2){margin-left:6px;margin-right:8px}
+.detail_holtel_room-option_code_element >p{margin-top:4px}
+.detail_holtel_room-option-code-modif p:last-child{background-color:#F8D3D5;border-radius:8px;padding:2px 4px}
+.detail_holtel_room-option-btn{display:flex;justify-content:flex-end}
+.detail_holtel_room-option-btn p{margin-top:8px;background-color:#136397;border-radius:8px;padding:13.5px;text-align:center;width:181px}
+.detail_holtel_room-price-final{margin-top:11px}
+.detail_holtel_room-price-final p{margin-right:8px;border-bottom:1px solid #136397}
+.detail_holtel_room-option-left img{margin-right:8px}
+.detail_holtel_room-option-left-modif p{margin-right:8px}
+.detail_holtel_room-option-left-modif.back_green-modif p:last-child{background-color:#E0F7D4;border-radius:20px;padding:4px 8px}
+.detail_holtel_room-khoi-item{margin-top:128px}
+.detail_holtel_room-khoi-item .detail_holtel_room-khoi-infor-left{order:2}
+.detail_holtel_room-khoi-item .detail_holtel_room-khoi-infor-right{padding-right:0;padding-left:80px}
+.detail_holtel_room-khoi-item .detail_infor_deg_90{left:0;right:unset}
+.detail_holtel_room-khoi-item .detail_infor_room{padding-left:150px;padding-right:unset}
+.detail_holtel_room-khoi3{margin-top:128px}
+.progress > .circle-progress{width:200px;height:200px}
+.circle-progress-value{stroke-width:8px;stroke:#136397}
+.circle-progress-circle{stroke-width:8px;stroke:#E6E1E6}
+.circle-progress-text{fill:#136397;font-size:19px;line-height:68px}
+.detail_holtel_evaluate-circle{width:200px;position:relative}
+.detail_holtel_evaluate{max-width:1366px;margin:auto;padding:0 80px}
+.detail_holtel_evaluate-box{background-color:#EDF6FD;border-radius:24px;width:100%;padding:40px}
+.detail_holtel_evaluate-khoi{width:calc(100% - 265px);justify-content:space-between}
+.detail_holtel_evaluate-box{justify-content:space-between;margin-top:24px}
+.border_betwen{width:1px;background-color:#C9C5C9}
+.detail_holtel_evaluate-element p{width:90px;margin-right:8px}
+.detail_holtel_evaluate-element span{margin-left:8px}
+.detail_holtel_evaluate-khoi-item:first-child{width:calc(50%)}
+.detail_holtel_evaluate-khoi-item:last-child{width:calc(50%)}
+.detail_holtel_evaluate-element input{width:calc(100% - 136px)}
+.detail_holtel_evaluate-circle >p{width:fit-content;position:absolute;top:65%;left:50%;transform:translate(-50%,-50%)}
+.detail_holtel_evaluate-element:not(:first-child){margin-top:16px}
+.evaluate-box2-item-icon img{width:60px;height:60px;border-radius:50%}
+.holtel_evaluate-box2-khoi{margin-top:38px;height:693px;overflow:hidden}
+.evaluate-box2-item-icon{margin-right:16px}
+.evaluate-box2-item-name{margin-right:24px}
+.evaluate-box2-item-name img{margin-right:4px}
+.holtel_evaluate-box2-item-right{padding:8px;background-color:#E8F4FC;border:1px solid #136397;border-radius:8px;width:115px;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%}
+.click_cmt,.evaluate-box2_cmt-an{cursor:pointer}
+.evaluate-box2-item-date >p{display:-webkit-box;-webkit-line-clamp:1;overflow:hidden;text-overflow:ellipsis;-webkit-box-orient:vertical}
+.evaluate-box2_cmt-people img{width:30px;height:30px}
+.evaluate-box2_cmt-hidden{display:none}
+.evaluate-box2-item-comment{width:fit-content}
+.evaluate-box2_cmt-answer >p{padding:8px;background-color:#FFF;border-radius:8px}
+.evaluate-box2_cmt-answer{margin-left:38px}
+.holtel_evaluate-box2-item-left{width:calc(100% - 115px)}
+.evaluate-box2_cmt-hidden{width:92%}
+.holtel_evaluate-box2-item-right p{text-align:center}
+.holtel_evaluate-box2-khoi-item{position:relative;padding-bottom:35px}
+.holtel_evaluate-box2-khoi-item::after{position:absolute;content:'';width:94%;height:1px;background:#E6E1E6;bottom:0;right:0}
+.holtel_evaluate-box2-khoi-item:not(:first-child){margin-top:32px}
+.holtel_evaluate-box2-btn{justify-content:center;margin-top:32px;cursor:pointer}
+.holtel_evaluate-box2-khoi_active{height:unset;overflow:unset}
+.detail_holtel_evaluate-box2{margin-top:46px}
+.detail_holtel_policy{max-width:1366px;margin:auto;padding:0 80px;margin-top:64px}
+.detail_holtel_policy-border-item{padding:16px;border:.5px solid #136397;border-radius:8px}
+.detail_holtel_policy-border-item:first-child{margin-right:16px}
+.detail_holtel_policy-box{margin-top:24px}
+.detail_holtel_around{max-width:1366px;margin:auto;padding-bottom:95px}
+.holtel_infor-new-khoi{padding:0 8px 16px;flex:1;display:flex;flex-direction:column;justify-content:space-between}
+.holtel_infor-new-title{font-size:40px;line-height:68px;font-weight:700;color:#1C1B1E}
+
+
+.holtel_infor-new-avt .slick-prev{left:25px;transform:translate(0%,-50%);}
+.holtel_infor-new-avt .slick-next{right:25px;transform:translate(0%,-50%);}
+
+.holtel_infor-new-avt:hover .slick-prev{display:block!important}
+.holtel_infor-new-avt:hover .slick-next{display:block!important}
+.holtel_infor-new-avt:hover img{transition:all .3s linear;transform:scale(1.1)}
+
+.holtel_infor-new-avt .slick-dots li button:before{border-radius:50%}
+.holtel_infor-new-avt .slick-dots{bottom:14px}
+.detail_holtel_around .holtel_infor-new-avt .slick-dots li.slick-active button:before{color:#FFF}
+.holtel_infor-new-avt .slick-dots li button:before{font-size:10px;opacity:1}
+.slick-next,.slick-prev{z-index:1}
+.slick-next:before,.slick-prev:before{content:""}
+.holtel_infor-new-avt .slick-dots li button:before{color:#C9C5C9}
+.holtel_infor-new-avt .slick-dots li button:before{font-size:10px;opacity:1}
+.holtel_infor-new-avt .slick-dots li button:before{color:#C9C5C9}
+.detail_holtel_around .holtel_infor-new-avt .slick-dots li.slick-active button:before{width:12px;height:12px;background-color:#FFF}
+.holtel_infor-new-avt .slick-dots li:last-child{margin-left:5px}
+.holtel_infor-new-avt-slick{position:relative}
+.hover_overlay{opacity:0;transition:all .3s ease-in-out;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;overflow:hidden;background-attachment:fixed}
+.div_abs {
+    position: relative;
+}
+.holtel_infor-new-avt-heart{position:absolute;top:0;right:0;padding:16px;transition:background-color 150ms cubic-bezier(0.4,0,0.2,1) 0;border-radius:50%;cursor: pointer;}
+.holtel_infor-new-avt-heart svg>path:first-child{color:#FFF}
+.holtel_infor-new-avt-heart svg>path~path{color:#48464A}
+.active_svg svg path{fill:red;stroke:#FFF}
+.holtel_infor-new-khoi-title{margin-top:8px}
+.holtel_infor-new-star{margin-top:9px}
+.holtel_infor-new-evaluate{margin-top:16px}
+.holtel_infor-new-star-resort{border:1px solid #136397;border-radius:8px;padding:4px 8px;text-align:center}
+.holtel_infor-new-evaluate-img span{margin-left:4px;margin-right:4px}
+.holtel_infor-new-evaluate p{margin-left:8px}
+.holtel_infor-new-evaluate>p>span{margin-left:8px}
+.holtel_infor-new-infor p{margin-left:8px}
+.holtel_infor-new-khoi{border-radius:0 0 16px 16px}
+.holtel_infor-new-infor{margin-top:8px}
+.holtel_infor-new-discount>p{text-align:end;text-decoration:line-through}
+.holtel_infor-new-code-left>p:first-child{margin-right:6px}
+.holtel_infor-new-code-left>p~p{margin-right:8px}
+.holtel_infor-new-code-left p:last-child{background:#F8D3D5;padding:2px 4px;border-radius:8px}
+.holtel_infor-new-code-right p:first-child{margin-right:4px}
+.holtel_infor-new-box{display:flex;flex-wrap:wrap;margin-left:-12px;margin-right:-12px}
+.holtel_infor-new-box a{margin-left:12px;margin-right:12px}
+.holtel_infor-new-btnn{justify-content:center;padding:8px 16px;border:1px solid #136397;border-radius:8px;background:#FFF;margin:auto;margin-top:32px;width:152px}
+.holtel_infor-new-btnn p{margin-right:4px}
+.holtel_infor-new-box{display:flex}
+.holtel_infor-new-box-tong{display:flex!important;padding-bottom:16px;margin-left:-12px;margin-right:-12px;width:100%}
+.holtel_infor-new-star-img{display:flex}
+.holtel_infor-new-box{margin-bottom:unset}
+.detail_holtel_around .slick-dots li.slick-active button:before{content:"";width:32px;height:12px;border-radius:10px;color:#136397;opacity:1;background-color:#136397}
+.detail_holtel_around .slick-dots li button:before{content:'';width:12px;height:12px;background-color:#C9C5C9;opacity:1;border-radius:50%}
+.detail_holtel_around .slick-next,.detail_holtel_around .slick-prev{transform:translate(-50%,-50%)}
+.search_holtel-dishes-view-insert{cursor:pointer}
+.click_refund{cursor:pointer}
+.popup_refund_title img{cursor:pointer}
+.click_children{cursor:pointer}
+.click_final{cursor:pointer}
+.click_detail{cursor:pointer}
+.detail_introduce-social-link{cursor:pointer}
+.other_utilities{cursor:pointer}
+.container_bookroom{max-width:1366px;margin:auto;padding:32px 80px 67px}
+.container_bookroom_tong{background-color:#f6f6f6;margin-top:128px}
+.back_bookroom{background-color:#FFF;border-radius:8px;border:.5px solid #AEAAAF;padding:16px}
+.bookroom_box{margin-top:32px;justify-content:space-between}
+.bookroom-left{width:58%}
+.bookroom-right{width:calc(100% - (58% + 24px))}
+.bookroom_khoi1-banner{width:150px;height:150px;border-radius:8px}
+.bookroom_khoi1_content{width:calc(100% - 166px)}
+.bookroom-left_khoi1{justify-content:space-between;display:flex}
+.bookroom_khoi1_content-date{margin-top:16px}
+.bookroom_khoi1-date-take{margin-right:39px}
+.bookroom-left .holtel_infor-new-star-img{margin-right:16px}
+.bookroom-left_khoi2{margin-top:32px}
+.bookroom_contact-text{margin-top:16px}
+.bookroom_contact-text{width:fit-content;background-color:#E8F4FC;border-radius:8px;padding:8px}
+.bookroom_contact_input-name{padding-bottom:8px;border-bottom:1px solid #1C1B1E;padding-top:40px}
+.bookroom_contact_input-name input{padding-left:0}
+.bookroom_contact_phone_email{padding-top:40px}
+.bookroom_contact_input-sdt{padding-bottom:8px;border-bottom:1px solid #1C1B1E}
+.bookroom_contact_input-sdt:first-child{margin-right:24px;width:268px}
+.bookroom_contact_input-sdt:first-child input{padding-left:0}
+.bookroom_contact_input-sdt:last-child{width:calc(100% - 292px)}
+.bookroom_contact_checkbox{margin-top:32px}
+.bookroom_contact_checkbox_item input{width:22px;height:22px}
+.bookroom_contact_checkbox_item:first-child{margin-right:24px;width:268px}
+.bookroom_contact_checkbox_item:last-child{width:calc(100% - 292px)}
+.bookroom-left_khoi3{margin-top:32px}
+.bookroom_request-option{margin-top:24px}
+.bookroom_request-radio{margin-top:16px}
+.bookroom_request-radio-check input{width:22px;height:22px}
+.bookroom_request-radio-check:first-child{width:268px;margin-right:24px}
+.bookroom_request-radio-check:last-child{width:calc(100% - 292px)}
+.bookroom_request_btn{margin-top:32px;border:1px solid #136397;border-radius:8px;padding:10px;cursor:pointer}
+.bookroom_request_btn p{text-align:center}
+.bookroom-left_khoi4,.bookroom-left_khoi5{margin-top:32px;padding-bottom:32px}
+.bookroom_discount_option{margin-top:27px}
+.bookroom_confirm_btn{margin-top:40px;display:flex;justify-content:flex-end}
+.bookroom_confirm_btn p{padding:13.5px 12.5px;background-color:#136397;border-radius:8px;cursor:pointer}
+.bookroom-right_khoi1{padding:16px 6px 24px 16px;background-color:#FFF;border:.5px solid #AEAAAF;border-radius:8px}
+.bookroom-right_khoi1_banner{position:relative}
+.bookroom-right_khoi1_banner .detail_infor_deg_90{top:47%;transform-origin:50% 0;padding:24px}
+.bookroom-right_khoi1_banner .detail_infor_deg_90 p:first-child{margin-right:unset}
+.bookroom-right_khoi1_banner img{width:calc(100% - 108px)}
+.bookroom-right_khoi2{background-color:#FFF;padding:16px 16px 24px;margin-top:8px;border:.5px solid #AEAAAF;border-radius:8px}
+.bookroom-right_discount{justify-content:space-between}
+.bookroom-right_discount_element:last-child >p:first-child{text-decoration:line-through;text-align:right}
+.bookroom-right_tax{margin-top:8px}
+.bookroom-right_must_return{margin-top:16px}
+.bookroom_contact_receiver{padding-top:31px;display:none}
+.bookroom_discount_option-code{background:url(/images/icon/Vector_border.svg) no-repeat;padding:8.5px 12px;display:none}
+.circle_plus_code_discount{cursor:pointer}
+.bookroom-right__infor{background-color:#F4EFF4;border-radius:8px;display:none}
+.bookroom-right__infor-price{padding:4px 8px}
+.bookroom-right_discount_click{cursor:pointer}
+.bookroom_request_especially{display:none}
+.bookroom_request_especially-item .checkbox-label-phanquyen{margin:unset}
+.bookroom_request_only_you textarea{margin-top:16px;height:70px;width:100%;border:1px solid #939094;border-radius:8px;padding:10px 8px;font-weight:400;font-size:16px;line-height:20px;color:#939094;outline:#136397}
+.detail_infor_room_maximum{position:relative}
+.maximum_capacity_people{position:absolute;box-shadow:0 5px 24px -12px rgba(0,0,0,0.1);border-radius:16px;padding:16px;top:30px;display:none}
+.maximum_capacity_people p:not(:last-child){border-bottom:1px solid #C9C5C9}
+.maximum_capacity_people p{padding:13px 8px}
+.infor_capacity_people{cursor:pointer}
+.detail_infor_room_maximum{position:relative}
+.container_max_width{max-width:1366px;margin:auto}
+.login_container{max-width:1000px;margin:auto;margin-bottom:0;background:url(/images/after/holtel/banner_login_quanly.png) no-repeat;box-shadow:0 32px 74px -12px rgba(0,0,0,0.25);border-radius:16px}
+.login_container > div{width:50%}
+.login_left{background-color:rgba(0,0,0,0.3);border-radius:16px 0 0 16px}
+.login_right{background-color:#fff;padding:24px 40px 71px;border-radius:0 16px 16px 0}
+.login_container_back{background-color:#f6f6f6;margin-top:128px;padding-top:63px;padding-bottom:144px;padding-left:24px;padding-right:24px}
+.login_right_input{margin-top:24px;padding-bottom:8px;border-bottom:1px solid #1C1B1E}
+.login_right_input input{padding-left:0}
+.login_right_password{position:relative;margin-top:56px}
+.login_right_pass_img{position:absolute;right:0;top:0}
+.login_right_checkbox{margin-top:24px}
+.login_right_checkbox p{margin-left:9px}
+.login_right_btn{background-color:#136397;padding:10px;border-radius:8px;margin-top:64px;cursor:pointer}
+.login_right_btn p{text-align:center}
+.login_right_forgot_pass{margin-top:40px;text-align:center}
+.login_left_logo{display:flex;justify-content:center;margin-top:32px}
+.login_left_box{margin-top:134px}
+.login_left_box p{text-align:center}
+.login_left_link{margin-top:24px;display:flex;justify-content:center}
+.login_left_link a{padding:10px 37px;border:1px solid #FFF;border-radius:8px}
+.login_right_pass_img{cursor:pointer}
+.register_container .login_right_input:not(:first-child){margin-top:48px}
+.register_container .login_right{padding-bottom:32px}
+.register_container .login_right_btn{margin-top:40px}
+.register_container{background-size:100% 100%}
+.khung_select .select2-container .select2-selection--single{height:40px}
+.khung_select .select2-container--default .select2-selection--single .select2-selection__rendered{line-height:40px}
+.select2-container--default .select2-selection--single .select2-selection__arrow{top:50%;transform:translateY(-50%);right:8px}
+.khung_input{border:1px solid #CCC}
+.create__properties_insert_img input{opacity:0}
+.create__properties_insert_img >img{width:180px;height:180px}
+.holtel_infor_back{background-color:#f6f6f6;margin-top:80px}
+.create_holtel_infor_back{background-color:#f6f6f6;margin-top:128px}
+.infor_general_container{max-width:1366px;margin:auto;padding:24px 80px 67px}
+.create_holtel_content_khoi1{width:calc(100% - 308px)}
+.create_holtel_sidebar_left{padding-left:10px;position:relative;width:276px;margin-top: 32px;}
+.create_holtel_sidebar_item::before{position:absolute;content:"";left:-6px;width:10px;height:10px;border:2px solid #AEAAAF;border-radius:50%;background-color:#f6f6f6;margin-top:6px}
+.create_holtel_content_khoi{background-color:#FFF;padding:37px 24px;border-radius:8px;justify-content:space-between}
+.create__properties_item{width:calc(100%/2 - 12px)}
+.create_content_khoi1_left,.create_content_infor_khoitrai{width:calc(100% - 292px)}
+.create__properties_right,.create__content_infor_khoiphai{width:268px}
+.create__properties_item{margin-top:29px}
+.create__properties_star{margin-top:55px}
+.holtel_infor-new-star-img img{margin-right:4px}
+.create__properties_insert_img{margin-top:8px;border:1px solid #939094;border-radius:8px;width:180px;height:180px}
+.create__properties_insert_img label{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;position:absolute;top:0}
+.create__properties_preview{width:100%;height:100%}
+.create__properties_preview img{width:180px;height:180px}
+.create__properties_insert_img{position:relative}
+.create_holtel_content_address{width:100%}
+.create__content_infor_khoiphai{width:268px}
+.create_holtel_content_address_total{width:100%}
+.create__content_infor_goggle_map iframe{width:100%;height:234px}
+.create_holtel_content_khoi ~ .create_holtel_content_khoi{margin-top:24px}
+.create_holtel_address__modif{width:calc(100%/2 - 12px)}
+.create_content_infor_khoitrai_element{display:flex;justify-content:space-between}
+.create_content_infor_khoitrai_element:not(:last-child){display:flex;justify-content:space-between}
+.create_content_infor_khoitrai_element:last-child{flex-direction:column;margin-top:29px}
+.create_holtel_address__modif,.create__content_infor_khoiphai{margin-top:29px}
+.create__content_infor_goggle_map{margin-top:8px;cursor:pointer}
+.create_holtel_content-describe{margin-top:24px}
+.create_holtel_general_other{background-color:#FFF;padding:32px 24px 34px;border-radius:8px;margin-top:24px}
+.general_information_other-import{margin-top:29px}
+.general_information_other-box{display:grid;flex-wrap:wrap;grid-template-columns:repeat(3,1fr);column-gap:24px}
+.create_holtel_general-back{padding:32px 14px;border-radius:8px;background-color:#FFF;width:283px}
+.create_holtel_general_contact{margin-top:8px;display:flex;flex-wrap:wrap;column-gap:24px}
+.general_contact-input-item{margin-top:29px}
+.general_contact_btn-email{margin-top:40px}
+.general_contact_btn-email{padding:10px;border:1px solid #79767B;border-radius:8px}
+.general_contact_btn-email p{text-align:center}
+.general_contact_checkbox{margin-top:24px}
+.general_contact_checkbox-item{margin-top:16px}
+.create_holtel_general_contact-right{display:flex;align-items:center;justify-content:center;flex-direction:column}
+.general_contact_right_text p{text-align:center}
+.general_contact_right_btn{border:1px solid #F4AB01;border-radius:8px;padding:10px;width:100%}
+.general_contact_right_btn p{text-align:center}
+.create_holtel_general_btn-last{margin-top:40px}
+.create_holtel_general-skip{border:1px solid #79767B;background-color:#FFF;width:136px;height:40px;border-radius:8px;display:flex;align-items:center;justify-content:center;cursor:pointer;margin-right:24px}
+.create_holtel_general_btn-save{border:1px solid #136397;background-color:#136397;width:136px;height:40px;border-radius:8px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.create_holtel_content_khoi,.create_holtel_general_other,.create_holtel_general-back{box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+svg{display:block}
+.path{stroke-dasharray:1000;stroke-dashoffset:1000;animation:dash 5s linear forwards}
+@keyframes dash {
+to{stroke-dashoffset:0}
+}
+.create_holtel_sidebar_item:first-child::before{}
+.active_circle::before{border-right:2px solid #136397;border-bottom:2px solid #136397;width:14px;height:14px;left:-8.5px}
+.active_circle p{color:#136397}
+.general_contact_btn-email-yel{border:1px solid #F4AB01}
+.general_contact_btn-email-yel p{color:#F4AB01}
+.create_holtel_general_contact > div{margin-top:24px}
+.general_contact_btn-email{cursor:pointer}
+.create_holtel_amenities_services{background-color:#FFF;border-radius:8px;padding:32px 24px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.amenities_services_box{margin-top:32px}
+.amenities_services_box_element{width:calc(100%/3);align-items:center}
+.amenities_services_box-item_khoi{display:flex;flex-wrap:wrap}
+.create_holtel_sidebar-fixed{padding-left:17px;position:-webkit-sticky;position:sticky;top:142px}
+.create_holtel_sidebar-fixed::before{position:absolute;content:"";height:271px;top:6px;width:1px;left:0;background-color:#AEAAAF}
+.create_holtel_amenities_services_back{display:none}
+.create_general_information_box{}
+.active_circle::before{animation:spin 1000ms;animation-timing-function:linear;animation-iteration-count:infinite}
+.tich_xanh::before{position:absolute;content:"";left:-8px;width:18px;height:18px;border:unset;border-radius:50%;margin-top:6px;background:url(/images/after/holtel/true_green.svg) no-repeat;background-size:100% 100%;background-color:#f6f6f6}
+.laundry_additional-input-radio input{width:22px;height:22px}
+.laundry_additional-input{margin-top:8px}
+.laundry_additional-input:last-child{margin-left:47px}
+.laundry_additional_import{max-width:256px;margin-top:8px}
+.create_holtel_room_setting_banner{background-color:#E8F4FC;display:flex;align-items:center;justify-content:center;width:386px;height:513px;border-radius:8px}
+.create_holtel_room_setting{display:none}
+.room_setting_banner_box{width:170px;height:170px;border-radius:50%;border:1px solid #136397;display:flex;justify-content:center;align-items:center;flex-direction:column;cursor:pointer;animation:grow-and-shrink 4000ms;animation-iteration-count:infinite;animation-timing-function:ease-in-out}
+.room_setting__name-item{margin-top:29px;width:calc(50% - 12px)}
+.room_setting__name{background-color:#FFF;border-radius:8px;padding:8px 24px 32px;margin-top:24px;column-gap:24px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.room_setting_bed__type_total{column-gap:24px}
+.room_setting_bed__type{width:calc(100%/2 - 12px);background-color:#FFF;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1);border-radius:8px;padding:32px 24px}
+.bed__type-insert-item{width:calc(100%/2 - 12px)}
+.room_setting_bed__type-insert{column-gap:24px;margin-top:29px}
+.room_setting_bed__type{margin-top:24px}
+.room_setting_capacity{background-color:#FFF;border-radius:8px;padding:32px 24px;margin-top:24px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.room_setting_capacity_khoi{display:flex;flex-wrap:wrap;column-gap:24px}
+.room_setting_capacity_khoi-input{width:calc(100%/2 - 12px)}
+.room_setting_capacity_checkbox{flex-wrap:wrap;column-gap:24px}
+.room_setting_capacity_checkbox >div{width:calc(100%/2 - 12px);margin-top:24px}
+.room_setting_capacity_checkbox-right >div:first-child{margin-right:46px}
+.room_setting_capacity_checkbox-element{padding:12px 16px;background-color:#E0F7D4;border-radius:8px;width:fit-content;display:flex;align-items:center}
+.room_setting__img{background-color:#FFF;border-radius:8px;padding:32px 24px 64px;margin-top:24px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.room_setting__img-describe{display:flex;flex-wrap:wrap;margin-top:16px}
+.edit_holtel__photo_library .room_setting__img-describe{margin-top:0}
+.room_setting__img-describe li{width:calc(100%/2);list-style:inside;margin-top:8px}
+.room_setting__img-upload{padding-top:16px}
+.room_setting__img-upload-khoi{margin-top:24px}
+.room_setting__img-upload-khoi-title{display:flex;align-items:center}
+.upload-function-item-img{width:140px;height:140px}
+.upload-function-item-absolute{background-color:#F4EFF4;height:40px;display:flex;align-items:center;justify-content:center}
+.room_setting__img-upload-function-item{width:140px}
+.upload-function-item-absolute img{margin:0 16px}
+.upload-function-insert-img{
+	position:relative;
+	width:140px;
+	height:140px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:#E6E1E6;
+}
+.upload-function-insert-img label{height:100%;cursor:pointer}
+.room_setting__img-upload-khoi:last-child{margin-top:64px}
+.bed__type-insert-item-delte >img{margin-left:14px}
+.room_setting_bed-btn{cursor:pointer}
+.bed__type-insert-item-delte >img{cursor:pointer}
+.room_setting_capacity_checkbox-element{cursor:pointer}
+.create_holtel_room_setting_print{background-color:#fff;border-radius:8px;width:386px}
+.room_setting_print-text{padding:0 24px}
+.room_setting_print_btn{padding:24px 24px 32px}
+.room_setting_print_btn-color_main{width:136px;height:40px;display:flex;align-items:center;justify-content:center;border:1px solid #136397;border-radius:8px}
+.room_setting_print_btn-color_main:first-child{margin-right:8px}
+.room_setting_print_btn-color_main + div{margin-right:16px}
+.create_holtel_room_setting_show-btn{display:flex;justify-content:center}
+.create_holtel_room_setting_show-btn p{display:flex;align-items:center;justify-content:center;background-color:#136397;border-radius:8px;width:136px;height:40px}
+.room_setting_print-img img{border-radius:8px 8px 0 0;width:100%;height:100%}
+.create_holtel_room_setting_show-next{display:none}
+.create_holtel__photo_library ul.room_setting__img-describe{margin-top:-8px}
+.create_holtel__photo_library .room_setting__img-upload{padding-top:0}
+.photo_library_khoi2 .room_setting__img-upload-khoi + div{margin-top:64px}
+.photo_library_khoi3{padding-bottom:32px}
+.photo_library_khoi3 .room_setting__img-upload{padding-bottom:32px}
+.photo_library_khoi3-show{cursor:pointer}
+.create_holtel__photo_library{display:none}
+.create_holtel__policy_khoi1{background-color:#FFF;border-radius:8px;padding:32px 24px 24px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.policy_khoi1_box-item:not(:first-child){margin-top:16px}
+.policy_khoi1_box-item >p{width:25%}
+.policy_khoi1_box-item-check{width:75%}
+.policy_khoi1_box-item-check-true:first-child{margin-right:44px}
+.policy_khoi1_box-item-check-true input{width:20px;height:20px}
+.create_holtel__policy_khoi2{background-color:#FFF;border-radius:8px;padding:32px 24px;padding-right:10px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.policy_khoi2_not_too_input{width:100px;margin:auto 8px}
+.policy_khoi2_age_from{flex-wrap:wrap}
+.policy_khoi2_age_from >div{margin-top:21px}
+.policy_khoi2_age_from-item{width:100px}
+.policy_khoi2_age_from-item_free{width:200px}
+.policy_khoi2_age_from{align-items:flex-end}
+.policy_khoi3_checkbox_item input{width:22px;height:22px}
+.policy_khoi3_checkbox_item{margin-top:24px}
+.create_holtel__policy_khoi3{background-color:#FFF;border-radius:8px;padding:32px 24px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.policy_khoi3__checkbox{column-gap:124px}
+.policy_khoi2_age_from__free_limit{display:none}
+.policy_khoi2_age_from__fee{display:none}
+.from__free_limit_children{width:100px;margin-left:16px}
+.policy_khoi3_hidden-title p{background-color:#F4EFF4;padding:8px;margin-right:8px;text-align:center}
+.policy_khoi3_hidden-title p:first-child{width:50%}
+.policy_khoi3_hidden-title p + p{width:23%}
+.policy_khoi3_hidden_element-modif:first-child{width:50%;display:flex;align-items:center;justify-content:center;border:1px solid #CCC;border-radius:8px}
+.policy_khoi3_hidden_element-modif{margin-right:24px;height:40px;margin-top:16px}
+.policy_khoi3_hidden_element-modif + .policy_khoi3_hidden_element-modif{width:22.5%}
+.policy_khoi3_hidden_element-modif > div{margin-top:0}
+.policy_khoi3_hidden_input .policy_khoi3_hidden_input-element >div,.policy_khoi3_hidden_input_right >div{margin-top:0}
+.policy_khoi3_hidden_input > div{margin-top:16px}
+.policy_khoi3_hidden_input-element{margin-right:24px;width:138px;position:relative}
+.policy_khoi3_hidden_input-element > .khung_select{position:absolute;width:88px;right:0}
+.policy_khoi3_hidden_input-left > img{margin-left:47px}
+.policy_khoi3_hidden_input-left{width:50%}
+.policy_khoi3_hidden_input > div{margin-right:24px}
+.policy_khoi3_hidden_input_right{width:22.5%}
+.policy_khoi3__checkbox_hidden{display:none}
+.policy_khoi3_hidden-absent-item > div{margin-right:24px;margin-top:16px}
+.policy_khoi3_hidden_input-element > div{margin-top:0}
+.policy_khoi3_hidden_input_right-img img{width:24px;height:24px}
+.policy_khoi3_hidden-absent-box >p{margin-left:28px}
+.policy_khoi2-btn,.policy_khoi3_hidden_input_right-img img{cursor:pointer}
+.policy_khoi2_age_from-img{height:40px;margin-top:0;margin-left:8px;cursor:pointer}
+.create_holtel__policy{display:none}
+.infor__pay_khoi1{background-color:#FFF;border-radius:8px;padding:32px 24px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.infor__pay_khoi1-bank-item{width:calc(100%/2 - 12px)}
+.infor__pay_khoi1-bank{width:100%;column-gap:24px}
+.infor__pay_khoi1-account-item{width:calc(100%/2 - 12px)}
+.infor__pay_khoi1-account{width:100%;column-gap:24px}
+.infor__pay_khoi1_authorized_person{width:calc(100%/2 - 12px)}
+.infor__pay_khoi1-duration{margin-top:40px}
+.infor__pay_khoi1-duration >p{margin-right:40px}
+.infor__pay_khoi1-duration-check input{width:22px;height:22px}
+.infor__pay_khoi1-duration .infor__pay_khoi1-duration-check + div{margin-left:85px}
+.infor__pay_khoi2{background-color:#FFF;border-radius:8px;padding:32px 24px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.create_holtel_infor__pay{display:none}
+.setting_print_chung{display:none}
+.create_holtel_sidebar_item{cursor:pointer}
+.edit__hotel_container{max-width:1366px;margin:auto}
+.edit__hotel_navigation{background-color:#FFF;padding:16px 24px 0}
+.edit__hotel_navigation-content{padding:24px 0 8px;border-bottom:1px solid #D9D9D9}
+.edit__hotel_navigation-content-avt{width:130px;height:130px;margin-right:16px}
+.edit__hotel_navigation-content-avt img{width:100%;height:100%}
+.edit__hotel_navigation-content-text{width:calc(100% - 146px)}
+.edit__hotel_navigation-work{padding:4px;background-color:#489B1C;border-radius:8px;width:fit-content}
+.edit__hotel_navigation-content-avt{column-gap:16px}
+.edit__hotel_navigation-li{padding:16px 0}
+.edit__hotel_navigation-li p{padding:0 16px}
+.edit__hotel_navigation-li:not(:last-child) p{border-right:1px solid #C9C5C9}
+.edit__hotel_navigation-li:first-child p{padding-left:0}
+.edit__hotel_navigation{border:.5px solid #D9D9D9;box-shadow:0 5px 10px rgba(0,0,0,0.1)}
+.edit_holtel_sidebar_left,.manage_holtel_sidebar_left{width:238px;background-color:#FFF;padding:32px 0 32px 16px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1);height:100%;position:-webkit-sticky;position:sticky;top:95px}
+.data_hotel_sidebar{display:none;width:238px;position:absolute;top:100%;z-index:10;height:fit-content}
+.edit__hotel_navigation{position:relative}
+.manage_holtel_sidebar_left{box-shadow:unset}
+.edit_holtel_sidebar-fixed_ul{margin-top:16px;padding-bottom:16px;border-bottom:1px solid #AEAAAF}
+.edit_holtel_sidebar-fixed-li{padding:8px;margin-top:8px}
+.edit_holtel_sidebar-fixed-li:hover{background-color:#E8F4FC;cursor:pointer;border-right:3px solid #136397}
+.edit_holtel_sidebar-fixed-li:hover p{color:#136397}
+.edit_holtel_sidebar-fixed-li-element{margin:16px auto;padding:8px}
+.edit_holtel_sidebar-fixed-li-element:hover{background-color:#E8F4FC;cursor:pointer;border-right:3px solid #136397}
+.edit_holtel_sidebar-fixed-li-element:hover p{color:#136397}
+.edit_holtel_sidebar-fixed-li-color_red{padding-top:16px;border-top:1px solid #AEAAAF;padding-left:8px;cursor:pointer}
+.edit_holtel_content,.manage_holtel_content{width:calc(100% - 262px)}
+.edit__hotel_navigation-li{cursor:pointer}
+.edit__hotel_navigation-li:hover p{color:#136397}
+.active_edit_sidebar{background-color:#E8F4FC;border-right:3px solid #136397;border-radius:8px 0 0 8px}
+.active_edit_sidebar p{color:#136397}
+.active_color_main p{color:#136397}
+.edit_holtel_total{padding-bottom:67px}
+.resthome__hotel_container{max-width:1366px;margin:auto;padding:0 80px;padding-bottom:64px}
+.rested_holtel_search-input{width:50%}
+.rested_holtel_search-input .khung_input{margin-top:0}
+.rested_holtel_search-input{position:relative}
+.rested_holtel_search-input-img{position:absolute;right:8px;top:50%;transform:translateY(-50%)}
+.rested_holtel_search{padding-top:24px}
+.rested_holtel_search-btn{background-color:#136397;border-radius:8px;width:136px;height:40px;justify-content:center;cursor:pointer;display:flex;align-items:center}
+.rested_holtel_navigation{background-color:#FFF;margin-top:24px;border-radius:8px;padding:24px 16px}
+.rested_holtel_navigation_box-item{margin-top:32px;padding:16px;border:.5px solid #E6E1E6;border-radius:8px}
+.rested_holtel_navigation-content-text{width:calc(100% - 253px)}
+.rested_holtel_navigation-li{padding:8px;margin-right:24px;cursor:pointer}
+.active_item p{color:#136397!important}
+.active_item{color:#136397;border-bottom:1px solid #136397;z-index:1}
+.rested_holtel_navigation-content-avt{width:130px;height:130px;margin-right:16px}
+.rested_holtel_navigation-preview{align-items:flex-start}
+.holtel_infor-new-infor-img{height:24px}
+.rested_holtel_navi_item-menu{padding-top:16px;border-top:1px solid #D9D9D9}
+.rested_holtel_navigation-content{padding-bottom:8px}
+.rested_holtel_navi_item-li{padding:0 16px;cursor:pointer}
+.rested_holtel_navi_item-li:not(:last-child){border-right:1px solid #C9C5C9}
+.rested_holtel_navigation-menu{position:relative}
+.rested_holtel_navigation-menu::before{position:absolute;content:"";bottom:0;height:1px;width:571px;background-color:#E6E1E6}
+.rested_holtel__paging{margin-top:32px;display:flex;justify-content:center}
+.progress_holtel_navigation-item{margin-top:32px;padding:16px;border:.5px solid #AEAAAF;border-radius:8px;width:calc(100%/2 - 12px)}
+.progress_navigation-item-img{width:130px;height:130px;border-radius:8px;margin-right:16px}
+.progress_navigation-item-img img{width:100%;height:100%}
+.progress_navigation-item-text{width:calc(100% - 146px)}
+.progress_navigation-item_btn{margin-top:26px;justify-content:space-between}
+.progress_navigation-item_btn-left{background-color:#F4AB01;border-radius:8px;padding:4px}
+.progress_navigation-item_btn-right p{padding:10px 23px;background-color:#489B1C;border-radius:8px}
+.progress_holtel_navigation_box{display:flex;flex-wrap:wrap;column-gap:24px}
+.progress__hotel_navigation-work{padding:4px;background-color:#F4AB01;border-radius:8px;width:fit-content}
+.rested_holtel_navigation-preview >div{cursor:pointer}
+.insert__news_home_container{max-width:1366px;margin:auto;padding:38px 80px 64px}
+.insert__news_holtel-name{background-color:#FFF;height:92px;border-radius:24px;padding:24px}
+.insert__news_box-item{margin-top:34px;width:calc(24.5% - 12px);cursor:pointer}
+.insert__news_item-banner img{border-radius:40px;-webkit-filter:grayscale(100%);filter:grayscale(100%);width:100%;height:100%}
+.insert__news_box-item:hover .insert__news_item-banner img{-webkit-filter:unset;filter:unset}
+.insert__news_holtel-box{column-gap:24px;flex-wrap:wrap}
+.insert__news_homstay-name{margin-top:64px}
+.insert__news_homestay-box .insert__news_box-item:last-child{margin-top:64px}
+body{background-color:#FFF;margin:0}
+.navtop{background-color:#3b4656;height:60px;width:100%;border:0}
+.navtop div{display:flex;margin:0 auto;width:800px;height:100%}
+.navtop div h1,.navtop div a{display:inline-flex;align-items:center}
+.navtop div h1{flex:1;font-size:24px;padding:0;margin:0;color:#ebedee;font-weight:400}
+.navtop div a{padding:0 20px;text-decoration:none;color:#c4c8cc;font-weight:700}
+.navtop div a i{padding:2px 8px 0 0}
+.navtop div a:hover{color:#ebedee}
+.content{width:800px;margin:0 auto}
+.content h2{margin:0;padding:25px 0;font-size:22px;border-bottom:1px solid #ebebeb;color:#666}
+.calendar{display:flex;flex-flow:column}
+.calendar .header .month-year{font-size:20px;font-weight:700;color:#636e73;padding:20px 0}
+.calendar .days{display:flex;flex-flow:wrap}
+.calendar .days .day_name{width:calc(100% / 7);border-right:1px solid #2c7aca;padding:20px;text-transform:uppercase;font-size:12px;font-weight:700;color:#818589;color:#fff;background-color:#448cd6}
+.calendar .days .day_name:nth-child(7){border:none}
+.calendar .days .day_num{display:flex;flex-flow:column;width:calc(100% / 7);border-right:1px solid #e6e9ea;border-bottom:1px solid #e6e9ea;padding:15px;font-weight:700;color:#7c878d;cursor:pointer;min-height:100px}
+.calendar .days .day_num span{display:inline-flex;width:30px;font-size:14px}
+.calendar .days .day_num .event{margin-top:10px;font-weight:500;font-size:14px;padding:3px 6px;border-radius:4px;background-color:#f7c30d;color:#fff;word-wrap:break-word}
+.calendar .days .day_num .event.green{background-color:#51ce57}
+.calendar .days .day_num .event.blue{background-color:#518fce}
+.calendar .days .day_num .event.red{background-color:#ce5151}
+.calendar .days .day_num:nth-child(7n+1){border-left:1px solid #e6e9ea}
+.calendar .days .day_num:hover{background-color:#fdfdfd}
+.calendar .days .day_num.ignore{background-color:#fdfdfd;color:#ced2d4;cursor:inherit}
+.calendar .days .day_num.selected{background-color:#f1f2f3;cursor:inherit}
+.room_opening_schedule .khung_select{margin-top:0;width:calc(100% - 100px)}
+.room_opening_schedule{margin-top:40px}
+.room_opening_schedule p{margin-right:16px}
+.room_opening_schedule_content{padding:0 24px 64px}
+.opening_schedule_calendar_choose-date{width:423px;box-shadow:0 5px 10px rgba(0,0,0,0.1);border-radius:8px}
+.room_opening_schedule_content .event-calendar{width:calc(100% - 447px)}
+.opening_schedule_calendar{margin-top:24px}
+.equinox .calendar-header{background-color:unset}
+.calendar-actions .today{font-weight:400;font-size:14px;line-height:20px;color:#1C1B1E}
+.calendar-actions > button{padding:8px;border:1px solid #48464A;background-color:unset;border-radius:8px;font-weight:400;font-size:14px;line-height:20px;color:#1C1B1E;margin-right:24px;width:80px;height:40px;cursor:pointer}
+.calendar-header .month-label{font-weight:600;font-size:18px;line-height:28px;color:#1C1B1E}
+.equinox .calendar-header{padding:0}
+.month-weeks{margin-top:24px}
+.equinox .week-header .day{font-weight:400;font-size:14px;line-height:20px;color:#000;font-family:'Mulish',sans-serif;background-color:#FFF}
+.equinox .week .outside-month{background-color:#fefbfb!important}
+.equinox .week ~ .week .day{background-color:#fdf2f2}
+.equinox .date-label{font-weight:500;font-size:18px;line-height:28px;color:#1C1B1E}
+.equinox .date-events{min-height:55px}
+.equinox .date.current-date{display:grid;width:100%;height:100%;justify-content:flex-end}
+.equinox .date.current-date .date-label{color:#0aa8e3;background:#000;color:#ffff;padding:2px 5px;width:32px;height:32px;border-radius:50%;display:flex;justify-content:center;align-items:center}
+.flipswitch{position:relative;width:48px;height:24px;border-radius:24px;-webkit-appearance:initial;-webkit-tap-highlight-color:rgba(0,0,0,0);outline:none;font-size:14px;font-weight:700;cursor:pointer;border:1px solid #C9C5C9}
+.flipswitch:after{position:absolute;top:5%;display:block;line-height:32px;width:45%;height:90%;background:#fff;box-sizing:border-box;text-align:center;transition:all .3s ease-in 0;border:1px solid #FFF}
+.flipswitch:after{left:2%;content:"";width:20px;height:20px;border-radius:50%}
+.flipswitch:checked:after{left:53%;content:"";width:20px;height:20px;border-radius:50%}
+.back_green{background-color:#489B1C}
+.back_gray2{background-color:#E6E1E6}
+.opening_schedule_calendar_choose-date{background-color:#FFF;padding-top:24px;height:100%}
+.opening_schedule_calendar{column-gap:24px}
+.opening_choose-date-header{padding:0 6px}
+.choose-date-header-item:first-child >div{padding:11px 0;padding-left:10px;position:relative}
+.choose-date-header-item:first-child >div::after{position:absolute;content:"";border-right:1px;background-color:#D9D9D9;width:1px;height:33px;right:3px}
+.choose-date-header-item >div{border-radius:8px 0 0 8px;background-color:#E8F4FC}
+.choose-date-header-item{width:50%}
+.choose-date-header-item:last-child >div{padding:11px 0;border-radius:0 8px 8px 0;padding-left:10px}
+.opening_choose-date-container{padding:0 16px;height:456px;overflow-y:auto}
+.opening_choose-date-navigation{margin-top:16px;display:flex;border-bottom:4px solid #E6E1E6;width:fit-content}
+.opening_choose-date-navigation p:first-child{margin-right:32px}
+.opening_choose-date-navigation p{cursor:pointer}
+.active_opening_choose{color:#136397;position:relative}
+.active_opening_choose::after{position:absolute;content:"";bottom:-4px;left:0;background-color:#136397;width:100%;height:4px}
+.opening_empty_room{padding-bottom:4px;border-bottom:1px solid #E6E1E6}
+.calendar_choose-basic-element{margin-top:18px}
+.calendar_choose-basic-element p{width:calc(100% - 87px)}
+.calendar_choose-basic-open_number{margin-top:16px}
+.calendar_choose-basic-open_number .khung_input{width:93px;margin-top:0}
+.calendar_choose-basic-open_number .khung_input input{height:37px}
+.calendar_choose-last{margin-top:16px;padding:16px;box-shadow:1px 1px 4px rgba(0,0,0,0.25)}
+.calendar_choose__btn{column-gap:16px}
+.calendar_choose__btn p{width:calc(100%/2 - 8px)}
+.calendar_choose__btn p:first-child{background-color:#136397;border-radius:8px;padding:10px;text-align:center}
+.calendar_choose__btn p:last-child{border-radius:8px;padding:10px;text-align:center;border:1px solid #79767B}
+.calendar_choose__guide p{text-align:center;margin-top:24px;text-decoration:underline}
+.calendar_choose-basic-price-hidden .khung_input{width:200px}
+.calendar_choose-basic-price-hidden{display:none}
+.calendar_choose_advanced-box-element p{width:calc(100%/3);text-align:center}
+.calendar_choose_advanced-normally{justify-content:space-between;margin-top:18px;align-items:center}
+.calendar_choose_advanced-normally p ~ p{width:calc(100%/3);text-align:center}
+.calendar_choose_advanced-normally p:nth-child(2){width:104px;border:1px solid #AEAAAF;border-radius:8px;padding:8px;margin-left:30px}
+.calendar_choose_advanced-passionate,.calendar_choose_advanced-passionate{justify-content:space-between}
+.calendar_choose_advanced-passionate p:first-child,.calendar_choose_advanced-passionate p:first-child{text-align:left}
+.calendar_choose_advanced-passionate p,.calendar_choose_advanced-passionate p{text-align:center;width:calc(100%/3)}
+.calendar_choose_advanced-price-item p{width:calc(100%/3)}
+.calendar_choose_advanced-price-item:not(:first-child){margin-top:16px}
+.calendar_choose_advanced-price-item:not(:first-child) p:nth-child(2){border:1px solid #AEAAAF;border-radius:8px;padding:8px 34px}
+.calendar_choose_advanced-price-item p:nth-child(3){text-align:center}
+.calendar_choose_advanced-price{margin-top:16px}
+.calendar_choose_advanced-minimum p~p{border:1px solid #AEAAAF;border-radius:8px;width:98px;text-align:center;padding:8px}
+.manage_notification-item{background-color:#fff;border-radius:8px;padding:24px 40px;flex:1}
+.manage_notification-item-detail{margin-left:40px}
+.manage_notification-item-btn{background-color:#136397;border-radius:8px;width:160px;height:40px;justify-content:center}
+.manage_content_notification{column-gap:24px}
+.manage_content_menu_search{position:relative;flex:1}
+.manage_content_menu_search-img{position:absolute;top:50%;right:8px;transform:translateY(-50%)}
+.manage_content_menu_search .khung_input{margin-top:0}
+.manage_content_menu{justify-content:space-between;column-gap:71px;margin-top:40px;flex-wrap:wrap}
+.manage_content_menu-left .khung_select{width:199px;margin-top:0;margin-left:24px}
+.manage_content_menu-left{flex:1}
+.manage_content_menu-right .rested_holtel_navigation-li:last-child{margin-right:0}
+.manage_content_menu-right .rested_holtel_navigation-menu::before{width:442px}
+.manage_content_menu-right .rested_holtel_navigation-li{padding-bottom:0}
+.manage_content_menu-right .rested_holtel_navigation-li p{color:#AEAAAF}
+.manage_holtel_khoi-item{background-color:#FFF}
+.manage_holtel_khoi-item_pa{padding:16px 16px 16px 24px;border-bottom:1px solid #E6E1E6}
+.manage_holtel_khoi-view-element{padding:8px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.manage_holtel_khoi-view-element:last-child >p:first-child{color:#F4AB01}
+.manage_holtel_khoi-view-element:not(:last-child){width:163px;border-right:1px solid #E6E1E6;text-align:center;height:87px}
+.manage_holtel_khoi-view-element{text-align:center}
+.manage_holtel_khoi-view{padding:17.5px 0}
+.manage_holtel_khoi-view-element:last-child{padding:0 34.5px;height:87px}
+.manage_holtel_khoi-last{border-top:1px solid #E6E1E6;padding:16px 24px}
+.manage_holtel_khoi-active{margin-top:16px}
+.manage_holtel_khoi-item{margin-top:32px;width:calc(100%/2 - 12px)}
+.manage_holtel_khoi{column-gap:24px;display:flex;flex-wrap:wrap}
+.manage_holtel_sidebar_left .edit_holtel_sidebar-fixed_ul{padding-bottom:unset;border-bottom:unset}
+.manage_holtel_content{padding-bottom:64px}
+.manage_title-popup-item{padding:10px}
+.manage_holtel_khoi-item-title-img{cursor:pointer}
+.manage_holtel_khoi-item-title{position:relative}
+.manage_holtel_khoi-item-title-popup{position:absolute;top:20px;right:23px;width:184px;background-color:#FFF;box-shadow:0 5px 10px rgba(0,0,0,0.1);border-radius:8px;display:none}
+.manage_holtel_khoi-active .color_yellow2{color:#F4AB01}
+.stop_working p{width:100%;height:100%;cursor:pointer}
+.create_promotion_box{background-color:#FFF;border-radius:8px;padding:32px 24px 38px}
+.create_promotion_khoi-item{margin-top:48px;width:calc(100%/3 - 66px);height:unset;display:flex;flex-direction:column}
+.create_promotion_khoi{justify-content:space-between;margin-top:-16px}
+.create_promotion_khoi-item-btn p{background-color:#F4AB01;border-radius:8px;width:200px;height:40px;text-align:center;padding:10px}
+.create_promotion_khoi-item p:first-child{text-align:center}
+.create_promotion_khoi-item-btn{align-items:flex-end;flex:1;margin-top:8px}
+.create_promotion_detail .manage_holtel_sidebar_left{height:unset}
+.optional_promotion .optional_back{padding:32px 24px;background-color:#FFF;border-radius:8px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1);margin-top:24px;max-width:895px}
+.optional_promotion input[type = radio]{width:22px;height:22px}
+.optional_promotion_sample-select .khung_select{max-width:399px}
+.optional_promotion_sample-name{margin-top:24px}
+.optional_promotion_sample-khoi1{width:91%}
+.optional_promotion_sample-input{max-width:399px}
+.optional_promotion_sample.optional_back{margin-top:32px}
+.optional_promotion_function-checkbox input#radio_button{width:22px;height:22px}
+.optional_promotion_function-checkbox >p{margin-left:17px;width:70%}
+.optional_promotion-date-time{margin-top:16px}
+.optional_promotion-date-check{transform:translateY(50%)}
+.optional_promotion-date-time > div:not(:last-child){flex:1;margin-right:24px}
+.optional_promotion-date-time > div:last-child{margin-left:12px}
+.optional_promotion-date-time{margin-bottom:40px}
+.optional_promotion-date-since{max-width:298px}
+.optional_promotion-date-btn p{max-width:298px;padding:10px;text-align:center;border-radius:8px;border:1px solid #136397;cursor:pointer}
+.optional_promotion-type-discount-check{display:flex}
+.promotion-type-discount-check-item:last-child{margin-left:40px}
+.promotion-type-discount-check-item{display:flex;align-items:center;margin-top:24px}
+.optional_promotion-type-discount-check ~ div:not(:last-child){max-width:397px}
+.optional_promotion-type-discount-input{margin-top:24px}
+.optional_promotion-type-btn{padding:10px;text-align:center;border-radius:8px;border:1px solid #136397;cursor:pointer;margin-top:32px}
+.optional_promotion-type-discount-input{position:relative}
+.optional_promotion-type-discount-input span{position:absolute;top:50%;transform:translateY(-50%);right:8px}
+.promotion_application-check-item ~ div{margin-left:56px}
+.optional_promotion_last-btn >div{width:136px;padding:10px 0;text-align:center}
+.optional_promotion_last-btn-cancel{background-color:#FFF;border-radius:8px;border:1px solid #79767B;margin-top:40px;margin-right:24px}
+.optional_promotion_last-btn-create{background-color:#136397;border-radius:8px;margin-top:40px;border:1px solid #136397}
+.optional_promotion{padding:0 24px;padding-bottom:64px}
+.optional_promotion-date-hidden{padding:32px 24px 24px;border:1px solid #939094;border-radius:8px;margin-top:32px}
+.promotion-date-hidden-days{column-gap:24px}
+.promotion-date-hidden-days-item{flex:1}
+.promotion-date-hidden-option{margin-top:40px}
+.promotion-date-hidden-option-rank-item{margin-top:24px;width:40px;height:40px;border-radius:8px;border:1px solid #939094;display:flex;align-items:center;justify-content:center}
+.promotion-date-hidden-option-rank-item:not(:last-child){margin-right:8px}
+.promotion-date-hidden-hour{max-width:375px;margin-top:40px}
+.promotion-date-hidden-hour ~ div.promotion-date-hidden-hour{margin-top:24px}
+.promotion_hidden_external_code{margin-top:40px;width:80%}
+.promotion_hidden_external_code .khung_input{margin-top:24px;max-width:375px}
+.promotion-date-hidden-btn p{padding:10px;text-align:center;border-radius:8px;border:1px solid #136397;cursor:pointer}
+.promotion-type-discount_hidden{padding:32px 24px 24px;border:1px solid #939094;border-radius:8px}
+.specific_night_hidden-item{margin-top:16px;width:90px}
+.specific_night_hidden-item:not(:last-child){margin-right:16px}
+.specific_night_hidden-item .khung_input{position:relative}
+.specific_night_hidden-item span{position:absolute;right:8px;top:50%;transform:translateY(-50%)}
+.promotion_application__hidden-select{margin-top:32px;max-width:423px}
+.promotion_application__hidden-table{margin-top:40px}
+.application__hidden-table-th p:first-child{width:55%;padding-bottom:16px}
+.application__hidden-table-th p~p{width:45%;padding-bottom:16px}
+.application__tbody_td{padding:16px 0;border-top:1px solid #E6E1E6}
+.application__tbody_td > p{width:55%}
+.application__tbody_td-element{width:45%}
+.active_option-rank p{color:#FFF}
+.active_option-rank{background-color:#136397}
+.early_booking .optional_promotion-date-btn p{max-width:unset}
+.early_booking .optional_promotion-type-discount-check ~ .optional_promotion-type-btn{max-width:unset}
+.early_booking_minimum_input{max-width:375px}
+.early_booking_minimum_input .khung_input{margin-top:24px}
+.time_limited .promotion_hidden_external_code{margin-top:0}
+.weekend_travel .promotion-date-hidden-option{margin-top:0}
+.stay_establish-table-thead-th:first-child,.stay_establish-table-tbody-td{width:35%}
+.stay_establish-table-thead-th:nth-child(2),.stay_establish-table-tbody-td-input{width:36%}
+.stay_establish-table-thead-th:last-child,.stay_establish-table-tbody-td_last{width:20%}
+.stay_establish-table-item .khung_input{width:60px;margin-top:0}
+.stay_establish-table-thead,.stay_establish-table-tbody-row{column-gap:40px}
+.stay_establish-table-tbody-td_last .checkbox-label-phanquyen{margin-left:40px}
+.stay_establish-table-thead{padding-bottom:16px}
+.stay_establish-table-tbody-td > div ~ div{margin-right:20px}
+.stay_establish-table-tbody-td-input .khung_input{margin-top:0}
+.stay_establish-table-tbody-row{padding:16px 0;border-top:1px solid #E6E1E6}
+.long_term__stay_establish-btn{margin-top:8px;cursor:pointer}
+.create_promotion_khoi-item-btn >p{cursor:pointer}
+.ql_holtel_evaluate-khoi .detail_holtel_evaluate-khoi-item:first-child{width:calc(50%)}
+.ql_holtel_evaluate-khoi .detail_holtel_evaluate-khoi-item:last-child{width:calc(50%)}
+.ql_holtel_evaluate{padding-right:24px}
+.side{float:left;width:15%}
+.middle{float:left;width:70%}
+.right{text-align:right}
+.row:after{content:"";display:table;clear:both}
+.bar-container{width:100%;background-color:#E6E1E6;text-align:center;color:#fff;border-radius:20px}
+.bar-5{width:60%;height:8px;background-color:#136397;border-radius:20px}
+.bar-4{width:30%;height:8px;background-color:#136397;border-radius:20px}
+.bar-3{width:10%;height:8px;background-color:#136397;border-radius:20px}
+.bar-2{width:4%;height:8px;background-color:#136397;border-radius:20px}
+.bar-1{width:15%;height:8px;background-color:#136397;border-radius:20px}
+.row_rating{display:flex;align-items:center}
+.side.right >div{font-weight:500;font-size:16px;line-height:24px;color:#136397;text-align:left;margin-left:8px}
+.ql_holtel_evaluate .detail_holtel_evaluate-box{padding:40px 32px}
+.row_rating:not(:first-child){margin-top:16px}
+.detail_holtel_evaluate-khoi-item .side.right{width:10%;margin-right:0}
+.detail_holtel_evaluate-khoi-item .side{float:left;width:28%;margin-right:8px}
+.detail_holtel_evaluate-khoi{column-gap:50px}
+#container_chart,#container_chart2{width:100%;height:100%;margin:0;padding:0}
+.ql_holtel_evaluate-chart-box{padding:0 24px}
+.ql_holtel_evaluate_infor{column-gap:24px}
+.ql_holtel_evaluate_infor-item{margin-top:32px;background-color:#FFF;border-radius:8px;padding:24px 24px 20px;width:calc(100%/3 - 12px)}
+.ql_holtel_evaluate-chart{margin-top:48px}
+.ql_holtel_evaluate-chart_khoi2{margin-top:48px}
+.myChart,#myChart2{width:100%!important;margin:0;padding:0}
+.ql_holtel_report-table{background-color:#FFF;margin-top:64px;width:100%}
+.ql_holtel_report-table-thead-th{padding:8px 16px}
+.ql_holtel_report-table p{text-align:left}
+.ql_holtel_report-table-row-td{padding:18px 16px;border-top:1px solid #f6f6f6}
+.pin_hotel{margin-top:32px;width:100%;padding:0 24px;padding-bottom:64px}
+.pin_hotel__box{background-color:#FFF;padding:32px;width:100%;margin-top:40px}
+.pin_hotel_khoi_item{margin-top:24px;width:calc(100%/2 - 12px);border:1px solid #AEAAAF;padding:24px 24px 16px 26px;border-radius:8px}
+.pin_hotel_khoi_infor{padding-bottom:16px;border-bottom:1px solid #AEAAAF}
+.pin_hotel_khoi_click{padding-top:8px}
+.pin_hotel_khoi_item_element-right{text-decoration:line-through;color:#79767B}
+.pin_hotel_khoi_click-btn{padding:10px;border:1px solid #136397;border-radius:8px;width:136px;cursor:pointer}
+.pin_hotel_khoi_click-btn p{text-align:center}
+.pin_hotel_khoi_click-item:not(:last-child){margin-right:40px}
+.pin_hotel_khoi{column-gap:24px}
+.pin_hotel_khoi_click-item{cursor:pointer}
+.pin_hotel_khoi_click-btn{cursor:pointer}
+.ql_order_menu{width:100%;background-color:#FFF;border-radius:8px;margin-top:32px;padding:20px 24px 35px}
+.ql_order{width:100%;padding:0 24px 64px}
+.ql_order_menu-item:not(:last-child){margin-right:28px}
+.ql_order_menu_box >div:not(:last-child){margin-top:23px;padding:0 10px}
+.ql_order_menu_box >div >div{margin-top:6px}
+.ql_order_menu_box >div input{padding:0}
+.ql_order_menu-item{padding-bottom:2px;cursor:pointer}
+.ql_order_menu_ul{border-bottom:1px solid #E6E1E6;width:fit-content;margin-bottom:-1px}
+.ql_order_menu_ul .active_item{margin-bottom:-1px}
+.ql_order_menu_box{column-gap:16px;width:100%;justify-content:space-between}
+.ql_order_menu_box_date{width:25%}
+.ql_order_menu_box_code{width:18%}
+.ql_order_menu_box_name_client{width:23%}
+.ql_order_menu_box_name_room{width:23%}
+.ql_order_menu_box-btn{width:50px}
+.ql_order_menu_box_column{margin-top:23px}
+.ql_order_menu_box >div{position:relative}
+.ql_order_menu_box >div:not(:last-child)::after{position:absolute;content:"";width:1px;height:33px;background-color:#D9D9D9;right:-8px;top:50%;transform:translateY(-50%)}
+.ql_order_menu_box-btn{background-color:#136397;border-radius:16px;height:50px;display:flex;align-items:center;justify-content:center}
+.ql_order_menu_box_name_room .select2-container--default .select2-selection--single{border:unset}
+.ql_order_menu_box_name_room .khung_select .select2-container--default .select2-selection--single .select2-selection__rendered{line-height:20px;padding:0}
+.ql_order_menu_box_name_room .khung_select{height:20px}
+.ql_order_menu_box_name_room::after{display:none}
+.ql_order_menu_box_name_room.khung_select .select2-container--default .select2-selection--single .select2-selection__rendered{line-height:20px;padding:0}
+.ql_order_menu_box_name_room .khung_select .select2-container .select2-selection--single{height:20px}
+.ql_order_status{margin-top:40px;border-bottom:4px solid #E6E1E6;width:fit-content}
+.ql_order_status-item:not(:last-child){margin-right:32px}
+.ql_order_status_total{display:flex;justify-content:flex-end}
+.ql_order_status_active{border-bottom:4px solid #136397;margin-bottom:-4px}
+.ql_order_status_active p{color:#136397}
+.ql_order-table{width:100%;margin-top:32px}
+.ql_order-table_thead-th p{text-align:left}
+.ql_order-table_thead-th:first-child{padding-left:40px}
+.ql_order-table_thead{background-color:#D2EAF9}
+.ql_order-table_thead-th{padding:13px 8px}
+.ql_order-table_tbody-td{padding:16px 8px}
+.ql_order-table_tbody-rows:not(:first-child) .ql_order-table_tbody-td{border-top:1px solid #E6E1E6}
+.ql_order-table_tbody{background-color:#FFF}
+.ql_order_status-item{cursor:pointer}
+.ql_order-table_tbody-rows_hidden td{background-color:#FAFAFA;padding:16px 20px 26px 40px}
+.ql_order-table_khoi-banner{position:relative;display:flex}
+.ql_order-table_khoi2{margin-top:32px}
+.ql_order_deg_90{transform:rotate(-90deg);border:1px solid #AEAAAF;border-radius:8px;padding:10px;background:none;height:68px;width:150px;margin-top:43px;margin-right:-40px;margin-left:-25px;justify-content:center}
+.ql_order_infor-item-meal >p.color_green{padding:4px 8px;border-radius:20px;background-color:#E0F7D4}
+.btn_order_status{width:168px;height:32px;border-radius:8px;padding:4px}
+.btn_order_status p{text-align:center}
+.ql_order-table_khoi-confirm{background-color:#136397}
+.ql_order-table_khoi-out{background-color:#DB242D}
+.ql_order-table_khoi-check_in{background-color:#489B1C}
+.btn_order_status{margin-top:10px}
+.ql_order-table_khoi-right{padding:13px 8px}
+.ql_order-table_khoi-banner img{width:150px;height:150px}
+.request_order_left-box{margin-left:25px}
+.request_infor_price-title{margin-right:40px}
+.request_infor_price-item:first-child{padding-bottom:16px}
+.request_infor_price-item:not(:first-child){padding:16px 0;border-top:1px solid #C9C5C9}
+.ql_order-table_khoi2 >div{width:50%}
+.request_infor_price_box{flex:1}
+.request_infor_price-item:last-child{padding-bottom:0}
+.request_infor_price-item-vat{text-align:right}
+.ql_order-table_tbody-rows_hidden{display:none}
+.ql_order-table_tbody-rows{cursor:pointer}
+.active_back_tr{background-color:#FAFAFA}
+.rotation_90{transform:rotate(90deg)}
+.ql_order-table_khoi-delete{border:1px solid #DB242D;background-color:#ffff}
+.briefcase_container{max-width:1366px;margin:auto;padding:32px 80px 64px}
+.briefcase_back_box{background-color:#FFF;border-radius:8px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.briefcase_khoi1_box{padding:32px}
+.briefcase_khoi1_box input{width:22px;height:22px}
+.briefcase_back_box_infor{background-color:#FFF;padding:32px;border-radius:8px;box-shadow:1px 1px 10px 2px rgba(0,0,0,0.1)}
+.briefcase_khoi2_box-item:first-child{width:calc(100%/3 - 12px)}
+.briefcase_khoi2_box-item:last-child{column-gap:24px}
+.briefcase_khoi2_box-item:last-child >div{width:calc(100%/3 - 12px);margin-top:29px}
+.briefcase_khoi3_box-item{margin-top:29px;max-width:386px}
+.briefcase_khoi4_box-item:first-child{column-gap:24px}
+.briefcase_khoi4_box-item:first-child >div{width:calc(100%/3 - 12px)}
+.briefcase_khoi4_box-item:last-child{margin-top:29px}
+.briefcase_khoi5_box{padding:18px 32px 32px}
+.ql_transaction_content_back{background-color:#fafafa}
+.ql_transaction{max-width:1366px;margin:auto;padding:42px 80px 64px}
+.ql_transaction_header_back{background-color:#48464A}
+.ql_transaction_header{max-width:1366px;margin:auto;padding:33px 80px}
+.holtel_transaction_back{margin-top:80px}
+.ql_transaction_header-btn{background-color:#FFF;border-radius:8px;padding:10px;width:136px;cursor:pointer}
+.ql_transaction_header-btn p{text-align:center}
+.ql_transaction_header-btn:last-child{margin-top:16px}
+.ql_transaction_menu-li{padding:8px;cursor:pointer}
+.ql_transaction_menu-li:not(:last-child){margin-right:24px}
+.ql_transaction_date .khung_date{margin-top:6px}
+.ql_transaction_menu-ul{border-bottom:2px solid #E6E1E6}
+.active_transaction_menu{margin-bottom:-2px;border-bottom:1px solid #136397}
+.active_transaction_menu p{color:#136397}
+.ql_transaction_table{margin-top:32px}
+.ql_transaction_table{width:100%}
+.ql_transaction_table-box{width:100%}
+.ql_transaction_table-thead-th >p{text-align:left}
+.ql_transaction_table-thead-th{padding:8px 16px}
+.ql_transaction_table-thead{background-color:#E8F4FC}
+.ql_transaction_table_tbody{background-color:#FFF}
+.ql_transaction_table_tr-td{padding:15px 16px;height:110px}
+.ql_transaction_table_tr .ql_transaction_table_tr-td{border-bottom:1px solid #E6E1E6}
+.khung_input_date span,.khung_date >span{margin:0 8px}
+.active_dots_xanh .slick-dots li.slick-active button:before{width:32px;height:12px;border-radius:10px;color:#136397;opacity:1;background-color:#136397;left:-10px}
+.search_holtel-infor-title,.detail_infor-other-btn{cursor:pointer}
+.edit__hotel_navigation-return,.edit__hotel_navigation-preview{cursor:pointer}
+.convenient_12,.holtel_evaluate-box2-menu-red{cursor:pointer}
+a[data-fancybox] img{cursor:zoom-in}
+.fancybox__container{--fancybox-bg:#f7f8fc;--fancybox-color:#333;--fancybox-accent-color:#e879f9;--carousel-button-svg-filter:none;display:flex;flex-direction:column}
+.fancybox__toolbar{position:relative;padding:0;background:rgba(255,255,255,0.8);backdrop-filter:blur(30px);border-bottom:1px solid #edeef0;text-shadow:none;font-weight:400;--carousel-button-svg-stroke-width:1.75;--carousel-button-svg-width:22px;--carousel-button-svg-height:22px}
+.fancybox__slide{padding-top:8px;padding-bottom:8px}
+.fancybox__nav{--carousel-button-bg:#e5e7eb;--carousel-button-border-radius:6px;--carousel-button-svg-width:20px;--carousel-button-svg-height:20px;--carousel-button-svg-stroke-width:2.5}
+.fancybox__leftCol{width:80vw;min-height:1px;height:100%;display:flex;flex-direction:column;overflow:hidden;position:relative}
+.fancybox__rightCol{width:20vw;max-width:300px;height:100%;padding:2rem;overflow:auto;display:flex;flex-direction:column;border-left:1px solid #edeef0;opacity:var(--fancybox-opacity,1)}
+.fancybox__container.is-animated[aria-hidden="false"] .fancybox__rightCol{animation:.15s ease backwards fancybox-fadeIn}
+.fancybox__container.is-animated.is-closing .fancybox__rightCol{animation:.15s ease both fancybox-fadeOut}
+.fancybox__container.is-animated.is-closing .fancybox__leftCol{overflow:visible}
+.popup_see_more-img-item{display:flex;justify-content:center}
+.container_see_holtel{padding:24px 0 64px}
+.popup_see_more-img{max-width:768px;margin:auto}
+.popup_see_more-img-box{margin-top:24px}
+.popup_see_more-img-item:not(:first-child){margin-top:8px}
+.popup_see_more-img-item-khoi2{column-gap:8px}
+.popup_see_more-img-title >p{padding-bottom:8px;border-bottom:1px solid #136397}
+.carousel__button.is-prev,.carousel__button.is-next{position:absolute;top:50%;transform:translateY(-50%);border-radius:50%;background-color:#fff}
+.fancybox__thumbs .carousel__slide{width:var(--fancybox-thumbs-width,120px);height:80px;background-color:#fff;opacity:.5}
+.is-nav-selected{width:140px!important;height:93px!important;opacity:unset!important}
+.carousel__track{align-items:center;margin-top:24px;margin-bottom:24px}
+.popup_see_more-menu-item{padding:8px 0;margin-right:32px}
+.detail_holtel_introduce_insert-view{cursor:pointer}
+.active_dots_xanh .slick-dots li:not(.holtel_infor-new-avt .slick-dots li){width:30px}
+.holtel_category-map.d_flex{display:none}
+.wrapper_all{width:100%;overflow:hidden}
+.search_holtel{padding-bottom:64px}
+.search_filter_600{display:none}
+.btn_watch_flight{display:none}
+.detail_holtel_introduce-banner img{width:100%}
+.detail_holtel_around .holtel_infor-new-item{margin-left:12px;margin-right:12px;margin-bottom:12px}
+.detail_holtel_around .holtel_infor-new-box{justify-content:center}
+.detail_holtel_around .holtel_infor-new-box-tong{margin-bottom:0;padding-bottom:0}
+.holtel_infor-new-code-price{flex-wrap:wrap;margin-top:8px}
+
+.holtel_infor-new-item{width:386px;background:#FFF;height:unset;display:flex;flex-direction:column;box-shadow:1px 1px 10px 2px rgb(0, 0, 0,0.1);border-radius:16px;margin: 0 12px 40px;}
+
+.holtel_banner-title p{text-align:center}
+.holtel_infor-new-discount{margin-top:8px}
+.search_holtel .holtel_recently_view-box-slick{margin-top:40px}
+.bookroom-left_res{display:none}
+.login_container:hover{background-size:110% 110%;transition:ease-in 5s}
+.wrapper_all_create{overflow:unset}
+.back_top_icon{position:fixed;right:32px;bottom:50px;border-radius:50%;opacity:.3;cursor:pointer;width:40px;height:40px;display:flex;align-items:center;justify-content:center;z-index:100}
+.back_top_icon:hover{opacity:1}
+.back_top_icon img{width:100%;height:100%}
+.amenities_services_box_element .khung_input{width:92%}
+.laundry_additional-input-radio{display:flex;align-items:center}
+.rested_holtel_navigation-content-avt img{width:100%;height:100%}
+.edit__hotel_navigation_1024{display:none}
+.ql_promotion_sidebar{display:none;width:238px;position:absolute;top:100%;right:50%;z-index:10;height:fit-content;box-shadow:2px 2px 10px 0 #3691d926}
+.manage_content_menu_search .khung_input input{padding-right:32px}
+.create_promotion_detail .manage_holtel_sidebar_left{height:100%}
+.ql_holtel_report-table-thead-th:first-child{border-right:1px solid #E6E1E6}
+.ql_holtel_report-table-row-td:first-child{border-right:1px solid #E6E1E6;border-collapse:collapse}
+.pin_hotel_price_414{display:none}
+.pin_hotel_price_414 >p:first-child{text-decoration:line-through}
+.ql_transaction_date{margin-top:8px}
+.upload-function-insert-img-title img{width:24px;height:24px}
+.upload-function-insert-img-title{display:flex;flex-direction:column;align-items:center;justify-content:center;position:absolute;width:100%;left:0}
+
+.img-preview{width:140px;height:140px;z-index:1}
+.create__properties_star{flex-wrap:wrap}
+.upload-function-insert-img input[type="file"]{display:block;width:100%;height:100%;opacity:0;z-index:1; cursor: pointer;}
+.imageThumb{width:140px;height:140px;cursor:pointer}
+.pip{display:flex;flex-direction:column;margin:16px 24px 0 0}
+.remove,.xoay_img{display:block;flex:1;color:#fff;text-align:center;cursor:pointer}
+.room_setting__img-upload-khoi-function {display: flex;flex-wrap: wrap;padding: 16px 0 60px;}
+
+.function_img{display:flex;height:40px;align-items:center;justify-content:center;background-color:#F4EFF4}
+.col-ting{width:100%;height:100%;margin:0 auto}
+.avatar-wrapper{width:100%;height:100%}
+.file-upload{width:100%;height:100%}
+.file-upload .image-box{margin:0 auto;height:100%;width:100%;background:unset;cursor:pointer;overflow:hidden}
+.file-upload img{height:100%;width:100%;display:none}
+.file-upload p{position:relative;top:45%;color:#000}
+.upload-function-insert-img-title img{width:24px;height:24px;display:block}
+.image-box .upload-function-insert-img-title{position:absolute;width:100%;left:0;top:50%;transform:translateY(-50%)}
+.create_holtel_content{margin-top:0}
+.create_holtel_content_khoi1{margin-top:32px}
+.ql_comment .search_holtel-dishes-menu{transform:unset;justify-content:unset}
+.pin_point{position:absolute;bottom:16px;right:24px;background:#fff;padding:0 10px}
+.hunghabay_banner{background:url(../images/travel.png) no-repeat;background-size:110% 110%;transition:background-size 5s;height:700px;background-position:center;display:flex;flex-direction:column;z-index:99}
+.hunghabay_banner:hover{background-size:100% 100%;background-position:center;transition:ease-in 5s}
+.hunghabay_index .header_conter_hotel{background-color:unset;position:unset}
+.hunghabay_index .header_khoi{margin-top:unset;padding-top:20px}
+.hunghabay_index .header_conter_hotel .nav_li:not(:last-child) a{color:#FFF}
+.navigation_main .holtel_category_content_a{bottom:80px;transform:translate(-50%,0)}
+.hunghabay_banner{position:relative}
+.social_network{position:relative;padding:16px 0}
+.social_network::after{position:absolute;top:0;transform:translateY(-100%);left:50%;content:"";height:100px;width:1px;background-color:#FFF}
+.social_network::before{position:absolute;bottom:0;transform:translateY(100%);left:50%;content:"";height:100px;width:1px;background-color:#FFF}
+.social_network_border{position:absolute;top:50%;right:40px;transform:translate(0,-80%)}
+.social_network >div:not(:first-child){margin-top:24px}
+.hunghabay_index .header_right >div:not(:last-child){padding:8px;background-color:#FFFFFF99;border-radius:50%;width:40px;height:40px}
+.banner_date{position:absolute;top:50%;left:40px;transform:translate(0,-50%)}
+.hunghabay_index .banner_date .time_st{color:#FFF}
+.hunghabay_index{background-color:#fafafa}
+.slick_holtel_homestay{background:url(../images/nen_trang_chu.png) no-repeat;background-size:100% 100%;height:100%}
+.slick_holtel_width{max-width:1366px;margin:auto;display:flex;column-gap:24px;padding:86px 0 75px 80px}
+.hunghabay_slick_left{width:283px}
+.hunghabay_slick_left .slick_li p{font-size:20px;line-height:32px;color:#AEAAAF;font-weight:600; cursor: pointer;}
+.hunghabay_slick_left .slick_hotel_title p{font-size:54px;line-height:68px;color:rgba(0,0,0,0.15);font-family:'Great Vibes',cursive}
+.hunghabay_slick_hidden >div{margin-top:50px;animation:fadeInRight .75s ease-in}
+.hunghabay_slick_hidden .slick_hotel_element{margin-top:16px}
+.slick_right_hotel_item{position:relative;border-radius:40px;margin-top:30px;margin-left:12px;margin-right:12px}
+.slick_right_hotel_item img{border-radius:40px;width:100%;height: 100%;}
+.slick_right_hotel_item p{position:absolute;bottom:24px;text-align:center;width:100%}
+.sliderHotel{column-gap:24px;animation:fadeInUp .75s ease-in}
+.sliderHomeStay{animation:fadeInUp .75s ease-in}
+.hunghabay_slick_right{width:calc(100% - 307px)}
+.hunghabay_slick_right_view{margin-top:-40px;margin-left:116px}
+.hunghabay_slick_right_view p{margin-right:4px;display:flex;align-items:center;height:24px}
+.hunghabay_slick_right .slick-current{transform:translateY(-30px)}
+.hunghabay_slick_right .slick-next,.hunghabay_slick_right .slick-prev{top:unset;bottom:-60px;right:50px}
+.hunghabay_slick_right .slick-next{right:unset;left:210px}
+.hunghabay_slick_right .slick-prev{left:116px}
+.hunghabay_slick_right .slick-dots{display:none!important}
+/* .slick_li{cursor:pointer} */
+.hunghabay_index .holtel_infor-new{margin-top:40px;width:100%}
+.hunghabay_slick_left .slick_ul{border-bottom:2px solid #E6E1E6;width:fit-content}
+.hunghabay_index_container .active_item{margin-bottom:-1px}
+.hunghabay_hotel_menu{border-bottom:2px solid #E6E1E6;width:fit-content}
+.hunghabay_index_container .active_item{padding-bottom:unset}
+.homestay_index-new-explain{margin-top:8px}
+.homestay_index-new-explain >p:last-child{padding:4px 8px;background-color:#D2EAF9;border-radius:8px}
+.restaurant__item_title >p:first-child{padding:4px 8px;background-color:#F8D3D5;border-radius:8px}
+.hunghabay_wrapper .active_dots_xanh .slick-dots:not(.holtel_infor-new-avt .slick-dots){display:flex;justify-content:flex-end}
+.hunghabay_wrapper .active_dots_xanh a{margin-bottom:10px}
+.slick_right_hotel-img:hover img{transform:scale(1.05);transition:all .3s ease-in-out;border-radius:40px}
+.slick_right_hotel-img{overflow:hidden;border-radius:40px;cursor: pointer;}
+.line{position:absolute;width:0;height:0;transition:all .5s ease;background:#fff}
+.e2:hover .top{left:10%;width:80%;height:1px}
+.top{top:10%;left:50%}
+.e2:hover .bottom{left:10%;width:80%;height:1px}
+.bottom{bottom:10%;left:50%}
+.e2:hover .left{top:10%;width:1px;height:80%}
+.left{top:50%;left:10%}
+.e2:hover .right{top:10%;width:1px;height:80%}
+.right{top:50%;right:10%}
+.e2:hover img{-webkit-filter:brightness(.6)}
+.e2 img{transition:all .4s ease}
+.item img{max-width:100%;display:block;transition:all .5s ease}
+.item{overflow:hidden;position:relative}
+.slick_right_hotel_item:hover p{bottom:unset;top:50%;cursor:pointer;animation:fadeInUp .75s ease-in}
+.hunghabay_favourite_box{flex-wrap:wrap;display:flex}
+.hunghabay_favourite{max-width:1366px;margin:auto;padding:0 80px}
+.hunghabay_wrapper{display:flex;flex-direction:column}
+.hunghabay_favourite_box >div{width:calc(100%/4)}
+.hunghabay_favourite_box{height:1033px}
+.hunghabay_favourite_cot2{display:flex;flex-direction:column;justify-content:flex-end}
+.hunghabay_favourite_cot1{display:flex;flex-direction:column;justify-content:flex-end;height:75%}
+.hunghabay_favourite_cot4{display:flex;flex-direction:column;justify-content:flex-end;height:75%}
+.hunghabay_favourite{margin-top:64px}
+.flight_route_img img{width:24px;height:24px}
+.flight_route{max-width:1366px;margin:auto;padding:0 80px}
+.flight_route_box_item{width:calc(100%/3 - 16px);padding:24px;border:1px solid #AEAAAF;border-radius:16px;background-color:#fff;margin-top:32px}
+.flight_route_box{column-gap:24px}
+.flight_route_text{margin-top:64px}
+.flight_text_li{cursor:pointer}
+.flight_route .hunghabay_hotel_menu{border-bottom:1px solid #E6E1E6}
+.handbook img{width:100%;height:100%;border-radius:8px}
+.handbook{max-width:1366px;margin:auto;padding:0 80px}
+.handbook_left{width:calc(100% - 59%)}
+.handbook_right{width:calc(59% - 24px)}
+.handbook_r_item_left{width:181px;height:171px}
+.handbook_r_item_right{flex:1}
+.handbook_right_item{column-gap:16px}
+.handbook_right_item:not(:first-child){margin-top:24px}
+.holtel_infor-new-btnn img{width:24px;height:24px}
+.handbook_box >div{margin-top:48px}
+.handbook_title{margin-top:64px}
+.dowload_app{width:1366px;margin:auto;padding-left:80px;padding-top:64px;justify-content:space-between}
+.dowload_app img{width:100%;height:100%}
+.dowload_app_qr_right{width:126px;height:126px}
+.dowload_app_hunghabay{display:flex;flex-direction:column;justify-content:center}
+.dowload_app_banner_nen img{height:fit-content}
+.dowload_app_banner_nen{display:flex;align-items:flex-end;padding-bottom:80px}
+.dowload_app_qr{justify-content:space-between}
+.social_network >div{transition:all .2s ease-in-out}
+.social_network >div:hover{transform:scale(1.5)}
+.dowload_app{position:relative}
+.dowload_app_phone{position:absolute;left:40%;top:0;width:300px;height:660px;perspective:1300px}
+.dowload_app_phone img{position:absolute;top:0;width:100%;height:100%;z-index:300;transition:.5s all ease;transform:rotateX(30deg) scale(0.6);perspective:900px;animation:entry 1s linear 1}
+.dowload_app_phone img:hover{cursor:pointer;transform:rotate(0deg) scale(1) translateY(10px);transition:.5s all ease;z-index:400}
+.hunghabay_login_container_back{background-color:#f6f6f6;padding-top:20px;padding-bottom:144px;padding-left:24px;padding-right:24px}
+.hunghabay_login_container{max-width:1366px;margin:auto;margin-bottom:0;background:url(/images/after/nui.png) no-repeat;box-shadow:0 32px 74px -12px rgba(0,0,0,0.1);;border-radius:16px;background-size:100% 100%}
+.hunghabay_login_container:hover{background-size:110% 110%;transition:ease-in 5s}
+.hunghabay_login_left{background-color:rgba(0,0,0,0.3);border-radius:16px 0 0 16px}
+.hunghabay_login_container > div{width:50%}
+.hunghabay_login_left_logo{display:flex;justify-content:center;margin-top:32px}
+.hunghabay_login_left_box p{text-align:center}
+.hunghabay_login_left_link{margin-top:24px;display:flex;justify-content:center}
+.hunghabay_login_left_link a{padding:10px 37px;border:1px solid #FFF;border-radius:8px}
+.hunghabay_login_right{background-color:#fff;width: 600px;margin: 0 auto;}
+.hunghabay_login_right_input{margin-top:32px;padding-bottom:8px;border-bottom:1px solid #1C1B1E}
+.hunghabay_login_right_input input{padding-left:0}
+.register_container .hunghabay_login_right_input:not(:first-child){margin-top:48px}
+.hunghabay_login_right_password{position:relative;margin-top:56px}
+.hunghabay_login_right_pass_img{position:absolute;right:0;top:0;cursor:pointer}
+.figButton {width: 100%;border: none;outline: none;background: #136397;cursor: pointer;padding:10px;border-radius:8px;margin-top:64px}
+.hunghabay_login_left_banner{height:100%}
+.hunghabay_login_left_box{display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;height:100%}
+.hunghabay_dangnhap_right{padding:140px 80px 166px}
+.hunghabay_dangnhap_right{order:1;border-radius:16px 0 0 16px}
+.hunghabay_dangnhap .hunghabay_login_left{order:2;border-radius:0 16px 16px 0}
+.hunghabay_login_input_otp{margin-top:32px}
+.hunghabay_login_right-text{margin-top:64px}
+.hunghabay_login_right-text p{text-align:center}
+.hunghabay_login_request img{cursor:pointer}
+.slick_hotel_element.acitve_slder{display:block}
+.slick_hotel_element{display:none}
+.hunghabay_login_right{position:relative}
+.hunghabay_login_right .onback_click{position:absolute;left:24px;top:24px}
+.popup_otp_btn >p:last-child{padding:4px 10px;background-color:#E8F4FC;border-radius:8px}
+.display_indexing >div{margin-top:16px;width:12px;height:12px;border-radius:50%;background-color:#C9C5C9}
+.display_indexing{display:flex;justify-content:center;column-gap:16px}
+.display_indexing .indexing_active{width:32px;background-color:#136397;border-radius:10px}
+.hunghabay_search_account{padding:140px 51px 180px;border-radius:16px;}
+.otp_code_request{margin-top:40px}
+.qmk_otp .hunghabay_login_right_btn,.qmk_nhap_mk .hunghabay_login_right_btn{margin:64px auto 0;width:100%;max-width: 444px;}
+.qmk_nhap_mk .hunghabay_login_right{padding:140px 80px 246px;order:1;border-radius:16px 0 0 16px}
+.container_customer_management{margin-top:128px}
+.bacK__management{background-color:#f6f6f6;overflow:unset}
+.customer_management{max-width:1366px;margin:auto;column-gap:24px}
+.customer_management_left{background-color:#fff;width:238px;position:sticky;height:fit-content;top:128px}
+.account_infor{padding:24px 14px 16px;border-bottom:1px solid #E6E1E6}
+.account_name p{text-align:center;margin-top:8px}
+.account-avt{display:flex;justify-content:center}
+.account_name p:first-child{margin-top:16px}
+.ql_account_menu{padding:8px 0 24px 16px}
+.ql_account_menu_li{margin-top:8px;padding:8px 0 8px 8px;cursor: pointer;}
+.ql_account_menu_li:hover{background-color:#E8F4FC;border-right:3px solid #136397}
+.active_ql_account{background-color:#E8F4FC;border-right:3px solid #136397}
+.active_main{color:#136397}
+.yes_love_hidden p{margin-top:8px;padding:8px 0 8px 38px}
+.customer_management_right{width:calc(100% - 262px);padding-right:24px}
+.individual_account_banner img{width:100%;height:190px}
+.customer_management_infor{padding:64px 0 113px}
+.customer_management_avt > img{width:100%;height:100%;border-radius:50%}
+.customer_management_avt{position:relative;width:160px;height:160px}
+.customer_management_camera{position:absolute;right:13px;bottom:0;background-color:#fff;border-radius:50%;width:40px;height:40px;display:flex;justify-content:center;align-items:center}
+.customer_management_camera img{width:24px;height:24px}
+.customer_management_detail{flex:1;margin-left:24px}
+.customer_management_detail input{padding-left:unset}
+.customer_management_detail input::placeholder{color:#1C1B1E}
+.customer_management_item:not(:first-child){margin-top:35px}
+.customer_management_item .khung_input_plac{margin-top:4px;padding-bottom:8px;border-bottom:1px solid #1C1B1E}
+.customer_management_btn >div{width:136px;height:40px;border-radius:8px;margin-top:32px;padding:10px}
+.customer_management_btn .cancel{background-color:#fff;border:1px solid #136397}
+.customer_management_btn .update{background-color:#136397}
+.customer_management_btn p{text-align:center}
+.customer_management_avt .controls{position:absolute;top:0;height:100%;width:100%;border-radius:50%;opacity:1;z-index:1;overflow:hidden}
+.customer_management_avt .controls input{height:100%;width:100%;border-radius:50%}
+.customer_management_camera{cursor:pointer}
+.no_hearts_box{flex-direction:column;align-items:center;padding:64px 0 322px}
+.no_hearts_box{display:none}
+.yes_love_content{padding:32px 0 64px}
+.yes_love_content .holtel_infor-new-star{margin-top:36px}
+.yes_love_content .search_holtel-infor-left{width:36%}
+.yes_love_content .search_holtel-infor-right{width:64%}
+.love_apartment{background-color:#F8D3D5;border-radius:8px;padding:4px 8px}
+.restaurant_dish_time{position:relative}
+.popup_business_hours{position:absolute;right:0;top:30px;background-color:#fff;width:331px;padding:24px 24px 32px;box-shadow:0 5px 10px rgba(0,0,0,0.1);border-radius:8px;display:none;z-index:10}
+.weekdays_item{margin-top:16px}
+.ql_order_book_room .hunghabay_hotel_menu{border-bottom:1px solid #E6E1E6}
+.all_order_item{margin-top:32px;background-color:#fff;padding:8px 24px 16px 8px;border:.5px solid #AEAAAF;border-radius:16px}
+.all_order_infor_left{width:152px;height:152px}
+.all_order_infor_left img{width:100%;height:100%}
+.all_order_infor_right{flex:1}
+.ql_order_number-days{width:30px;height:30px;border-radius:50%;background-color:#F4EFF4;display:flex;align-items:center;justify-content:center;margin-left:24px;margin-right:24px}
+.ql_order_number-days img{width:12px;height:12px}
+.all_order_code{margin-top:8px;padding-top:8px;border-top:1px solid #C9C5C9}
+.order_status p{padding:4px 8px;border-radius:8px;width:fit-content}
+.order_status.yellow p{background-color:#F4AB01}
+.order_status.blue p{background-color:#136397}
+.order_infor_element:first-child{width:32%}
+.order_infor_element:last-child>p{text-align:right}
+.order_status.red p{background-color:#DB242D}
+.order_status.red{display:flex;justify-content:flex-end}
+.order_status.grey p{background-color:#939094}
+.order_status.green p{background-color:#489B1C}
+.individual_account{padding-bottom:64px}
+.product_infor_item{background-color:#DFF0FB;border-radius:8px;width:calc(100%/4 - 18px);padding:16px;margin-top:24px}
+.detail_product_infor{column-gap:24px}
+.detail_reservation_management{margin-top:32px;background-color:#FFF;border-radius:16px;padding:28px 32px 32px;border:.5px solid #AEAAAF}
+.detail_price_inquiry{border:.5px solid #AEAAAF;padding:16px 16px 24px;border-radius:8px}
+.detail_reservation_management >div:not(:first-child){margin-top:16px}
+.detail_reservation_management .bookroom-right_khoi1_banner{width:25%}
+.detail_reservation_management .bookroom-right_khoi1_banner img{width:calc(100% - 97px);height:150px;border-radius:8px}
+.detail_reservation_management .bookroom-right_khoi1_banner .detail_infor_deg_90{top:41%}
+.detail_reservation_management .reservation_book_room{margin-left:16px}
+.price_inquiry_item_left{width:25%}
+.price_inquiry_item_right{flex:1}
+.price_inquiry_item:not(:first-child){margin-top:24px}
+.detail_price_return >div:not(:first-child){padding:16px 0;border-top:1px solid #C9C5C9}
+.ql_detail_product{padding:24px 0 64px}
+.all_order_code_between img{width:24px;height:24px}
+.ql_detail_product_homestay .bookroom-right_khoi1_banner img{width:100%;height:100%}
+.ql_detail_product_homestay .bookroom-right_khoi1_banner{width:150px;height:150px}
+.change_password{max-width:528px;margin:auto}
+.change_password{padding-bottom:120px}
+.cooperate{background:url(../images/cooperate.png) no-repeat;background-size:110% 110%;transition:background-size 8s;margin-bottom:92px;margin-top:128px}
+.cooperate_container{max-width:1366px;margin:auto;padding:64px 80px 56px}
+.cooperate_content{width:693px;margin-top:48px;padding:24px 24px 49px;border-radius:24px;background:rgba(255,255,255,0.4);backdrop-filter:blur(74px)}
+.cooperate_menu_li{background-color:#F4EFF4;border-radius:16px;width:143px;height:80px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.cooperate_menu{column-gap:24px}
+.cooperate_content_item >p:first-child{margin-top:35px;width:54%}
+.cooperate_content_btn{width:fit-content;background-color:#F4AB01;border-radius:8px;padding:10px 16px}
+.actite_hoptac{background-color:#D2EAF9}
+.actite_hoptac p{color:#136397}
+.cooperate_menu_li.actite_hoptac svg{color:#136397}
+.cooperate_menu_li svg{color:#605D62}
+.cooperate_content_item.active_content_block{display:block}
+.cooperate_menu_li{cursor:pointer}
+.cooperate_content_btn{cursor:pointer}
+.cooperate:hover{background-size:100% 100%;background-position:center;transition:ease-in-out 8s}
+.explore_place{margin-top:128px;background:url(/images/after/camera_khampha.png) no-repeat;background-size:547px 612px;background-position:top right}
+.explore_place_container{max-width:1366px;margin:auto;padding:24px 80px 64px}
+.explore_place_input{max-width:592px;position:relative;margin-top:32px}
+.explore_place_input span{position:absolute;right:8px;top:8px}
+.explore_place_container .hunghabay_favourite_cot3{justify-content:flex-end;display:flex;flex-direction:column}
+.explore_place_container .hunghabay_favourite_cot2{justify-content:flex-start}
+.explore_place_container .hunghabay_favourite_box{margin-top:180px}
+.explore_place_container .slick_right_hotel_item> p{font-family:'Great Vibes';font-size:30px;line-height:40px;font-weight:400}
+.detail_explore_place{margin-top:128px}
+.detail_explore_place_container{max-width:1366px;margin:auto;padding:24px 80px 64px}
+.detail_explore_banner{margin-top:36px;position:relative}
+.detail_explore_place_container img{width:100%}
+.detail_explore_place_link img{width:24px;height:24px}
+.tour__dl_item-content img,.holtel_infor-new-btnn img{width:24px;height:24px}
+.garage_item_content img{width:24px;height:24px}
+.detail_explore_content{margin-top:80px}
+.characteristics{margin-top:64px}
+.characteristics_box{margin-top:32px}
+.characteristics_item{margin-top:64px;column-gap:80px}
+.characteristics_item_left{width:20%}
+.characteristics_item_left >p:last-child{margin-top:16px}
+.characteristics_item_right{width:calc(100% - (20% + 80px))}
+.characteristics__element_slick{margin-left:12px;margin-right:12px}
+.characteristics__element_slick img{border-radius:8px}
+.tour__dl{margin-top:64px}
+.tour__dl_item{margin-top:40px;margin-left:12px;margin-right:12px;background-color:#fff;border:.5px solid #AEAAAF;border-radius:16px;padding:8px 8px 16px}
+.garage{margin-top:64px}
+.garage_box_item{margin-top:40px;margin-left:12px;margin-right:12px;background-color:#fff;border:.5px solid #AEAAAF;border-radius:16px;padding:8px 8px 16px}
+.view_all_img img{width:24px;height:24px}
+.view_all_img{position:absolute;bottom:16px;left:16px;padding:4px 8px;background-color:#1C1B1E;border-radius:20px;cursor:pointer}
+.self_driving{width:fit-content;background-color:#D2EAF9;padding:0 8px;border-radius:8px}
+.compare_search_red img{width:25px;height:25px}
+.compare_search_input img{width:24px;height:24px}
+.compare_search{display:flex;column-gap:24px}
+.compare_search_item{background-color:#fff;min-height:397px;width:calc(100%/3 - 16px);margin-top:32px;border:1px solid #CCC;border-radius:8px}
+.compare_search_red{display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%}
+.compare_img_red{padding:18.5px;background-color:#FCE8E9;border-radius:40px;display:flex}
+.compare_price{margin-top:44px;background-color:#fff}
+.compare_price >p{padding:24px 16px}
+.compare_price_box{padding:16px;border-top:1px solid #CCC}
+.compare_rate{background-color:#fff;margin-top:24px}
+.compare_rate_title{padding:24px 16px}
+.compare_rate_box{padding:16px;border-top:1px solid #CCC;display:flex;justify-content:center;flex-wrap:wrap}
+.compare_rate_item{width:calc(100%/3)}
+.compare_rate_item >p:not(:first-child){margin-top:24px}
+.compare_utilities{background-color:#fff;margin-top:24px}
+.compare_utilities_title{padding:16px 24px}
+.compare_utilities_box{padding:16px;border-top:1px solid #CCC;display:flex;justify-content:center;flex-wrap:wrap}
+.compare_utilities_item{width:calc(100%/3)}
+.compare_utilities_item >p:not(:first-child){margin-top:24px}
+.compare_location{background-color:#fff;margin-top:24px}
+.compare_location_title{padding:16px 24px}
+.compare_location_menu{display:flex;padding:16px;column-gap:24px;border-top:1px solid #CCC}
+.compare_location_li{width:calc(100%/3 - 16px);padding:11px;border:1px solid #136397;border-radius:8px;cursor:pointer}
+.compare_location_li p{text-align:center}
+.active_compare_li{background-color:#136397}
+.active_compare_li p{color:#fff}
+.compare_location_map iframe{width:100%;height:592px}
+.compare_search_input .khung_input{margin-top:24px}
+.compare_search_input{padding:0 16px;position:relative;height:100%}
+.compare_search_input span{position:absolute;top:8px;right:8px}
+.compare_search_input p{display:flex;justify-content:center;align-items:center;height:100%}
+.compare_search_infor{position:relative}
+.compare_search__avt_delete{position:absolute;width:24px;height:24px;top:16px;right:16px}
+.compare_search_content{padding:8px 8px 24px}
+.compare_search_infor_btn{margin-top:24px;display:flex;justify-content:flex-end}
+.compare_search_infor_btn p{background:#136397;text-align:center;width:136px;padding:10px;border-radius:8px}
+.accommodation__near_map{width:60%;height:85vh}
+.accommodation_search{width:40%;padding-right:24px}
+.accommodation__near{margin-top:128px}
+.accommodation__near_iframe iframe{width:100%;height:100%}
+.accommodation__near_iframe{height:100%}
+.accommodation__near_item span{position:absolute;top:8px;right:8px}
+.accommodation__near_item .khung_input{position:relative}
+.accommodation__near_select{width:181px;margin-left:24px}
+.accommodation__near_item{max-width:297px;width:100%}
+.accommodation__near_input{position:absolute;top:20px;justify-content:center;width:100%;z-index:1}
+.accommodation__near_map{position:relative}
+.accommodation__near_btn{position:absolute;top:50%;transform:translateY(-50%);right:0;z-index:1;background-color:#fff;padding:8px;border-radius:8px;cursor:pointer}
+.accommodation_search{background-color:#fff;padding-bottom:64px}
+.accommodation_search_check_box{column-gap:40px;padding:8px 8px 18px 16px}
+.accommodation_filtered .slick-dots{bottom:8px}
+.accommodation_filtered .search_holtel-infor-left{width:26%}
+.accommodation_filtered .search_holtel-infor-left img{border-radius:8px}
+.accommodation_filtered .search_holtel-infor-right{width:unset;flex:1}
+.accommodation_filtered .slick-dotted.slick-slider{margin-bottom:unset;height:100%}
+.accommodation_filtered .slick-track{height:100%}
+.accommodation_filtered .search_holtel-infor-item:not(:first-child){margin-top:8px}
+.fadeInRight{animation:fadeInRight2 1s ease-in-out}
+@-webkit-keyframes fadeInRight2 {
+from{opacity:0;-webkit-transform:translate3d(40%,0,0);transform:translate3d(40%,0,0)}
+to{opacity:1;-webkit-transform:none;transform:none}
+}
+.recent_left{width:100% !important;animation:fadeInLeft2 1s ease-in-out}
+@-webkit-keyframes fadeInLeft2 {
+from{opacity:1;-webkit-transform:translate3d(-20%,0,0);transform:translate3d(-20%,0,0)}
+to{opacity:1;-webkit-transform:none;transform:none}
+}
+.refer_price_item{margin-top:64px;display:flex}
+.refer_price_item_left{width:40%}
+.refer_price_item_right{width:60%}
+.refer_price_select{max-width:284px;margin-top:24px}
+.refer_price_radio_item input{width:22px;height:22px;cursor:pointer}
+.refer_price_radio_item:last-child{margin-left:44px}
+.general_introduction .hunghabay_banner{background:url(/images/after/vechungtoi.png) no-repeat;height:455px;background-size:100% 100%}
+.general_introduction_banner_title{display:flex;height:100%;align-items:center;justify-content:center}
+.general_introduction_banner_title p{border-bottom:4px solid #FFF;padding-bottom:8px}
+.introduction_infor_left_img img{width:100%}
+.general_introduction_container{max-width:1366px;margin:auto;padding:0 80px}
+.general_introduction_container{padding-bottom:64px}
+.general_introduction_khoi1{column-gap:24px;margin-top:40px}
+.general_introduction_khoi1 >div{width:50%}
+.introduction_infor_right,.target_hunghabay{margin-top:40px}
+.target_hunghabay >div:not(div:first-child){margin-top:24px}
+.contact_hunghabay_btn{margin-top:40px;background-color:#136397;border-radius:8px;padding:10px 41px;width:fit-content}
+.introduction_infor_left_img:last-child{margin-top:32px}
+.introduction_infor_left{position:relative;height: fit-content;}
+.introduction_border_white{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:48%;height:50.5%;border-top:15px solid #fff;border-bottom:15px solid #fff;border-left:10px solid #fff;border-right:10px solid #fff}
+.introduction_infor_left_img + div:not(div:last-child){margin-top:32px}
+.reason_choose_us{margin-top:64px}
+.reason_item{margin-top:32px;width:calc(100%/4);display:flex;justify-content:center;flex-direction:column;align-items:center}
+.reason_item >p{text-align:center}
+.reason_choose_box{margin-top:8px;display:flex;flex-wrap:wrap;justify-content:center}
+.reason_item_avt{width:60px;height:60px;border:1px solid #F4AB01;border-radius:50%;display:flex;align-items:center;justify-content:center;background-color:#fff}
+.journeys{margin-top:64px;display:flex;justify-content:center;flex-direction:column;align-items:center}
+.journeys_container{margin-top:36px;background:url(/images/after/cloud.png) no-repeat;background-size:100% 100%;padding:40px 24px}
+.journeys_display_avt img{width:200px;height:200px}
+.journeys_display{column-gap:32px}
+.journeys_box{width:68%;margin:auto}
+.journeys_slick_box{display:flex;justify-content:center;align-items:center}
+.journeys_slick_item{margin-top:58px}
+.journeys_slick_item:not(:last-child){margin-right:48px}
+.journeys_slick{max-width:517px;margin:auto}
+.journeys_slick_box .slick-current p{font-size:24px;line-height:36px;color:#fff;font-weight:700}
+.journeys_slick_box .slick-current{width:fit-content!important;margin-top:52px}
+.journeys_slick_box .slick-next{right:-60%;top:95%;left:unset}
+.journeys_slick_box .slick-prev{right:-48%;top:95%;left:unset}
+.journeys_display.acitve_slder{display:flex}
+.contract{background-color:#fff;padding:40px 24px;margin-top:40px;border-radius: 16px;box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);}
+.contract_content_item{margin-top:32px}
+.even_content p{font-weight:400;font-size:16px;line-height:24px;color:#1C1B1E}
+.even_content p:not(:first-child){margin-top:32px}
+.hunghabay_index .holtel_infor-new-box.slick-initialized .slick-slide{margin-left:12px;margin-right:12px;width:100%}
+.hunghabay_index .holtel_infor-new-avt.slick-initialized .slick-slide{margin-left:unset;margin-right:unset}
+.hunghabay_homestay_back{background:#E8F5FC}
+.hunghabay_homestay{padding-bottom:24px}
+.hunghabay_homestay_back{margin-top:64px;padding-bottom:40px}
+.yes_love_hidden{display: none;}
+.yes_love_hidden >p{cursor: pointer;}
+.all_order_code_btn{cursor: pointer;}
+.create_holtel_back {cursor: pointer;}
+.hunghabay_slick_right_view{cursor: pointer;}
+.social_network >div{cursor: pointer;}
+.me_web_btn img{width: 16px;height: 16px;}
+.me_web_btn {display: none;}
+.elipsis_unset{-webkit-line-clamp: unset !important;}
+
+
+.header_main_account >div{
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+.header_main_register{
+    background-color: #136397; border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 8px;
+}
+.header_main_login{
+    background-color: #fff;
+    border: 1px solid #136498;
+    box-shadow: 0 0 0px 1px #fff;
+    padding: 8px;
+    border-radius: 8px;
+}

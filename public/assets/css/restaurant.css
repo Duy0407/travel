@@ -1,0 +1,1144 @@
+.elipsis1{overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:1;display:-webkit-box;-webkit-box-orient:vertical}
+.elipsis2{overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:2;display:-webkit-box;-webkit-box-orient:vertical}
+.elipsis3{overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:3;display:-webkit-box;-webkit-box-orient:vertical}
+.active_item {
+    color: #136397;
+    border-bottom: 1px solid #136397;
+    z-index: 1;
+}
+
+/* Khoarng gia */
+#time-range{width:95%;margin:0 auto;color:#CCC;font-weight:300}
+.sliders_step1{width:95%}
+.mg_b-20{margin-bottom:20px}
+.m_l_r{margin: 0 24px;}
+.slider-time,.slider-time2{font-weight:400}
+.flat-slider.ui-corner-all,.flat-slider .ui-corner-all{border-radius:0}
+.flat-slider.ui-slider{border:2px solid #136397;background:#fff;border-radius:6px}
+.flat-slider.ui-slider-horizontal{height:6px}
+.flat-slider.ui-slider-vertical{height:15em;width:6px}
+.flat-slider .ui-slider-handle{width:22px;height:22px;background:#fff200;border-radius:50%;border:none;cursor:pointer;box-shadow:0 0 8px rgba(0,0,0,0.15)}
+.flat-slider.ui-slider-horizontal .ui-slider-handle{top:50%;margin-top:-11px}
+.flat-slider.ui-slider-vertical .ui-slider-handle{left:50%;margin-left:-11px}
+.flat-slider .ui-slider-handle:hover{box-shadow:0 0 8px rgba(0,0,0,0.35)}
+.flat-slider .ui-slider-range{border:0;border-radius:6;background:#136397}
+.flat-slider.ui-slider-horizontal .ui-slider-range{top:0;height:6px}
+.flat-slider.ui-slider-vertical .ui-slider-range{left:0;width:6px}
+.box{display:inline-block;width:32px;height:32px;line-height:32px;text-align:center;border:1px solid #F26222;border-radius:3px;color:#FFF;margin:24px 1px 4px}
+.ui-state-default,.ui-widget-content .ui-state-default{border:1px solid #E6E1E6!important;background:#E6E1E6;font-weight:400;color:#136397!important}
+.title_input{margin-bottom:16px}
+
+/* END KHOANG GIA */
+
+
+/* dot xanh sick */
+.active_dots_xanh .slick-dots li.slick-active button:before{width:32px;height:12px;border-radius:10px;color:#136397;opacity:1;background-color:#136397;left:-10px}
+.active_dots_xanh .slick-dots li{width:30px}
+.active_dots_xanh .slick-dots{bottom:-40px}
+.active_dots_xanh .slick-dots li button:before{content:'';width:12px;height:12px;background-color:#C9C5C9;opacity:1;border-radius:50%}
+
+
+html{
+    color: #1C1B1E;
+}
+a{color: #000;}
+.bg_error{background: #FBE9EA;}
+.bg_error2{background: #DB242D;}
+.success{color: #489B1C;}
+.bf_success{background: #F0FBE9;}
+.bf_success2{background: #489B1C;}
+.money{color: #FEB201;}
+.bg_money{background: #FFF7E6;}
+.bg_money2{background: #F4AB01;}
+.text_blue{color: #136397 !important;}
+.bg_ct{background: #E8F4FC;}
+.opaciry_04{opacity: 0.4;}
+.border_r{border-right: 3px solid #136397;}
+.bg_border_chung{background: #E8F4FC;border-right: 3px solid #136397;color: #136397 !important;}
+
+.cusor{cursor: pointer;}
+.mn8px{margin-bottom: 8px;}
+/* icon heart chung */
+.icon_heart{width: 24px;height: 24px;position: absolute;top: 0;right: 0;margin-top: 16px;margin-right: 16px;}
+.icon_heart svg{width: 100%;height: 100%;}
+.heart_fill svg path{fill: red; stroke: #FFF;}
+
+.mb8px{margin-bottom: 8px;}
+.width_img{width: 180px;height: 180px;}
+.width_img img{width: 100%;height: 100%;border-radius: 8px;}
+/* ------------------------------------------- */
+
+
+
+.content{margin-top: 128px;background: #FAFAFA;padding-bottom: 64px;}
+.content_head{position: relative;}
+.content_head-banner{background: url(../images/restaurant_banner.png) no-repeat;min-height: 480px;background-size: 100% 100%;}
+.content_head-banner:hover{background-size: 110% 110%;transition: ease-in 5s;}
+.content_head-banner-text{font-weight: 700;font-size: 40px;line-height: 53px;color: #FFF;position: absolute;bottom: 0;width: 100%;text-align: center;margin-bottom: 100px;}
+.content_head-navigate{position: absolute;width: 100%;bottom: -76px;}
+.content_between{padding-top: 142px}
+.content_between_padding{padding: 0 80px 64px;max-width: 1366px;margin: 0 auto;}
+.content_between_suv{margin-bottom: 64px;}
+.content_between-list-product{display: flex;}
+.content_between-list-product-frames{margin: 0 20px;height: fit-content;}
+.list-product-frames-sub{width: 90px;text-align: center;}
+.list-product-frames-img{height: 90px;width: 90px;}
+.list-product-frames-img img{width: 100%;height: 100%;}
+.list-product-frames-text{font-size: 16px;line-height: 24px;font-weight: 600;}
+.content_between-list-product .slick-prev {left: -47px;top: 43px;}
+.content_between-list-product .slick-next {right: -34px;top: 43px;}
+.slick-next:before{content: '';}
+.slick-prev:before{content: '';}
+.between-restaurant-frames{display: flex;}
+.between-restaurant-frames .slick-prev {left: -47px;}
+.between-restaurant-noibat{margin-bottom: 100px;}
+.between-restaurant-noibat-text{font-weight: 700;font-size: 40px;line-height: 68px;margin-bottom: 40px;}
+.between-restaurant-frames-sub{background: #FFF;height: 148px; width: 582px !important;border-radius: 16px;overflow: hidden;margin-left: 20px;display: flex !important;}
+.between-restaurant-frames-img{width: 148px;}
+.between-restaurant-frames-img img{width: 100%;height: 100%;}
+.between-restaurant-frames-text {width: 68%;padding: 16px;}
+.between-restaurant-frames-text-head{font-weight: 700;font-size: 16px;line-height: 24px;color: #1C1B1E;}
+.restaurant-frames-text-danh-gia{display: flex; align-items: center;}
+.restaurant-frames-text-danh-gia-icon1{width: 24px;height: 24px;}
+.restaurant-frames-text-danh-gia-icon2{width: 16px;height: 16px;}
+.restaurant-frames-text-danh-gia-text{font-weight: 700;font-size: 16px;line-height: 24px;color: #DB242D; margin: 0 4px;}
+.restaurant-frames-text-danh-gia-icon1 img, .restaurant-frames-text-danh-gia-icon2 img{width: 100%;height: 100%;}
+.between-restaurant-frames-text-danh-gia{display: flex; margin: 8px 0;flex-wrap: wrap;}
+.between-restaurant-frames-text-danh-gia-text{font-weight: 400;font-size: 16px;line-height: 24px;color: #1C1B1E;margin: 0 8px;}
+.between-restaurant-frames-text-danh-gia-numeber{font-weight: 400;font-size: 16px;line-height: 24px;color: #605D62;}
+.between-restaurant-frames-text-money{font-weight: 600;font-size: 18px;line-height: 28px;color: #1C1B1E;display: flex;justify-content: flex-end;}
+.between-restaurant-moinhat-frames{display: flex;flex-wrap: wrap;}
+.between-restaurant-moinhat-frames-suv{background: #FFF;width: 385px;border-radius: 16px;overflow: hidden;margin-bottom: 32px;margin-right: 24px;}
+.between-restaurant-moinhat-frames-suv:nth-child(3){margin-right: unset;}
+.between-restaurant-moinhat-frames-suv:nth-child(6){margin-right: unset;}
+.between-restaurant-moinhat-frames-suv:nth-child(9){margin-right: unset;}
+.between-restaurant-moinhat-frames-suv-img{height: 241px;}
+.between-restaurant-moinhat-frames-suv-img img{height: 100%;width: 100%;}
+.between-restaurant-moinhat-frames-suv-text{padding: 8px 8px 16px;}
+.restaurant-moinhat-text-key{display: flex; align-items: center;}
+.restaurant-moinhat-text-key1{padding: 4px 8px; background: #F8D3D5; border-radius: 8px;color: #DB242D;width: fit-content;font-weight: 400;font-size: 12px;line-height: 15px;margin-right: 8px;}
+.restaurant-moinhat-text-key-tex{font-weight: 400;font-size: 16px;line-height: 24px;}
+.restaurant-moinhat-text-heading{font-weight: 700;font-size: 18px;line-height: 28px;margin: 8px 0;}
+.restaurant-moinhat-address{display: flex;}
+.restaurant-moinhat-text-address-img{width: 24px;height: 24px;}
+.restaurant-moinhat-text-address-img img{width: 100%;height: 100%;}
+.restaurant-moinhat-text-address-text{font-weight: 400;font-size: 16px;line-height: 24px;width: 91%;margin-left: 8px;}
+.restaurant-moinhat-foot{display: flex;justify-content: space-between;margin: 8px 0;}
+.restaurant-moinhat-foot-c{display: flex;align-items: center;padding: 4px;border-radius: 8px;width: fit-content}
+.restaurant-moinhat-foot-wh{width: 24px;height: 24px;}
+.restaurant-moinhat-foot-wh img{width: 100%;height: 100%;}
+.restaurant-moinhat-foot-tex{font-weight: 400;font-size: 16px;line-height: 24px;margin-left: 8px;}
+.restaurant-moinhat-money-on-peopel{font-weight: 600;font-size: 18px;line-height: 28px;display: flex;justify-content: flex-end;}
+.between-restaurant-moinhat-xemthem{display: flex;justify-content: center;}
+.between-restaurant-moinhat-xemthem-sub{padding: 8px 16px;border: 1px solid #136397; border-radius: 8px;width: fit-content;display: flex; align-items: center;}
+.between-restaurant-moinhat-xemthem-text{font-weight: 700;font-size: 18px;line-height: 28px;color: #136397;margin-right: 4px;}
+.between-restaurant-moinhat-xemthem-img{width: 24px;height: 24px;}
+.between-restaurant-moinhat-xemthem-img img{width: 100%;height: 100%;}
+.content_lats{padding: 40px 0 68px;background: #E8F4FC;}
+.content_lats_sub{max-width: 1366px;margin: 0 auto; padding: 0 68px;}
+.content_lats_heading{font-weight: 700;font-size: 40px;line-height: 56px;margin-bottom: 40px;margin-left: 12px;}
+.content_lats-frames{display: flex; flex-wrap: wrap;}
+.content_lats-frames_sub{background: #FFF;width: 23.72%;border-radius: 16px;overflow: hidden; margin: 0 7.8px;}
+/* .content_lats-frames_sub:nth-child(4){margin-right: unset ;} */
+.content_lats-frames_sub-img{height: 177px;}
+.content_lats-frames_sub-img img{width: 100%;height: 100%;}
+.content_lats-frames_sub-main{padding: 16px 8px 27px;}
+.content_lats-frames_sub-main-heading{font-weight: 700;font-size: 18px;line-height: 28px;}
+.content_lats-frames .slick-prev {left: -45px;}
+
+/* TÌM KIẾM NHÀ HÀNG */
+.s_restaurant_content{
+    margin-top: 128px;
+    background: #FAFAFA;
+    padding-bottom: 64px;
+}
+.s_restaurant_content_padding{
+    max-width: 1366px;margin: 0 auto;
+    padding: 32px 80px 0;
+}
+.s_restaurant-search-padding{
+    padding: 24px 24px 24px 14px;
+    background: #FFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    width: 100%;
+    display: flex;align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.search-padding-diemden-ic, .search-padding-timkiem-ic{display: flex;align-items: center;margin-bottom: 6px;}
+.search-padding-diemden-id-img, .search-padding-timkiem-ic-img{width: 20px;height: 20px;}
+.search-padding-diemden-id-img img, .search-padding-timkiem-ic-img img{width: 100%;height: 100%;}
+.search-padding-diemden-id-text, .search-padding-timkiem-ic-tex{font-size: 14px;margin-left: 6px;}
+.search-padding-btn-search{width: 50px;height: 50px;}
+.search-padding-btn-search img{width: 100%;height: 100%;}
+
+.search-padding-diemden {width: 25.7%;padding: 10px;position: relative;margin-right: 33px;}
+.search-padding-diemden-input{width: 100%;}
+.search-padding-diemden-input input{padding: unset !important;color: #939094;}
+.search-padding-timkiem-input input{padding: unset !important;color: #939094;}
+/* .search-padding-timkiem {width: 51.82%;padding: 10px;} */
+.search-padding-timkiem {width: 65%;padding: 10px;}
+.search-padding-diemden::before{
+    content: "";
+    width: 1px;
+    position: absolute;
+    top: 16px;
+    right: -18px;
+    height: 33px;
+    background: #D9D9D9;
+}
+.s_restaurant-title{display: flex; align-items: center;margin-bottom: 24px;}
+.s_restaurant-title-img{width: 24px;height: 24px;margin: 0 4px;}
+.s_restaurant-title-img img{width: 100%;height: 100%;}
+.s_restaurant-main-heading{margin-bottom: 32px;}
+.s_restaurant-main-heading h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 8px;
+}
+.s_restaurant-main-heading p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.s_restaurant-main-noidung-sub{display: flex;justify-content: center;margin-bottom: 6px;}
+.s_restaurant-main-noidung-sub_sub1{padding: 8px 16px;}
+.s_restaurant-main-noidung-sub_sub1-text{font-weight: 600;font-size: 20px;line-height: 32px;}
+.border_bottom{border-bottom: 1px solid #136397;}
+.color_tex_border{color: #136397;}
+
+.s_restaurant-main-noidung-left{width: 284px;}
+.main-noidung-left-padding{background: #FFF;border: 0.5px solid #AEAAAF;border-radius: 16px;width: 100%;}
+.main-noidung-left-padding-loc{padding: 16px;display: flex;align-items: center;border-bottom: 1px solid #E6E1E6;}
+.main-noidung-left-padding-loc-img{width: 24px;height: 24px;}
+.main-noidung-left-padding-loc-img img{width: 100%;height: 100%;}
+.main-noidung-left-padding-loc-tex{font-weight: 700;font-size: 20px;line-height: 32px;margin-left: 8px;}
+.main-noidung-left-padding-gia{padding: 16px; border-bottom: 1px solid #E6E1E6;}
+.main-noidung-left-padding-gia-ic{display: flex;align-items: center;justify-content: space-between;margin-bottom: 24px;}
+.main-noidung-left-padding-gia-ic-sub{display: flex;align-items: center;}
+.main-noidung-left-padding-gia-ic-sub-img, .main-noidung-left-padding-gia-ic-img{width: 24px;height: 24px;}
+.main-noidung-left-padding-gia-ic-sub-img img, .main-noidung-left-padding-gia-ic-img img{width: 100%;height: 100%;}
+.main-noidung-left-padding-gia-ic-sub-tex{font-weight: 700;font-size: 16px;line-height: 24px;margin-right: 8px;}
+
+
+/* rotate icon up */
+.rotate_d{
+    transition: ease .5s;
+    transform: rotate(180deg);
+}
+/* .hide_content */
+/* phần chung nội dung left - tìm kiếm nhà hàng */
+.main-noidung-left-padding-danhgia{padding: 16px; border-bottom: 1px solid #E6E1E6;}
+.main-noidung-left-padding-head{display: flex;align-items: center;justify-content: space-between; margin-bottom: 24px;}
+.main-noidung-left-padding-head-ic{display: flex;align-items: center;}
+.main-noidung-left-padding-head-img{cursor: pointer;}
+.main-noidung-left-padding-head-img, .main-noidung-left-padding-head-ic-img{width: 24px;height: 24px;}
+.main-noidung-left-padding-head-img img, .main-noidung-left-padding-head-ic-img img{width: 100%;height: 100%;}
+.main-noidung-left-padding-head-ic-tex{font-weight: 700;font-size: 16px;line-height: 24px;margin-left: 8px;}
+
+/* đánh giá */
+.main-noidung-left-padding-danhgia-sao-ic{display: flex;align-items: center;margin-bottom: 16px; transition: ease-in-out .5s;}
+.main-noidung-left-padding-danhgia-sao-ic:last-child{margin-bottom: unset;}
+.main-noidung-left-padding-danhgia-sao-checkbox{width: 20px;height: 20px; margin-right: 5px;}
+.main-noidung-left-padding-danhgia-sao-checkbox input{width: 100%;height: 100%;border-radius: 4px;cursor: pointer;}
+.main-noidung-left-padding-danhgia-sao-img{height: 24px;}
+.main-noidung-left-padding-danhgia-sao-img img{width: 24px;height: 24px;margin: 0 4px;}
+/* Dịch vụ , voucher*/
+.main-noidung-left-padding-dichvu{padding: 16px; border-bottom: 1px solid #E6E1E6;}
+.padding-dichvu-main-div-voucher{display: flex;align-items: center;}
+.padding-dichvu-main-div{display: flex;align-items: center;margin-bottom: 16px;}
+.padding-dichvu-main-div:last-child{margin-bottom: unset;}
+.padding-dichvu-main-div-input{width: 20px;height: 20px;margin-right: 8px;}
+.padding-dichvu-main-div-input input{width: 100%;height: 100%; cursor: pointer;}
+.main-noidung-left-padding-tex-chung{font-weight: 400;font-size: 16px;line-height: 24px; color: #000;}
+/* THU GỌN */
+.main-noidung-left-padding-thugon{padding: 16px 24px; display: flex; justify-content: center;}
+.main-noidung-left-padding-thugon-ic{display: flex;align-items: center;}
+.main-noidung-left-padding-thugon-ic-tex{font-weight: 400;font-size: 16px;line-height: 24px;color: #136397;margin-right: 8px;}
+.main-noidung-left-padding-thugon-ic-img{width: 24px;height: 24px;}
+.main-noidung-left-padding-thugon-ic-img img{width: 100%;height: 100%;}
+
+/* Phần nội dung bên cạnh phần left */
+/* .s_restaurant-main-noidung-left{width: 23.55%;} */
+.s_restaurant-main-noidung-chinh {width: calc(100% - 308px);}
+.s_restaurant-main-noidung-main{display: flex;justify-content: space-between;margin-bottom: 64px;}
+.main-noidung-chinh-padding-khoitext {width: 54%;}
+.s_restaurant-main-noidung-chinh-padding{padding: 8px 17px 8px 8px;background: #FFF;border-radius: 8px;display: flex;border: .5px solid #AEAAAF;justify-content: space-between;margin-bottom: 32px;}
+.s_restaurant-main-noidung-chinh-padding:last-child{margin-bottom: unset;}
+.main-noidung-chinh-padding-img{width: 44.3%;position: relative;}
+.main-noidung-chinh-padding-img img{width: 100%;height: 100%;border-radius: 8px;}
+.main-noidung-chinh-padding-khoitext1{display: flex;align-items: center; justify-content: space-between;flex-wrap: wrap;}
+.noidung-chinh-padding-khoitext1-giomocua{display: flex;align-items: center;}
+.noidung-chinh-padding-khoitext1-giomocua-tex{font-weight: 400;font-size: 16px;line-height: 24px;margin-right: 8px;}
+.noidung-chinh-padding-khoitext1-giomocua-img{width: 24px;height: 24px;position: relative;cursor: pointer;}
+.noidung-chinh-padding-khoitext1-giomocua-img img{width: 100%;height: 100%;}
+.noidung-chinh-padding-khoitext-hinhthucgiao{display: flex;align-items: center;margin: 8px 0;flex-wrap: wrap;}
+.noidung-chinh-padding-khoitext-hinhthucgiao .restaurant-moinhat-foot-c{margin-right: 16px;}
+.noidung-chinh-padding-khoitext-hinhthucgiao .restaurant-moinhat-foot-c:last-child{margin-right: unset;}
+.noidung-chinh-padding-khoitext-money{font-weight: 600;font-size: 18px;line-height: 28px;display: flex;justify-content: flex-end;}
+/* POPUP GIỜ MỞ CỬA */
+.pp_giomocua_padding{background: #FFF;padding: 24px 0 32px 24px;border-radius: 8px;position: absolute;width: 331px;top: 24px;right: 0;box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);z-index: 1;}
+.pp_giomocua_padding_headding{font-weight: 600;font-size: 20px;line-height: 32px;margin-bottom: 16px;}
+.pp_giomocua_padding_sub {display: flex;margin-bottom: 16px;}
+.pp_giomocua_padding_sub:last-child {margin-bottom: unset;}
+.pp_giomocua_padding_thu {width: 18%;}
+.pp_giomocua_padding_gio {width: 80%;text-align: center;}
+
+/* Phân trang */
+.bg_phantrang{background: #136397;}
+.while_color{color: #FFF !important;}
+.none_border{border: 1px solid #136397 !important;}
+.restaurant_paging{display: flex;justify-content: flex-end;padding-top: 8px;}
+.restaurant_paging_sub{display: flex; align-items: center;}
+.restaurant_paging_sub-img{margin: 0 16px;}
+.restaurant_paging_sub-tex{margin: 0 8px; width: 40px;height: 40px;border: 1px solid #605D62; border-radius: 8px;font-weight: 400;font-size: 16px;line-height: 24px;color: #605D62;display: flex;align-items: center;justify-content: center;}
+.restaurant_paging_sub-img{width: 40px;height: 40px; border: 1px solid #605D62; border-radius: 8px;padding: 6px;}
+.restaurant_paging_sub-img img{width: 24px;height: 24px;}
+/* nhà hàng xung quanh homestay */
+.s_restaurant_xungquanh-heading{font-weight: 700;font-size: 40px;line-height: 48px;margin-bottom: 40px;}
+.s_restaurant_xungquanh-main{display: flex;}
+.s_restaurant_xungquanh-main-sub-tex{font-weight: 700;font-size: 18px;line-height: 28px;margin-bottom: 8px;}
+.s_restaurant_xungquanh-main-sub{width: 181px;margin: 0 12px;}
+.s_restaurant_xungquanh-main-sub-p{font-weight: 500;font-size: 16px;line-height: 24px;}
+.s_restaurant_xungquanh-main-sub-img{height: 181px;margin-bottom: 16px;}
+.s_restaurant_xungquanh-main-sub-img img{width: 100%;height: 100%;border-radius: 8px;}
+.s_restaurant_xungquanh-main .slick-prev{left: -40px;top: 84px;}
+.s_restaurant_xungquanh-main .slick-next{right: -28px;top: 84px;}
+/* --------------------------------------------------------------- */
+
+/* ---------------------- Chi tiết nhà hàng ----------------------- */
+.detail_restaurant-content{padding: 128px 0 64px;background: #FAFAFA;}
+.detail_restaurant-content-padding{max-width: 1366px;margin: 0 auto;padding: 32px 80px 0;}
+.detail_restaurant-content-main-title{font-weight: 700;font-size: 40px;line-height: 56px;margin-bottom: 9px;}
+.detail_restaurant-content-main-head-sub{display: flex; justify-content: space-between;margin-bottom: 48px;}
+.detail-content-main-head1 {width: 40.55%;}
+.detail-content-main-head1-danhgia{display: flex;align-items: center;}
+.detail-head1-danhgia-icon{display: flex;align-items: center;margin-right: 8px;}
+.detail-head1-danhgia-text{line-height: 24px;font-weight: 700;margin: 0 4px;}
+.detail-head1-danhgia-icon1{width: 24px;height: 24px;}
+.detail-head1-danhgia-icon1 img{width: 100%;height: 100%;}
+.detail-head1-danhgia-icon2{width: 16px;height: 16px;}
+.detail-head1-danhgia-icon2 img{width: 100%;height: 100%;}
+.detail-head1-danhgia-tex{display: flex;align-items: center;line-height: 24px;}
+.detail-head1-danhgia-tex span{color: #605D62;margin-left: 8px;}
+.detail-content-main-head1-address{display: flex;align-items: center;}
+.detail-content-main-head1-address-img{width: 24px;height: 24px;margin-right: 8px;}
+.detail-content-main-head1-address-img img{width: 100%;height: 100%;}
+.detail-content-main-head1-clock{display: flex;align-items: center;}
+.detail-content-main-head1-clock-text{display: flex;align-items: center;}
+.detail-content-main-head1-img-chung{width: 24px;height: 24px;margin-right: 8px;}
+.detail-content-main-head1-img-chung img{width: 100%;height: 100%;}
+.detail-content-main-head1-clock-text-time{display: flex; align-items: center;margin-left: 8px;}
+.detail-content-main-head1-clock-text-time1{line-height: 24px;}
+.detail-content-main-head1-clock-text-img{display: flex;margin: 0 8px;}
+.detail-content-main-head1-clock-text-img img{width: 100%;height: 100%;}
+.detail-content-main-head1-money{display: flex;}
+.detail-content-main-head1-money-text{font-weight: 400;font-size: 16px;line-height: 24px;color: #48464A}
+.detail-content-main-head1-info{margin-bottom: 32px;}
+.detail-content-main-head1-introduction-heading{font-weight: 600;font-size: 30px;line-height: 44px;margin-bottom: 24px;text-align: center;}
+.detail-content-main-head1-introduction-p{line-height: 26px;}
+.detail-head2-block1-chat, .detail-head2-block1-share, .detail-head2-block1-tim{display: flex; align-items: center;}
+.detail-head2-block1-share{margin: 0 40px;}
+.detail-head2-block1-chat-text{margin-right: 8px;}
+.detail-content-main-head2-block1{display: flex;align-items: center;justify-content: flex-end;margin-bottom: 24px;}
+.detail-content-main-head2-block2-them{border: 1px solid #136397; border-radius: 16px;background: #FFF;padding: 8px 16px;display: flex;align-items: center;width: fit-content;}
+.detail-content-main-head2-block2-them-text{line-height: 24px;margin-right: 8px;}
+.detail-content-main-head2-block2-them-img{width: 24px;height: 24px;}
+.detail-content-main-head2-block2-them-img img{width: 100%;height: 100%;}
+.detail-content-main-head2 {width: 49.76%;}
+.detail-content-main-head2-block2-images{display: flex;}
+.detail-content-main-head2-block2-images1{display: flex;flex-direction: column;align-items: flex-end;margin-bottom: 32px;margin-right: 24px;}
+.detail-content-main-head2-block2-img1{width: 238px;height: 145px; margin-bottom: 24px;}
+.detail-content-main-head2-block2-img1 img{width: 100%; height: 100%;}
+.detail-content-main-head2-block2-img2{width: 291px;height: 180px;}
+.detail-content-main-head2-block2-img2 img{width: 100%; height: 100%;}
+.detail-content-main-head2-block2-images2{width: 283px;height: 325px;}
+.detail-content-main-head2-block2-images2 img{width: 100%; height: 100%;}
+.detail-convenient-left{width: 66%;}
+.detail-convenient-left-one{margin-bottom: 48px;}
+.detail-convenient-left-one-block{display: flex;flex-wrap: wrap;justify-content: space-between;}
+.detail-convenient-left-heading{font-weight: 600;font-size: 26px;line-height: 38px;margin-bottom: 24px;}
+.detail-convenient-left-one-block-padding{border: .5px solid #AEAAAF;border-radius: 8px;padding: 24px 13px 8px;width: 17.6%;display: flex;align-items: center;flex-direction: column;margin-bottom: 16px;}
+.detail-convenient-img-chung{width: 24px;height: 24px;margin-bottom: 4px;}
+.detail-convenient-img-chung img{width: 100%;height: 100%;}
+.detail-convenient-left-tex-chung{line-height: 24px;text-align: center;font-size: 15px;}
+.detail-convenient-left-p{line-height: 26px;}
+.detail_restaurant-content-main-convenient{display: flex;justify-content: space-between;margin-bottom: 58px;}
+.detail-convenient-right {width: 32%;}
+.detail-convenient-right-3buoc{display: flex;align-items: center;justify-content: space-between;margin-bottom: 24px;}
+.detail-convenient-right-buoc1{display: flex;align-items: center;padding: 8px;border-radius: 8px;}
+.detail-convenient-right-buoc1-img{width: 24px;height: 24px; margin-right: 8px;}
+.detail-convenient-right-buoc1-img img{width: 100%;height: 100%;}
+.detail-convenient-right-contact{margin-bottom: 15px;line-height: 28px;font-weight: 500;}
+.detail-convenient-right-map-img{height: 325px;}
+.detail-convenient-right-map-img iframe{width: 100%;height: 100%;border-radius: 8px;}
+.detail-convenient-right-map-sub{margin-bottom: 15px;}
+
+/* MENU */
+.detail_restaurant-content-main-menu{width: 66%;}
+.detail_restaurant-content-main-menu-box1{margin-bottom: 48px;}
+.detail_restaurant-menu-box1-images{display: flex;justify-content: space-between;}
+.detail_restaurant-menu-box1-img{width: 181px;height: 257px;}
+.detail_restaurant-menu-box1-img img{width: 100%;height: 100%;}
+/* MÓN ĂN */
+.bg_tim_monan svg path{fill: #DB242D;stroke: #DB242D;}
+.detail_restaurant-content-main-monan{display: flex; flex-wrap: wrap;justify-content: space-between;margin-bottom: 16px;}
+.detail_restaurant-content-main-monan-div{width: 22.74%;margin-bottom: 24px;}
+.detail_restaurant-monan-div-img{height: 181px;margin-bottom: 8px;}
+.detail_restaurant-monan-div-img img{width: 100%;height: 100%;border-radius: 8px;}
+.detail_restaurant-monan-div-img-text{font-weight: 500;font-size: 20px;line-height: 32px;margin-bottom: 8px;}
+.detail_restaurant-monan-div-img-tim{display: flex;align-items: center;padding: 6px 8px;background: #D2EAF9;border-radius: 20px;width: fit-content;}
+.detail_restaurant-monan-div-img-tim-img{width: 20px;height: 20px;margin-right: 8px;}
+.detail_restaurant-monan-div-img-tim-img svg{width: 100%;height: 100%;}
+a.detail-convenient-left-heading-xemthem-text {padding: 10px 30px;border: 1px solid #79767B;display: flex;width: fit-content;margin: 0 auto;border-radius: 8px;}
+
+
+/* ĐÁNH GIÁ */
+.detail_restaurant-content-main-danhgia-heading{font-weight: 600;font-size: 30px;line-height: 44px;}
+.detail_restaurant-content-main-danhgia-padding{padding: 40px;background: #EDF6FD;border-radius: 24px;display: flex;align-items: center;}
+.progress > .circle-progress {width: 200px;height: 200px;}
+.circle-progress-value {stroke-width: 8px;stroke: #136397;}
+.circle-progress-text {fill: #136397;font-size: 19px;line-height: 68px;}
+.detail_holtel_evaluate-circle {width: 200px;position: relative;margin-right: 65px;}
+.detail_holtel_evaluate-circle > p {width: fit-content;position: absolute;top: 65%;left: 50%;transform: translate(-50%, -50%);}
+.detail_restaurant-danhgia-pt{width: 47%;}
+.detail_restaurant-danhgia-pt-sub{display: flex;align-items: center;margin-bottom: 16px;}
+.detail_restaurant-danhgia-pt-sub:last-child{margin-bottom: unset;}
+.detail_restaurant-danhgia-pt-sub-text{width: 90px;line-height: 24px;font-weight: 500;}
+.detail_restaurant-danhgia-pt-sub-crossbar{background: #E6E1E6;height: 8px;border-radius: 20px;width: 74.3%;margin: 0 8px;position: relative;}
+.detail_restaurant-danhgia-pt-sub-crossbar-sub{position: absolute;height: 8px;border-radius: 20px;background: #136397;top: 0;left: 0;}
+.detail_restaurant-user-comment {width: 89.6%;margin: 0 auto 64px;}
+.detail_restaurant-user-comment .comment_restaurant-two-user-padding .comment_restaurant-two-user-text-des{width: 100%;text-align: justify;}
+.detail_restaurant-comment-sub{border-radius: 40px; border: 1px solid #999999;background: #FFF;margin-bottom: 24px;}
+.detail_restaurant-comment .detail_restaurant-comment-sub input{padding: 10.5px 16px; color: #999999;}
+.detail_restaurant-user-comment .comment_restaurant-two-user-info{width: 30%;}
+.detail_restaurant-user-comment .comment_restaurant-two-user-text{width: 70%;}
+.detail_restaurant-content-main-danhgia{margin-bottom: 32px;}
+.detail_restaurant-xemthem-comment{display: flex; align-items: center;margin-top: 32px; cursor: pointer;}
+.detail_restaurant-xemthem-comment-text{font-weight: 24px;margin-right: 2px;}
+.detail_restaurant-xemthem-comment-icon{width: 24px;height: 24px;}
+.detail_restaurant-xemthem-comment-icon img{width: 100%;height: 100%;}
+.detail_restaurant-offer-title{font-weight: 700;font-size: 40px;line-height: 68px;margin-bottom: 40px;}
+.detail_restaurant-offer-main{display: flex;justify-content: space-between;}
+/* .detail_restaurant-offer-main .between-restaurant-moinhat-frames-suv:nth-child(3){margin-right: 24px;}
+.detail_restaurant-offer-main .between-restaurant-moinhat-frames-suv:nth-child(6){margin-right: 24px;}
+.detail_restaurant-offer-main .between-restaurant-moinhat-frames-suv:nth-child(9){margin-right: 24px;} */
+.detail_restaurant-offer-main .between-restaurant-moinhat-frames-suv{margin: 0 12px}
+
+
+/* ----------------------- TẠO NHÀ HÀNG ------------------- */
+/* Thông tin chung */
+.create_restaurant-main-left {width: 22%;}
+.create_restaurant-content{margin-top: 128px;background: #F6F6F6;}
+.create_restaurant-content-padding{max-width: 1366px;padding: 24px 80px 64px; margin: 0 auto;}
+.create_restaurant-content-padding-link{display: flex;align-items: center;margin-bottom: 32px;width: fit-content; cursor: pointer;}
+.create_restaurant-content-padding-link-img{width: 24px;height: 24px;margin-right: 8px;}
+.create_restaurant-content-padding-link-img img{width: 100%;height: 100%;}
+.create_restaurant-content-padding-link-text{line-height: 24px;}
+.create_restaurant-main-left-heading{font-weight: 600;font-size: 30px;line-height: 44px;margin-bottom: 32px;}
+.create_restaurant-content-main-sub{display: flex; justify-content: space-between;}
+.create_restaurant-main-left-noidung-chung{font-weight: 400;font-size: 18px;line-height: 28px;color: #48464A;margin-bottom: 24px;position: relative;}
+.create_restaurant-main-left-noidung-chung:last-child{margin-bottom: unset;}
+.create_restaurant-main-left-noidung {position: relative;padding-left: 17px;margin-left: 9px;}
+.create_restaurant-main-left-noidung::before{content: "";position: absolute;width: 1px; height: 88%;background: #AEAAAF;top: 14px;left: 0;}
+.create_restaurant-main-left-noidung-chung::before{content: "";position: absolute;width: 4px;height: 4px;border-radius: 50%;background: #F6F6F6;border:2px solid #AEAAAF;bottom: 7px;left: -20.5px;}
+.active_xoay{position: relative;}
+.active_xoay::before{
+    position:absolute;
+    content:"";
+    width:14px;
+    height:14px;
+    border:2px solid #AEAAAF;
+    border-radius:50%;border-top:2px solid #136397;
+    border-left:2px solid #136397;
+    bottom:4px;left:-25.3px;animation:spin 1000ms;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+.tichXanh{
+    position: relative;
+}
+.tichXanh::before{
+    position: absolute;
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    border: none;
+    left: -24px;
+    bottom: 5px;
+    background:url(../images/true_green.svg) no-repeat;
+    background-size:100% 100%;
+    background-color:#f6f6f6;
+}
+
+
+
+.create_restaurant-main-right {width: 74.47%;}
+.create_restaurant-main-right-one{margin-bottom: 20px;}
+.create_restaurant-main-right-one-padding{background: #FFF;border-radius: 8px;padding: 32px 50px 32px 24px;}
+.create_restaurant-right-one-padding-heding{font-weight: 600;font-size: 18px;line-height: 28px;color: #000000;margin-bottom: 16px;}
+.create_restaurant-right-one-block-left-img{width: 60px;height: 60px;margin: 0 auto; cursor: pointer;}
+.create_restaurant-right-one-block-left-img img{width: 100%;height: 100%;border-radius: 50%;}
+.create_restaurant-right-one-block-left-tex{font-weight: 600;font-size: 14px;line-height: 20px;color: #1C1B1E;text-align: center;margin-top: 8px;}
+.create_restaurant-right-one-block-left {width: 57.88%;}
+.create_restaurant-right-one-block-left-fig{display: flex; flex-wrap: wrap;}
+.create_restaurant-right-one-block-left-fig2{display: flex;justify-content: center;}
+.create_restaurant-right-one-block-left-fig2 .create_restaurant-right-one-block-left-sub{margin-bottom: unset;}
+.create_restaurant-right-one-block-left-sub {width: 18%;margin: 0 4px 32px;}
+#modal01{width: 232px;height: 232px;}
+/* .create_restaurant-right-one-block-right-circle{} */
+.create_restaurant-right-one-block-right-circle img{width: 100%;height: 100%;border-radius: 50%;}
+.create_restaurant-right-one-padding-block{display: flex;justify-content: space-between;}
+
+.create_restaurant-main-right-two{margin-bottom: 24px;}
+.create_restaurant-right-two-box{display: flex;}
+.create_restaurant-right-two-box-left{width: 65.76%;}
+.create_restaurant-right-two-padding{padding: 32px 24px; background: #FFF; border-radius: 8px;}
+.create_restaurant-right-two-box-left-sub{margin-bottom: 24px;}
+.create_restaurant-right-two-box-left-sub-tex{margin-bottom: 8px;}
+.create_restaurant-right-two-box-left-sub-input{border: 1px solid #939094;border-radius: 8px;}
+.create_restaurant-right-two-box-left-sub .create_restaurant-right-two-box-left-sub-input input{padding: 10px 8px; color: #939094;}
+.create_restaurant-right-two-box-left-sub-select .select2-container .select2-selection--single{height: 40px;}
+.create_restaurant-right-two-box-left-sub-select .select2-container--default .select2-selection--single .select2-selection__rendered{line-height: 40px;color: #939094;}
+.create_restaurant-right-two-box-left-sub-select .select2-container--default .select2-selection--single{border-radius: 8px; border: 1px solid #939094;}
+.create_restaurant-right-two-box-left-time-sub{display: flex;align-items: center;justify-content: space-between;}
+.create_restaurant-right-two-box-left-time-input{border-radius: 8px; border: 1px solid #939094;width: 46.34%;}
+.create_restaurant-right-two-box-left-time-sub .create_restaurant-right-two-box-left-time-input input{padding: 10px 8px;}
+.create_restaurant-right-two-box-right{margin-left: 24px;}
+.create_restaurant-right-two-box-right-img{width: 180px;height: 180px;margin-bottom: 24px;}
+.create_restaurant-right-two-box-right-img img{width: 100%;height: 100%;border-radius: 8px;}
+.pcreate_restaurant-right-two-box-right-tex1{line-height: 24px;margin-bottom: 8px;}
+
+
+.create_restaurant-main-right-three{margin-bottom: 24px;}
+.create_restaurant-main-right-three-padding, .create_restaurant-main-right-four-padding{padding: 32px 24px;background: #FFF;border-radius: 8px;}
+.create_restaurant-main-right-three-padding-hd{margin-bottom: 24px;font-weight: 600;font-size: 18px;line-height: 28px;}
+.create_restaurant-main-right-three-padding-sub{display: flex;align-items: center;justify-content: space-between;}
+.create_restaurant-main-right-three-left{width: 65.64%;}
+.create_restaurant-main-right-three-left1{display: flex;width: 100%;justify-content: space-between;margin-bottom: 24px;}
+.create_restaurant-main-right-three-left1-sub {width: 47.85%;}
+.create_restaurant-right-three-left1-sub-select .select2-container .select2-selection--single{height: 40px;}
+.create_restaurant-right-three-left1-sub-select .select2-container--default .select2-selection--single .select2-selection__rendered{line-height: 40px;color: #939094;}
+.create_restaurant-right-three-left1-sub-select .select2-container--default .select2-selection--single{border-radius: 8px; border: 1px solid #939094;}
+.create_restaurant-main-right-three-left2-input{border-radius: 8px; border: 1px solid #939094;}
+.create_restaurant-main-right-three-left2 .create_restaurant-main-right-three-left2-input input{padding: 10px 8px; color: #939094;}
+.create_restaurant-main-right-three-right-map{width: 268px;height: 234px;}
+.create_restaurant-main-right-three-right-map img{width: 100%;height: 100%;border-radius: 8px;}
+
+.create_restaurant-main-right-four{margin-bottom: 24px;}
+.create_restaurant-main-right-four-heading{margin-bottom: 24px;font-weight: 600;font-size: 18px;line-height: 28px;}
+
+.create_restaurant-main-right-five{margin-bottom: 40px;}
+.create_restaurant-main-right-five-sub{display: flex;}
+.create_restaurant-main-right-five-padding{padding: 32px 16px;background: #FFF;border-radius: 8px;width: 31.52%;margin-right: 24px;}
+.create_restaurant-main-right-five-heading{font-weight: 600;font-size: 18px;line-height: 28px;margin-bottom: 24px;}
+.create_restaurant-main-right-five-info-sub{margin-bottom: 24px;}
+.create_restaurant-main-right-five-info-input{border-radius: 8px;border: 1px solid #939094;}
+.create_restaurant-main-right-five-info-sub .create_restaurant-main-right-five-info-input input{padding: 10px 8px; color: #939094;}
+.create_restaurant-main-right-five-show-pp {margin-bottom: 24px; width: 100%;height: 40px;border-radius: 8px;border: 1px solid #79767B;font-weight: 500;font-size: 16px;text-align: center;line-height: 40px; cursor: pointer;}
+.create_restaurant-main-right-five-check-sub{display: flex;align-items: center;margin-bottom: 16px;}
+.create_restaurant-main-right-five-check-sub:last-child{margin-bottom: unset;}
+.create_restaurant-main-right-five-check-input{margin-right: 16px;}
+.create_restaurant-main-right-five-check-input input{width: 20px;height: 20px;}
+.create_restaurant-main-right-five-check-text{font-weight: 500;}
+
+.create_restaurant-main-right-button1{cursor: pointer; padding: 10px 40px; border: 1px solid #79767B;background: #FFF;border-radius: 8px;outline: none;margin-right: 24px;}
+.create_restaurant-main-right-button2{cursor: pointer; padding: 10px 40px;border: 1px solid #136397; background: #136397;border-radius: 8px;color: #FFF;outline: none;}
+
+
+/* Tiện nghi & Chính sách */
+.create_restaurant-main-right-convenient{margin-bottom: 24px;}
+.create_restaurant-right-convenient-padding{padding: 32px 24px 8px; background: #FFF;border-radius: 8px;}
+.create_restaurant-right-policy-padding{padding: 32px 24px;background: #FFF;border-radius: 8px;margin-bottom: 64px;}
+.create_restaurant-right-convenient-title{font-weight: 600;font-size: 18px;line-height: 28px;margin-bottom: 32px;}
+.create_restaurant-right-policy-title{margin-bottom: 32px;display: flex;align-items: center;}
+.create_restaurant-right-policy-title-main{font-weight: 600;font-size: 18px;line-height: 28px;margin-right: 32px;}
+.create_restaurant-right-policy-title-sub{font-weight: 400;font-size: 16px;line-height: 24px;color: #48464A;}
+.create_restaurant-right-policy-padding textarea{width: 100%;height: 200px;border-radius: 8px;border: 1px solid #939094;padding: 10px 8px;outline: none;overflow: hidden;}
+.create_restaurant-right-convenient-check{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.create_restaurant-convenient-check-input{display: flex;margin-bottom: 24px;}
+.create_restaurant-convenient-check-input input{width: 22px;height: 22px; margin-right: 8px;}
+.create_restaurant-convenient-check-input .checkbox-text{line-height: 24px;}
+.create_restaurant-right-convenient-check-sub {width: 30%;}
+
+/* Thiết lập sản phẩm */
+/* danh sách sp được thêm */
+.create_restaurant-right-sp-padding-title{margin-bottom: 16px;}
+.create_restaurant-right-sp-padding-title1{font-weight: 600;font-size: 16px;line-height: 24px;color: #000000;margin-bottom: 8px;}
+.create_restaurant-right-sp-padding-p{display: flex;}
+.create_restaurant-right-sp-padding-p p{color: #48464A;margin-right: 8px;}
+.create_restaurant-right-sp-padding-p span{color: #1C1B1E;font-weight: 500;}
+.create_restaurant-main-right-sp-title{font-weight: 600;font-size: 18px;line-height: 28px;margin-bottom: 24px;}
+.create_restaurant-main-right-sp-sub{display: flex;}
+.create_restaurant-main-right-sp-padding{padding: 24px 27px 32px;background: #FFF;border-radius: 8px;width: 43%;margin-right: 23px;}
+.create_restaurant-right-sp-img{display: flex;flex-wrap: wrap; justify-content: space-between;margin-bottom: 44px;overflow: auto;height: 320px;}
+.create_restaurant-right-sp-img::-webkit-scrollbar { width: 0 !important;display: none; }
+.create_restaurant-right-sp-img img{width: 90px;height: 90px;border-radius: 8px;margin: 0 8px 18px;}
+.create_restaurant-right-sp-chinhsua-icon{width: 24px;height: 24px;}
+.create_restaurant-right-sp-chinhsua{display: flex;align-items: center;}
+.create_restaurant-right-sp-chinhsua-btn{padding: 10px 30px;border: 1px solid #136397;border-radius: 8px;margin-right: 16px;}
+.create_restaurant-right-sp-chinhsua-icon img{width: 100%;height: 100%;}
+.create_restaurant-main-right-sp-padding1{width: 42.76%;height: 528px;border-radius: 8px;border: 1px solid #136397;background: #E8F4FC;}
+.create_restaurant-main-right-sp-padding1-them {width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;}
+.create_restaurant-main-right-sp-padding1-sub{width: 170px;height: 170px;border: 2px solid #136397;border-radius: 50%;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.create_restaurant-main-right-sp-padding1-img{width: 48px;height: 48px;margin-bottom: 16px;}
+.create_restaurant-main-right-sp-padding1-img img{width: 100%;height: 100%;}
+.create_restaurant-main-right-sp-padding1-text{width: 72%;text-align: center;}
+
+/* Thêm sản phẩm */
+.create_product-padding, .create_product-padding2{padding: 24px 24px 32px;background: #FFF;border-radius: 8px;margin-bottom: 24px;}
+.create_product-padding-heading{font-weight: 600;font-size: 18px;line-height: 28px;margin-bottom: 24px;}
+.create_product-padding-info{display: flex; justify-content: space-between;}
+.create_product-padding-info-avatar-text{margin-bottom: 8px;}
+/* .khung_img{} */
+.khung_img .img1{width: 140px;height: 140px;border-radius: 8px;}
+.khung_img2 .img2{width: 180px;height: 180px;border-radius: 8px;}
+.create_product-padding-info-avatar-khung{width: 140px;height: 140px;border-radius: 8px;border: 1px solid #939094;background: #E6E1E6;}
+.create_product-padding-info-avatar-khung-sub{width: 100%;height: 100%;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.create_product-padding-info-avatar-img{width: 24px;height: 24px;margin-bottom: 8px;}
+.create_product-padding-info-avatar-img img{width: 100%;height: 100%;}
+.create_product-padding-info-avatar-tex{width: 78%;text-align: center;}
+.create_product-padding-info-nhap-tex{margin-bottom: 8px;}
+.create_product-padding-info-nhap-input{border-radius: 8px; border: 1px solid #939094;}
+.create_product-padding-info-nhap .create_product-padding-info-nhap-input input{padding: 10px 8px;}
+.create_product-padding-info-nhap {width: 80.7%;}
+.create_product-padding2-tex{display: flex;margin-bottom: 32px; align-items: center;}
+.create_product-padding2-tex1{font-weight: 500;line-height: 24px;margin-right: 24px;}
+.create_product-padding2-tex-sub{display: flex;align-items: center;}
+.create_product-padding2-tex2{line-height: 24px;color: #48464A;margin: 0 8px;}
+.create_product-padding2-title{font-weight: 500;font-size: 18px;line-height: 28px;color: #000000;margin-bottom: 24px;}
+.create_product-padding2-info-sp{display: flex;justify-content: space-between;margin-bottom: 40px;}
+.create_product-padding2-info-sp:last-child{margin-bottom: unset;}
+.create_product-padding2-info-sp-avatar-tex{margin-bottom: 8px;}
+.create_product-padding2-info-sp-avatar-khung{width: 180px;height: 180px;border-radius: 8px;border: 1px solid #939094; background: #E6E1E6;cursor: pointer;}
+.create_product-padding2-info-sp-avatar-khung-sub{width: 100%;height: 100%;display: flex;justify-content: center;flex-direction: column;align-items: center;}
+.create_product-padding2-info-sp-avatar-img{width: 24px;height: 24px;margin-bottom: 8px;}
+.create_product-padding2-info-sp-avatar-img img{width: 100%;height: 100%;}
+.create_product-padding2-info-nhap {width: 75.1%;}
+.create_product-padding2-info-nhap-sub{display: flex;justify-content: space-between;margin-bottom: 24px;}
+.create_product-padding2-info-nhap-sub1{width: 48%;}
+.create_product-padding2-info-nhap-sub-nav{display: flex;justify-content: space-between;margin-bottom: 24px;align-items: center;}
+.create_product-padding2-info-nhap-sub-2{display: flex;width: 94%;justify-content: space-between;}
+.create_product-padding2-info-nhap-sub1-delete{width: 24px;height: 24px;cursor: pointer;}
+.create_product-padding2-info-nhap-sub1-delete img{width: 100%;height: 100%;}
+.create_product-padding2-info-nhap-sub1-tex{margin-bottom: 8px;}
+.create_product-padding2-info-nhap-sub1-input{border-radius: 8px;border: 1px solid #939094;}
+.create_product-padding2-info-nhap-sub1 .create_product-padding2-info-nhap-sub1-input input{padding: 10px 8px;}
+.create_product-padding2-info-nhap-mota-tex{margin-bottom: 8px;}
+.create_product-padding2-info-nhap-mota-tex-nhap textarea{border: 1px solid #939094; border-radius: 8px; width: 100%;height: 80px;padding: 10px 8px;outline: none;}
+.create_product-click-them-sp{display: flex;align-items: center;margin-top: 16px; cursor: pointer;width: fit-content;}
+.create_product-click-them-sp-cong{font-size: 24px;margin-right: 8px;}
+.size_anh-suv{display: none;}
+
+/* Thư viện ảnh */
+.create_restaurant-right-photo-head{display: flex; align-items: center;margin-bottom: 24px;}
+.create_restaurant-right-photo-head-size-sub{display: flex;align-items: center;margin-bottom: 8px;}
+.create_restaurant-right-photo-head-size-img{margin-right: 8px;}
+.create_restaurant-right-photo-head-size-img img{width: 100%;height: 100%;}
+.create_restaurant-right-photo-head-size-sub p{line-height: 24px;color: #48464A;}
+.create_restaurant-right-photo-head-size {width: 44%;}
+
+.create_restaurant-right-photo-one{margin-bottom: 64px;}
+.create_restaurant-right-photo-one:last-child{margin-bottom: unset;}
+.create_restaurant-right-photo-padding{padding: 32px 24px 0;background: #FFF;border-radius: 8px;margin-bottom: 64px;}
+.create_restaurant-right-photo-title{font-weight: 600;font-size: 18px;line-height: 28px;margin-bottom: 24px;}
+.create_restaurant-right-photo-one-title{display: flex; align-items: center;}
+.create_restaurant-right-photo-one-title1{line-height: 24px;}
+.create_restaurant-right-photo-one-title2{font-weight: 400;font-size: 13px;line-height: 18px;color: #939094;margin-left: 8px;}
+.upload-function-insert-img-title2, .upload-function-insert-img-title3 {display: flex;flex-direction: column;align-items: center;justify-content: center;width: 140px;height: 140px;background: #E6E1E6;}
+.upload-function-insert-img-title img{width: 24px;height: 24px;}
+.pip {margin-right: 24px;margin-bottom: 16px;background: #F4EFF4;}
+.pip img{width: 140px;height: 140px;}
+.xoay_img, .remove{width: 24px;height: 24px;}
+.xoay_img img, .remove img{width: 100%;height: 100%;}
+.function_img{display: flex;padding: 8px 0; justify-content: space-around;}
+
+/* TẠO MỚI NHÀ HẦNG */
+/* đang hoạt động */
+.new_restaurant-content{margin-top: 128px;background: #FAFAFA;}
+.new_restaurant-content-padding{max-width: 1366px;padding: 24px 80px 80px;margin: 0 auto;}
+.new_restaurant-content-head{display: flex;align-items: center;justify-content: space-between;margin-bottom: 40px;}
+.new_restaurant-content-head-search{border-radius: 8px;border: 1px solid #939094;width: 49.1%;position: relative;}
+.new_restaurant-content-head-search input{height: 40px;}
+.ic_search{position: absolute;top: 0;right: 0;margin-top: 8px;margin-right: 8px;}
+.new_restaurant-content-head-create{display: flex;align-items: center;padding: 8px 22px;background: #136397;border-radius: 8px;}
+.new_restaurant-content-head-create-img{width: 24px;height: 24px;margin-right: 8px;}
+.new_restaurant-content-head-create-img img{width: 100%;height: 100%;}
+.new_restaurant-content-head-create-text{color: #FFF;}
+.new_restaurant-content-noidung-heading{font-weight: 700;font-size: 30px;line-height: 44px;margin-bottom: 24px;}
+.new_restaurant-content-noidung-padding{padding: 24px 16px 32px;background: #FFF;border-radius: 8px;}
+.new_restaurant-content-noidung-head{display: flex;width: fit-content;position: relative;border-bottom: 2px solid #E6E1E6;margin-bottom: 32px;}
+.new_restaurant-content-noidung-head1{padding: 8px;font-weight: 600;font-size: 20px;line-height: 32px;color: #48464A;margin-right: 24px;margin-bottom: -2px;cursor: pointer;}
+.new_restaurant-content-noidung-head1:last-child{margin-right: unset;}
+.border_blue{border-bottom: 2px solid #136397;color: #136397 !important;}
+.new_restaurant-content-noidung-than-padding{padding: 16px;background: #FFF;border-radius: 8px;border: .5px solid #AEAAAF;margin-bottom: 32px;}
+.new_restaurant-content-noidung-than-sub{display: flex;align-items: center;position: relative;}
+.new_restaurant-content-noidung-than-sub-text {width: 69%;margin-left: 16px;}
+.new_restaurant-content-noidung-than-sub-img{width: 130px;height: 130px;}
+.new_restaurant-content-noidung-than-sub-img img{width: 100%;height: 100%;border-radius: 8px;}
+.new_restaurant-content-noidung-than-sub-text1{font-weight: 700;font-size: 20px;line-height: 32px;color: #1C1B1E;margin-bottom: 8px;}
+.new_restaurant-content-noidung-btn-hd{padding: 4px;font-weight: 400;font-size: 12px;line-height: 18px;color: #FFFFFF;border-radius: 8px;width: fit-content;}
+.eye_xemtruoc{position: absolute;top: 0;right: 0;display: flex; align-items: center;}
+.eye_xemtruoc-img{width: 24px;height: 24px;}
+.eye_xemtruoc-img img{width: 100%;height: 100%;}
+.eye_xemtruoc-text{line-height: 32px;margin-left: 8px;}
+.new_restaurant-content-noidung-than-sub{padding-bottom: 8px;border-bottom: 1px solid #D9D9D9;}
+.new_restaurant-content-noidung-than-link{margin-top: 16px;}
+.new_restaurant-content-noidung-than-link-sub{font-weight: 500;font-size: 16px;line-height: 24px;color: #136397;padding:0 16px;border-right: 1px solid #C9C5C9;}
+.new_restaurant-content-noidung-than-link-sub:first-child{padding-left: unset;}
+.new_restaurant-content-noidung-than-link-sub:last-child{border-right: unset;padding-right: unset;}
+.new_restaurant-paing {display: flex;justify-content: center;width: 100%;}
+
+/* đã hoạt động */
+.new_restaurant-content-dhd-padding{padding: 16px;background: #FFF;border-radius: 8px;border: .5px solid #AEAAAF;width: 48.98%;display: flex;margin-bottom: 32px;}
+.new_restaurant-content-dhd-padding-img{width: 130px;height: 130px;}
+.new_restaurant-content-dhd-padding-img img{width: 100%;height: 100%;border-radius: 8px;}
+.new_restaurant-content-dhd-padding-tex {width: 73%;margin-left: 16px;display: flex;flex-direction: column;justify-content: space-between;}
+.new_restaurant-content-dhd-padding-tex-title{font-weight: 700;font-size: 20px;line-height: 32px;color: #1C1B1E;}
+.new_restaurant-content-dhd-padding-sale-text{padding: 4px;border-radius: 8px;color: #FFF;width: fit-content;font-size: 12px;line-height: 18px;}
+.new_restaurant-content-dhd-padding-sale{display: flex;justify-content: space-between;align-items: center;}
+.new_restaurant-content-dhd-padding-sale-continue{display: flex;align-items: center;}
+.new_restaurant-content-dhd-padding-sale-continue-tex{padding: 10px 23px;border-radius: 8px;color: #FFF;width: fit-content;margin-left: 16px;}
+.new_restaurant-content-noidung-dhd-sub{display: flex;justify-content: space-between;flex-wrap: wrap;}
+
+
+
+/* Sửa nhà hàng */
+.edit-restaurant{margin-top: 129px;background: #F6F6F6;}
+.edit-restaurant-content{padding-bottom: 64px;max-width: 1366px;margin: 0 auto;}
+.edit-restaurant-content-head-padding{padding: 24px 24px 16px;background: #FFF;border: .5px solid #AEAAAF;border-radius: 8px;margin-top: 1px;}
+.edit-restaurant-content-head-top{display: flex; align-items: center;justify-content: space-between;margin-bottom: 24px;}
+.edit-restaurant-content-head-top-back, .edit-restaurant-content-head-top-view{display: flex;align-items: center;}
+.edit-restaurant-content-head-top-back-img, .edit-restaurant-content-head-top-view-img{width: 24px;height: 24px;margin-right: 8px;}
+.edit-restaurant-content-head-top-back-img img, .edit-restaurant-content-head-top-view-img img{width: 100%;height: 100%;}
+.edit-restaurant-content-head-top-back-text{line-height: 24px;color: #000000;}
+.edit-restaurant-content-head-main-img{width: 130px;height: 130px;}
+.edit-restaurant-content-head-main-img img{width: 100%;height: 100%;border-radius: 8px;}
+.edit-restaurant-content-head-main{display: flex;padding-bottom: 8px;border-bottom: 1px solid #D9D9D9;}
+.edit-restaurant-content-head-main-text{width: 61.11%;margin-left: 16px;}
+.edit-restaurant-content-head-link{margin-top: 16px; display: flex;}
+.edit-restaurant-content-head-link-sub{padding: 0 16px;border-right: 1px solid #C9C5C9;}
+.edit-restaurant-content-head-link-sub:last-child{padding-right: unset; border-right: unset;}
+.edit-restaurant-content-head-link-sub:first-child{padding-left: unset;}
+.edit-restaurant-content-between{display: flex;}
+.edit-restaurant-between-left-padding{padding: 32px 0px 32px 16px;background: #FFF;border-right: 1px solid #AEAAAF;width: 238px;height: 792px;}
+.edit-restaurant-between-left-heading{font-weight: 600;font-size: 18px;line-height: 28px;margin-bottom: 16px;margin-left: 8px;}
+.edit-restaurant-between-left-a {margin-right: -1px;border-bottom: 1px solid #AEAAAF;}
+.edit-restaurant-between-left-a-sub{padding: 8px 0 8px 8px; margin-bottom: 8px;border-radius: 8px 0px 0px 8px;}
+.edit-restaurant-between-left-a-nhd{margin-left: 8px; margin-top: 16px;}
+.edit-restaurant-content-between-right {width: 79%;margin: 0 auto;padding-top: 30px;}
+.edit-restaurant-content-between-right .create_restaurant-right-one-block-left{width: 63%;}
+.edit-restaurant-content-between-right .create_restaurant-right-one-block-left-sub {width: 15%;}
+.create_restaurant-main-right-three-left-fig{width: 66.51%;margin-right: 24px;}
+.create_restaurant-main-right-three-padding-sub-fig{display: flex;align-items: center;}
+.thay_name{text-align: center;font-weight: 500;font-size: 26px;line-height: 38px;margin-top: 24px;}
+
+.edit-restaurant-content-between-right .create_restaurant-main-right-sp-padding{width: 35.8%;}
+.edit-restaurant-content-between-right .create_restaurant-main-right-sp-padding1{width: 35.8%;}
+
+
+/* Lịch mở bán */
+.calendar-restaurant-between{padding: 32px 24px 64px;}
+.calendar-restaurant-between-one-btn-today{padding: 10px;border-radius: 8px; border: 1px solid #48464A;}
+.calendar-restaurant-between-one-day-month-ic {width: 24px;height: 24px;}
+.calendar-restaurant-between-one-day-month-ic img{width: 100%;height: 100%;}
+.calendar-restaurant-between-one-day-month-text span:last-child{line-height: 28px;font-size: 18px;font-weight: 600;}
+
+
+/* --------------------- KHUYẾN MÃI ---------------------- */
+.edit-restaurant-between-left-a.km_fig1{border-bottom: unset;}
+/* .promotion_restaurant-right-padding */
+.promotion_restaurant-right-one {display: flex;align-items: center;margin-bottom: 47px; }
+.promotion_restaurant-right-one-sub{background: #FFF; border-radius: 8px;padding: 24px 40px;display: flex;align-items: center;width: 40.41%;}
+.promotion_restaurant-right-one-sub-tex{font-weight: 700;font-size: 50px;line-height: 68px;margin-right: 40px;}
+.promotion_restaurant-right{width: 79%;padding: 32px 0 64px;margin: 0 auto;}
+.promotion_restaurant-right-one-sub-text1{font-weight: 700;font-size: 18px;line-height: 28px;}
+.promotion_restaurant-right-one-sub-text2{font-weight: 400;font-size: 14px;line-height: 20px;}
+.promotion_restaurant-right-one-taokm{width: 160px;height: 40px;background: #136397;border-radius: 8px; display: flex;align-items: center;justify-content: center;}
+.promotion_restaurant-right-one-taokm1{width: 24px;height: 24px; margin-right: 8px;}
+.promotion_restaurant-right-one-taokm1 img{width: 100%;height: 100%;}
+.promotion_restaurant-right-one-taokm2{color: #FFF;}
+.promotion_restaurant-right-two-search{display: flex;margin-bottom: 40px;}
+.promotion_restaurant-right-two-search-input{border-radius: 8px;border: 1px solid #939094;padding: 10px 40px 10px 8px; width: 48.93%;background: #FFF;position: relative;}
+/* .promotion_restaurant-right-two-search-input input{} */
+.promotion_restaurant-right-two-search-select{width: 252px;}
+/* .promotion_restaurant-right-two-search-select:first-child{margin: 0 24px;} */
+.promotion_restaurant-right-two-search-select .select2-container .select2-selection--single{height: 40px;}
+.promotion_restaurant-right-two-search-select .select2-container--default .select2-selection--single .select2-selection__rendered{line-height: 35px;}
+.promotion_restaurant-right-two-search-select .select2-container--default .select2-selection--single .select2-selection__arrow{top: 6px;right: 8px;}
+.promotion_restaurant-right-two-search-select .select2-container--default .select2-selection--single{border-radius: 8px;}
+.promotion_restaurant-right-three-fig {width: 100%;display: flex;justify-content: flex-end;}
+.promotion_restaurant-right-three-all{display: flex;width: fit-content; position: relative;border-bottom: 2px solid #E6E1E6;margin-bottom: 32px;}
+.promotion_restaurant-right-three-all-sub{font-weight: 600;font-size: 20px;line-height: 32px;color: #48464A;margin-right: 24px;margin-bottom: -2px;cursor: pointer;}
+.promotion_restaurant-right-three-all-sub:last-child{margin-right: unset;}
+.promotion_restaurant-right-three-main{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.promotion_restaurant-right-three-main-padding{padding: 16px 24px 24px;background: #FFF; border-radius: 8px;width: 48.93%;position: relative;margin-bottom: 24px;}
+.promotion_restaurant-right-three-text1{font-weight: 600;font-size: 20px;line-height: 32px;margin-bottom: 8px;}
+.promotion_restaurant-right-three-text2{line-height: 24px;}
+.promotion_restaurant-right-three-text3{line-height: 24px;font-weight: 600;color: #489B1C;margin: 8px 0;}
+.pp_3cham{width: 24px;height: 24px;position: absolute;top: 0;right: 0;margin-top: 16px;margin-right: 16px; cursor: pointer;}
+.pp_3cham img{width: 100%;height: 100%;}
+.pp_3cham_km{position: absolute;top: 42px;right: 20px;z-index: 1;}
+.pp_3cham_km-padding{background: #FFF;box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);border-radius: 8px;width: 184px;}
+.pp_3cham_km1{display: flex;align-items: center;padding: 8px; cursor: pointer;}
+.pp_3cham_km-img{width: 24px;height: 24px;margin-right: 8px;}
+.pp_3cham_km-img img{width: 100%;height: 100%;}
+.pp_3cham_km-tex{color: #48464A;}
+.promotion_restaurant-paging{display: flex;justify-content: center;}
+
+/* Nhận xét */
+.comment_restaurant-one{margin-bottom: 32px;}
+.comment_restaurant-one-title{font-weight: 600;font-size: 20px;line-height: 32px;color: #000000;margin-bottom: 32px;}
+.comment_restaurant-two-head{display: flex;}
+.comment_restaurant-two-head-text{font-weight: 600;font-size: 20px;line-height: 32px;padding: 8px 0;margin: 0 16px;cursor: pointer;}
+.border_color_nx{border-bottom: 1px solid #136397; color: #136397;}
+.comment_restaurant-two-user-padding{padding: 32px 0;border-bottom: 1px solid #E6E1E6;display: flex;align-items: flex-start;justify-content: space-between;}
+.comment_restaurant-two-user-info-img{width: 60px;height: 60px;}
+.comment_restaurant-two-user-info-img img{width: 100%;height: 100%;border-radius: 50%;}
+.comment_restaurant-two-user-info{display: flex;align-items: flex-start;width: 35%;}
+.comment_restaurant-two-user-info-text{margin-left: 16px;width: 65%;}
+.comment_restaurant-two-user-info-name{font-weight: 600;font-size: 20px;line-height: 32px;margin-bottom: 8px;}
+.comment_restaurant-two-user-info-day{display: flex;align-items: center;}
+.comment_restaurant-two-user-info-day-icon{width: 20px;height: 19px;}
+.comment_restaurant-two-user-info-day-icon img{width: 100%;height: 100%;}
+.comment_restaurant-two-user-info-day-text{font-weight: 400;font-size: 13px;line-height: 18px;margin-left: 4px;}
+.comment_restaurant-two-user-text-title{font-weight: 600;font-size: 20px;line-height: 32px;margin-bottom: 8px;}
+.comment_restaurant-two-user-text-des{font-size: 13px;line-height: 18px;margin-bottom: 8px;width: 76%;}
+.comment_restaurant-two-user-text-icon{display: flex;align-items: center;}
+.comment_restaurant-two-user-text-icon-img{width: 24px;height: 24px;}
+.comment_restaurant-two-user-text-icon-img img{width: 100%;height: 100%;}
+.comment_restaurant-two-user-text-icon-text{font-size: 13px;line-height: 18px;margin-left: 16px;}
+.comment_restaurant-two-user-text {width: 65%;}
+.answer-comment-user{margin-top: 35px;}
+.answer-comment-user-info{display: flex;align-items: center;margin-bottom: 8px;}
+.answer-comment-user-info-avatar{width: 30px;height: 30px;}
+.answer-comment-user-info-avatar img{width: 100%;height: 100%;border-radius: 50%;}
+.answer-comment-user-info-name{font-weight: 700;font-size: 16px;line-height: 24px;color: #474747;margin-left: 8px;}
+.answer-comment-user-text-sub{padding: 8px;background: #FFF; border-radius:  0px 8px 8px 8px;}
+.answer-comment-user-text {display: flex;align-items: flex-end;flex-direction: column;}
+.answer-comment-user-text-sub {padding: 8px;background: #FFF;border-radius: 0px 8px 8px 8px;width: 94%;margin-bottom: 26px;font-size: 13px;line-height: 18px}
+.answer-comment-user-text-like{display: flex;align-items: center;width: 94%;}
+.answer-comment-user-text-like p{cursor: pointer;}
+.answer-comment-user-text-like p:first-child{font-weight: 600;font-size: 16px;line-height: 24px;margin-right: 18px;}
+.answer-comment-user-text-like p:last-child{font-weight: 600;font-size: 16px;line-height: 24px;color: #939094;}
+.answer-comment-user-text-like-big{display: flex;justify-content: flex-end;}
+.answer-comment-user-text-hide{ display: flex;justify-content: center;}
+.answer-comment-user-text-hide-text{cursor: pointer;font-weight: 700;font-size: 16px;line-height: 24px;color: #48464A;}
+.answer-comment-user-sub{margin-bottom: 16px;}
+.answer-comment-user-sub:last-child{margin-bottom: unset;}
+
+
+
+/* Tạo khuyến mãi */
+.create-promotion-restaurant-padding-sub{display: flex;}
+.create-promotion-restaurant-left {width: 66.1%;}
+.create-promotion-restaurant-padding{padding: 32px 24px 0;}
+.create-promotion-restaurant-left-form-padding{padding: 32px 24px;background: #FFF;border-radius: 8px;margin-bottom: 24px;}
+.create-promotion-restaurant-left-title{display: flex;align-items: center;margin-bottom: 32px;}
+.create-promotion-restaurant-left-title p{font-size: 20px;line-height: 32px;font-weight: 600;}
+.create-promotion-restaurant-left-title span{font-size: 18px;line-height: 28px;font-weight: 400;}
+.create-promotion-restaurant-nhap{margin-bottom: 16px;}
+.create-promotion-restaurant-nhap-text{margin-bottom: 8px;}
+.create-promotion-restaurant-nhap-input{border-radius: 8px;border: 1px solid #939094;}
+.create-promotion-restaurant-nhap .create-promotion-restaurant-nhap-input input{padding: 10px 8px;}
+.create-promotion-restaurant-nhap-sub{display: flex;justify-content: space-between;align-items: center;margin-bottom: 16px;}
+.create-promotion-restaurant-nhap-sub1{width: 48.48%;}
+.create-promotion-restaurant-nhap-sub1-select .select2-container .select2-selection--single{height: 40px;border-radius: 8px;border: 1px solid #939094;}
+.create-promotion-restaurant-nhap-sub1-select .select2-container--default .select2-selection--single .select2-selection__rendered{line-height: 38px;}
+.create-promotion-restaurant-nhap-sub1-select .select2-container--default .select2-selection--single .select2-selection__arrow{top: 7px;right: 9px;}
+.create-promotion-restaurant-nhap-sub2{width: 48.48%;}
+.create-promotion-restaurant-nhap-sub2-input{border-radius: 8px; border: 1px solid #939094;}
+.create-promotion-restaurant-nhap-sub2 .create-promotion-restaurant-nhap-sub2-input input{padding: 10px 8px;}
+.create-promotion-restaurant-nhap-sub-click{display: flex; justify-content: space-between;}
+.create-promotion-restaurant-nhap-sub-click-tex{font-weight: 400;font-size: 16px;line-height: 24px;color: #79767B;}
+
+/* Khuyễn mãi theo số tiền */
+.create-promotion-restaurant-kmtst{margin-bottom: 24px;}
+.create-promotion-restaurant-kmtst .create-promotion-restaurant-nhap-input input{padding: 10px 8px;}
+/* Khuyễn mãi đồng giá */
+.create-promotion-restaurant-kmdg, .create-promotion-restaurant-kmtm{margin-bottom: 24px;}
+.create-promotion-restaurant-kmdg1{margin-bottom: 8px;line-height: 24px;color: #000;font-weight: 600;}
+.create-promotion-restaurant-kmdg2{line-height: 26px;color: #48464A;}
+/* Khuyễn mãi tặng món */
+/* --------------------------------------- */
+
+.create-promotion-restaurant-left-form-title{font-weight: 600;font-size: 18px;line-height: 28px;margin-bottom: 24px;}
+.create-promotion-restaurant-left-input-date{display: flex;align-items: flex-end;justify-content: space-between;padding-bottom: 24px;border-bottom: 1px solid #E6E1E6;}
+.create-promotion-restaurant-left-input-date1{width: 40.82%;}
+.create-promotion-restaurant-left-input-date-text{margin-bottom: 8px;}
+.create-promotion-restaurant-left-input-date-day{border-radius: 8px; border: 1px solid #939094;}
+.create-promotion-restaurant-left-input-date1 .create-promotion-restaurant-left-input-date-day input{padding: 10px 8px;}
+.check-box-forever{display: flex;align-items: center;}
+.check-box-forever-input{width: 20px;height: 20px;}
+.check-box-forever-input input{width: 20px;height: 20px;border-radius: 4px;}
+.check-box-forever-text{margin-left: 8px;}
+.create-promotion-restaurant-left-click-week{border-bottom: 1px solid #E6E1E6;padding: 16px 0;}
+.create-promotion-restaurant-left-click-week-sub{display: flex;justify-content: space-between;align-items: center;}
+.create-promotion-restaurant-left-click-time{padding-top: 16px;}
+.create-promotion-restaurant-left-click-time-sub{display: flex;justify-content: space-between;align-items: center;}
+.create-promotion-restaurant-right {width: 423px;margin-left: 24px;}
+.create-promotion-restaurant-right-padding{padding: 32px 24px 104px;background: #FFF;border-radius: 8px;}
+.create-promotion-restaurant-right-title{font-weight: 600;font-size: 18px;line-height: 28px;margin-bottom: 24px;}
+.create-promotion-restaurant-right-radio{display: flex;justify-content: space-between;align-items: center;}
+.create-promotion-restaurant-right-radio-sub{display: flex;align-items: center;}
+.create-promotion-restaurant-right-radio-sub-input{width: 20px;height: 20px;margin-right: 8px;}
+.create-promotion-restaurant-right-radio-sub-input input{width: 20px;height: 20px;}
+.create-promotion-restaurant-right-radio-sub-text{line-height: 24px;}
+.create-promotion-restaurant-click-week-sub{display: flex;align-items: center;}
+.create-promotion-restaurant-click-week-sub-checkbox{width: 20px;height: 20px;}
+.create-promotion-restaurant-click-week-sub-checkbox input{width: 20px;height: 20px;}
+.create-promotion-restaurant-click-week-sub-tex{line-height: 24px;margin-left: 8px;}
+.create-promotion-restaurant-click-week{display: flex;justify-content: space-between;padding: 16px 0 8px;}
+.create-promotion-restaurant-click-time{padding-top: 16px;}
+.create-promotion-restaurant-click-khung-time{display: flex; align-items: center;margin-bottom: 16px;}
+.create-promotion-restaurant-click-khung-time-fig{display: flex; align-items: flex-end;margin-bottom: 16px;}
+.create-promotion-restaurant-click-khung-time-sub{width: 40.82%;margin-right: 24px;}
+.create-promotion-restaurant-click-khung-time-tex{margin-bottom: 8px;}
+.create-promotion-restaurant-click-khung-time-input{border-radius: 8px;border: 1px solid #939094;}
+.create-promotion-restaurant-click-khung-time-sub .create-promotion-restaurant-click-khung-time-input input{padding: 10px 8px;}
+.create-promotion-restaurant-click-time-them{display: flex;align-items: center;}
+.create-promotion-restaurant-click-time-them-img{width: 24px;height: 24px;margin-right: 8px;}
+.create-promotion-restaurant-click-time-them-img img{width: 100%;height: 100%;}
+.create-promotion-apdung-category-head{display: flex;justify-content: space-between;padding: 16px 0 8px;border-top: 1px solid  #E6E1E6;margin-top: 24px;}
+.create-promotion-apdung-category-head-text{line-height: 24px;color: #48464A;}
+.create-promotion-apdung-category-head-img{width: 24px;height: 24px;}
+.create-promotion-apdung-category-head-img img{width: 100%;height: 100%;}
+.create-promotion-apdung-category-main {height: 436px;overflow-y: scroll;}
+.create-promotion-apdung-category-kmtm .create-promotion-apdung-category-main {max-height: 200px;}
+.create-promotion-apdung-category-main::-webkit-scrollbar{display: none;}
+.create-promotion-apdung-category-main-padding{display: flex;justify-content: space-between;align-items: center;padding: 16px 0;border-bottom: 1px solid #E6E1E6;}
+.create-promotion-apdung-category-main-padding:last-child{border-bottom: unset;}
+.create-promotion-apdung-category-main-sub{display: flex;align-items: center;}
+.create-promotion-apdung-category-main1{width: 24px;height: 24px;margin-right: 16px;}
+.create-promotion-apdung-category-main1 img{width: 100%;width: 100%;}
+.create-promotion-apdung-category-main2{display: flex;align-items: center;}
+.create-promotion-apdung-category-main2-img{width: 36px;height: 36px;}
+.create-promotion-apdung-category-main2-img img{width: 100%;height: 100%;border-radius: 4px;}
+.create-promotion-apdung-category-main2-text{line-height: 24px;margin-left: 16px;}
+.btn_boqua{padding: 10px 41px;background: #FFF;border-radius: 8px;outline: none;border: 1px solid #79767B;font-size: 16px;color: #1C1B1E;margin-right: 24px;}
+.btn_taokm{padding: 10px 8.5px;background: #136397;outline: none;border: none;border-radius: 8px;font-size: 16px;color: #FFF;}
+
+
+/* POPUP CHỌN DANH MỤC */
+.popup_chon_product{position: fixed;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0,0,0,0.5);z-index: 23;}
+.popup_chon_product-padding{padding: 24px;background: #FFF;border-radius: 8px;width: 700px;margin: 0 auto;margin-top: 26px;}
+.popup_chon_product-padding-title{font-weight: 600;font-size: 20px;line-height: 32px;margin-bottom: 24px;}
+.popup_chon_product-padding-search{border-radius: 8px;border: 1px solid #939094;position: relative;margin-bottom: 16px;}
+.popup_chon_product-padding .popup_chon_product-padding-search input{padding: 10px 40px 10px 8px;}
+.popup_chon_product-padding-main-all{display: flex;align-items: center;}
+.popup_chon_product-padding-main-all-input, .popup_chon_product-sanpham-sub1{width: 20px;height: 20px;margin-right: 16px;}
+.popup_chon_product-padding-main-all-input input, .popup_chon_product-sanpham-sub1 input{width: 20px;height: 20px;}
+.popup_chon_product-padding-main-all-tex{line-height: 24px;}
+.popup_chon_product-sanpham{display: flex;justify-content: space-between;align-items: center;}
+.popup_chon_product-sanpham-sub2, .popup_chon_product-sanpham-sub{display: flex;align-items: center;}
+.popup_chon_product-sanpham-sub2-img{width: 36px;height: 36px;}
+.popup_chon_product-sanpham-sub2-img img{width: 100%;height: 100%;border-radius: 4px;}
+.popup_chon_product-sanpham-sub2-tex{line-height: 24px;margin-left: 16px;}
+.popup_chon_product-padding-main-sp{margin-top: 16px;height: 408px;overflow-y: scroll;}
+.popup_chon_product-padding-main-sp::-webkit-scrollbar{display: none;}
+.popup_chon_product-padding-main-sp-pd{padding: 16px 0;border-top: 1px solid #E6E1E6;}
+.popup-btn{display: flex; justify-content: flex-end;}
+.btn_huy, .btn_huy2{padding: 9px 35px;background: #FFF;border-radius: 8px;border: 1px solid #79767B;width: fit-content;margin-right: 24px;}
+.btn_chon{padding: 10px 48px;background: #136397;border-radius: 8px;color: #FFF;width: fit-content;}
+.popup_chon_product-padding-select{width: 225px;}
+.popup_chon_product-padding-select .select2-container--default .select2-selection--single .select2-selection__rendered{color: #939094;line-height: 38px;}
+.popup_chon_product-padding-select .select2-container .select2-selection--single{height: 40px;border-radius: 8px; border: 1px solid #939094;}
+.popup_chon_product-padding-select .select2-container--default .select2-selection--single .select2-selection__arrow{top: 7px;right: 8px;}
+.popup_chon_product-padding_sub{display: flex;margin-bottom: 16px;justify-content: space-between;}
+.popup_chon_product-padding_sub .popup_chon_product-padding-search{margin-bottom: unset;width: 64.3%;}
+
+
+/* ----------------------------------------------- */
+.calendar_choose-basic_scroll_bar {width: 67px;height: 36px;}
+.flipswitch {position: relative;width: 66px;height: 35px;border-radius: 24px;
+    -webkit-appearance: initial;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);outline: none;font-size: 14px;font-weight: bold;cursor: pointer;border: 1px solid #C9C5C9;}
+.flipswitch:after {left: 2%;content: "";width: 20px;height: 20px;border-radius: 50%;}
+.flipswitch:after {position: absolute;top: 5%;display: block;line-height: 32px;width: 47%;height: 90%;background: #C9C5C9;box-sizing: border-box;text-align: center;transition: all 0.3s ease-in 0s;border: 1px solid #FFFFFF;}
+label {display: flex;align-items: center;gap: 0.625rem;font-size: 1.25rem;}
+.back_green {background-color: #489B1C;}
+.border_yellow{border: 1px solid #F4AB01;}
+.border_yellow::after{background-color: #F4AB01 !important;}
+.flipswitch:checked:after {left: 50%;content: "";width: 30px;height: 30px;border-radius: 50%;}
+
+/* Báo cáo thu nhập */
+/* Báo cáo doanh thu */
+.income_statement{width: 79%;padding-top: 32px;padding-left: 24px;}
+.sales-report-title{margin-bottom: 32px;font-weight: 600;font-size: 20px;line-height: 32px;}
+.sales-report-input-date-text{margin-bottom: 8px;}
+.sales-report-input-date{display: flex;align-items: center;margin-bottom: 32px;}
+.sales-report-input-date-sub{margin-right: 24px;}
+.sales-report-input-date-sub:last-child{margin-right: unset;}
+.sales-report-input-date-nhap{border-radius: 8px;border: 1px solid #939094;width: 252px;background: #FFF;}
+.sales-report-input-date-sub .sales-report-input-date-nhap input{padding: 10px 8px;}
+.sales-report-all-report{margin-bottom: 48px;}
+.sales-report-all-report-padding{padding: 24px 0 20px 24px;background: #FFF; border-radius: 8px;width: 23.35%;}
+.sales-report-all-report-text{font-size: 14px;}
+.sales-report-all-report-text2{font-weight: 700;font-size: 18px;line-height: 28px;}
+.sales-report-all-report-text-sub{display: flex;align-items: center;}
+.sales-report-all-report-text-sub-text{font-weight: 500;font-size: 16px;line-height: 24px;}
+.sales-report-all-report-text-sub-icon{width: 14px;height: 14px;}
+.sales-report-all-report-text-sub-icon img{width: 100%;height: 100%;}
+.sales-report-all-report{display: flex;justify-content: space-between;}
+.sales-report-chart{margin-bottom: 64px;}
+.sales-report-chart-text{font-weight: 600;font-size: 20px;line-height: 32px;}
+.sales-report-table{background: #FFF;padding-top: 3px}
+.sales-report-table-sub{width: 100%;}
+.sales-report-th2{font-weight: 400; font-size: 13px;line-height: 18px;color: #48464A;}
+.sales-report-th{padding: 8px 0;}
+.sales-report-th:nth-child(2), .sales-report-th:nth-child(3), .sales-report-th:nth-child(5){width: 21.13%;}
+.sales-report-th:nth-child(4) {width: 26.53%;}
+.sales-report-th:nth-child(1){width: 13.81%}
+.sales-report-tr{display: flex;text-align: left;border-bottom: 2px solid #F6F6F6;}
+.sales-report-td{padding: 18px 0;}
+.sales-report-td:nth-child(2), .sales-report-td:nth-child(3), .sales-report-td:nth-child(5){width: 21.13%;}
+.sales-report-td:nth-child(4) {width: 26.53%;}
+.sales-report-td:nth-child(1){width: 13.81%;padding-left: 16px;}
+
+/* Báo cáo khuyến mãi */
+.promotion-report .sales-report-all-report .sales-report-all-report-padding{width: 31.88%;}
+.promotion-report-chart-text1{font-weight: 600;font-size: 20px;line-height: 32px;}
+.promotion-report-chart-text2{line-height: 24px;}
+.apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center, .apexcharts-legend.apx-legend-position-top.apexcharts-align-center, .apexcharts-toolbar{display: none !important;}
+.apexcharts-gridline, .apexcharts-annotation-rect, .apexcharts-tooltip .apexcharts-marker, .apexcharts-area-series .apexcharts-area, .apexcharts-line, .apexcharts-zoom-rect, .apexcharts-toolbar svg, .apexcharts-area-series .apexcharts-series-markers .apexcharts-marker.no-pointer-events, .apexcharts-line-series .apexcharts-series-markers .apexcharts-marker.no-pointer-events, .apexcharts-radar-series path, .apexcharts-radar-series polygon{display: none;}
+.promotion-report-chart-sub{margin-bottom: 64px;}
+.promotion-report-chart-sub:last-child{margin-bottom: unset;}
+
+/* Ghim tin */
+.pin-restaurant-padding{padding: 32px 24px 0;}
+.pin-restaurant-title{font-weight: 600;font-size: 20px;line-height: 32px;margin-bottom: 24px;}
+.pin-restaurant-checkbox{margin-bottom: 40px;}
+.pin-restaurant-checkbox-sub{display: flex;align-items: center; margin-bottom: 16px;}
+.pin-restaurant-checkbox-sub:last-child{margin-bottom: unset;}
+.pin-restaurant-checkbox-sub-input{width: 19px;height: 19px;margin-right: 16px;}
+.pin-restaurant-checkbox-sub-input input{width: 100%;height: 100%;background: transparent;}
+.pin-restaurant-checkbox-sub-text{font-weight: 600;font-size: 18px;line-height: 28px;}
+.pin-pack-padding{padding: 32px;background: #FFF;border-radius: 8px;min-height: 500px;}
+.pin-pack-title{font-weight: 600;font-size: 20px;line-height: 32px;margin-bottom: 24px;}
+.pin-pack-main{display: flex;flex-wrap: wrap;justify-content: space-between;}
+.pin-pack-main-padding{padding: 24px 24px 16px;border-radius: 8px; border: 1px solid #AEAAAF;width: 49%;margin-bottom: 24px;}
+.pin-pack-main-title{font-weight: 600;font-size: 20px;line-height: 32px;margin-bottom: 24px;}
+.pin-pack-main-text-money1{font-weight: 400;font-size: 13px;line-height: 18px;color: #79767B;text-align: right;text-decoration: line-through;}
+.pin-pack-main-text-money2{font-weight: 600;font-size: 24px;line-height: 36px;}
+.pin-pack-main-text{display: flex; align-items: center; justify-content: space-between;border-bottom: 1px solid #AEAAAF;}
+.pin-pack-main-text1{line-height: 24px;padding-bottom: 8px;}
+.pin-pack-main-mua{margin-top: 8px;display: flex; align-items: center; justify-content: space-between;}
+.pin-pack-main-mua-sub{display: flex;align-items: center;justify-content: space-between;width: 60%;}
+.pin-pack-main-mua-sub1{display: flex;align-items: center; cursor: pointer;}
+.pin-pack-main-mua-sub1-ic{width: 24px;height: 24px;}
+.pin-pack-main-mua-sub1-ic img{width: 100%;height: 100%;}
+.pin-pack-main-mua-sub1-text{line-height: 24px;margin-left: 8px;}
+.pin-pack-main-mua-btn{padding: 10px 30px;border-radius: 8px;border: 1px solid #136397;width: fit-content;font-weight: 500;}
+
+/* POPUP CƠ CHẾ */
+.pp_coche{position: fixed;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0,0,0,0.5);z-index: 23;display: flex;justify-content: center;align-items: center;}
+.pp_coche_padding{padding: 24px 32px;background: #FFF;border-radius: 8px;max-width: 615px;}
+.pp_coche_close{margin-bottom: 24px;line-height: 30px;}
+.pp_coche_text{line-height: 30px;}
+
+/* ĐẨY TIN */
+.push_news{width: 100%;padding: 32px 24px 0;}
+.push_news-title{font-weight: 700;font-size: 24px;line-height: 36px;margin-bottom: 24px;}
+.push_news-sodu{font-weight: 600;font-size: 18px;line-height: 28px;color: #3691D9;margin-bottom: 8px;}
+.push_news-tru-money{line-height: 24px;}
+.push_news-main{margin-top: 24px;}
+.push_news-day-sub1{display: flex; align-items: center;justify-content: space-between;margin-bottom: 24px;}
+.push_news-main1-input-text{font-weight: 600;font-size: 18px;line-height: 28px;margin-bottom: 8px;}
+.push_news-main1-input-sub{display: flex; align-items: center;}
+.push_news-main1-input-nhap{border: 1px solid #AEAAAF; border-radius: 8px;background: #FFF;width: 271px;margin-right: 24px;}
+.push_news-main1-input-sub .push_news-main1-input-nhap input{padding: 8px 16px;}
+.push_news-main1{margin-bottom: 25px;}
+.push_news-day1 {display: flex;align-items: center;width: 47%;}
+.push_news-day1-text{width: 30px;height: 30px;background: #D2EAF9;text-align: center;line-height: 28px;border-radius: 50%;margin-right: 8px;}
+.push_news-day1-input1{width: 40.4%;border-bottom: 1px solid #1C1B1E;margin: 0 8px;}
+.push_news-day1 .push_news-day1-input1 input{padding: 8px 0;}
+.push_news-day1-input2{border-bottom: 1px solid #1C1B1E;width: 30.3%;margin: 0 8px;}
+.push_news-day1 .push_news-day1-input2 input{padding: 7px 0;}
+.push_news-day1-icon{width: 24px;height: 24px;margin-left: 8px;}
+.push_news-day1-icon img{width: 100%;height: 100%;}
+.push_news-bnt-push{display: flex;justify-content: center;padding-top: 16px;}
+.push_news-bnt-push-text{padding: 10px 73px;background: #136397;color: #FFF;border-radius: 8px;width: fit-content;cursor: pointer;}
+
+
+.push_news-calendar-btn{display: flex; justify-content: flex-end;margin: 50px 0 26px;}
+.push_news-calendar-btn-tex{padding: 10px 41px;font-weight: 500;background: #136397;border-radius: 8px;color: #FFF;width: fit-content;}
+.equinox .days-container .day{background: #FFF;}
+.equinox .date-label{font-size: 18px;}
+.calendar-actions button.prev {padding: 10px;border: none;border-radius: 8px;background: #D2EAF9;color: #136397;}
+.calendar-actions button.next {padding: 10px;border: none;border-radius: 8px;background: #D2EAF9;color: #136397;}
+.calendar-actions button.today {padding: 10px;border: none;border-radius: 8px;background: #D2EAF9;color: #136397;}
+.equinox .calendar-header{background: #FFF;color: #000;}
+
+/* Hồ sơ */
+#file_restaurant{background: #FAFAFA;margin-top: 80px;}
+.file_restaurant-main-box1{margin-bottom: 32px;}
+.file_restaurant-main-box1-title{margin-bottom: 8px;font-weight: 600;font-size: 20px;line-height: 32px;}
+.file_restaurant-main{max-width: 1366px;padding: 32px 80px 64px; margin: 0 auto;}
+.file_restaurant-main-box1-padding{padding: 32px;background: #FFF;border-radius: 8px;}
+.file_restaurant-main-block-input1-sub{margin-bottom: 24px;}
+.file_restaurant-main-block-input1-sub-text{margin-bottom: 8px;}
+.file_restaurant-main-block-input1-sub-nhap{border-radius: 8px;border: 1px solid #939094;width: 31%;}
+.file_restaurant-main-block-input1-sub .file_restaurant-main-block-input1-sub-nhap input{padding: 10px 8px;}
+.file_restaurant-main-block-select {display: flex;justify-content: space-between;}
+.file_restaurant-main-block-select1 {width: 31%;}
+.file_restaurant-main-block-select1-text{margin-bottom: 8px;}
+.file_restaurant-main-block-select1-select .select2-container .select2-selection--single{height: 40px;border-radius: 8px; border: 1px solid #939094;}
+.file_restaurant-main-block-select1-select .select2-container--default .select2-selection--single .select2-selection__rendered{line-height: 38px;}
+.file_restaurant-main-block-select1-select .select2-container--default .select2-selection--single .select2-selection__arrow{top: 6px;right: 8px;}
+.file_restaurant-main-box2, .file_restaurant-main-box3{margin-bottom: 32px;}
+.file_restaurant-main-box2-input1-text{margin-bottom: 8px;}
+.file_restaurant-main-box2-input1{width: 354px;margin-bottom: 24px;}
+.file_restaurant-main-box2-input1.email {width: 386px}
+.file_restaurant-main-box2-input1:last-child{margin-bottom: unset;}
+.file_restaurant-main-box2-input1-nhap{border: 1px solid #939094;border-radius: 8px; }
+.file_restaurant-main-box2-input1 .file_restaurant-main-box2-input1-nhap input{padding: 10px 8px;}
+.file_restaurant-main-box3-title{font-weight: 600;font-size: 20px;line-height: 32px;margin-bottom: 8px;}
+.file_restaurant-main-box3-sub-title{margin-bottom: 16px;line-height: 24px;}
+.file_restaurant-main-box3-sub-one{display: flex;justify-content: space-between;margin-bottom: 24px;}
+.file_restaurant-main-box3-sub1{width: 31%;}
+.file_restaurant-main-box3-sub1-text{margin-bottom: 8px;}
+.file_restaurant-main-box3-sub1-nhap .select2-container .select2-selection--single{height: 40px;border-radius: 8px; border: 1px solid #939094;}
+.file_restaurant-main-box3-sub1-nhap .select2-container--default .select2-selection--single .select2-selection__rendered{line-height: 38px;}
+.file_restaurant-main-box3-sub1-nhap .select2-container--default .select2-selection--single .select2-selection__arrow{top: 6px;right: 8px;}
+.file_restaurant-main-box3-sub1-input{border-radius: 8px;border: 1px solid #939094;}
+.file_restaurant-main-box3-sub1 .file_restaurant-main-box3-sub1-input input{padding: 10px 8px;}
+.file_restaurant-main-box3-sub-two-text{margin-bottom: 8px;}
+.file_restaurant-main-box3-sub-two-nhap{border-radius: 8px;border: 1px solid #939094;}
+.file_restaurant-main-box3-sub-two .file_restaurant-main-box3-sub-two-nhap input{padding: 10px 8px;}
+.file_restaurant-main-box4-main-text {margin-bottom: 8px;}
+.file_restaurant-main-box4-main-nhap textarea{height: 130px;width: 100%;border-radius: 8px;border: 1px solid #939094;padding: 10px 8px;outline: none;}
+.file_restaurant-main-box4{margin-bottom: 40px;}
+.file_restaurant-btn{display: flex;justify-content: flex-end;}
+.file_btn_boqua{padding: 10px 41px;border: 1px solid #79767B;background: #FFF;outline: none;border-radius: 8px;margin-right: 24px;}
+.file_btn_luu{border-radius: 8px;border: none;background: #136397;color: #FFF;outline: none;padding: 10px 43px;}
+
+.detail_lienhe-man1024{display: none;}
+
+.create_restaurant-convenient-policy{display: none;}
+.create_restaurant-main-right-sp{display: none;}
+.create_restaurant-main-right-photo{display: none;}
+
+
+.divDHT{display: none;}
+.divNHD{display: none;}
+
+.dessRestaurant{width: 100%;height: 200px;border-radius: 8px;padding: 8px;}
+
+
+.header_main_login {
+    background-color: #fff;
+    border: 1px solid #136498;
+    box-shadow: 0 0 0px 1px #fff;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.header_main_register {
+    background-color: #136397;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 8px;
+}
